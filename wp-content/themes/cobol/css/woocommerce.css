@@ -271,9 +271,7 @@
 .woocommerce .shop_table .product-remove a.remove{margin:5px 0 0;width:auto;height:auto;display:inline-block;font-size:inherit;line-height:inherit}
 .woocommerce .shop_table td.actions{padding:15px!important;background:#fff}
 .woocommerce .shop_table td.actions .coupon .input-text{padding:10px!important;width:130px;line-height:22px!important}
-.woocommerce .shop_table td.actions input{margin-bottom:0!important}
-.woocommerce .shop_table tr:first-child:hover td{background:url(../images/box_shadow.png) repeat-x left top}
-.woocommerce .shop_table td.actions input{line-height:21px!important}
+.woocommerce .shop_table td.actions input{margin-bottom:0!important;line-height:21px!important}
 
 /* Cart totals */
 .cart-collaterals{margin-bottom:30px}
@@ -311,7 +309,7 @@
 .woocommerce .payment_methods li label{display:inline-block}
 .woocommerce #payment ul.payment_methods li img,.woocommerce-page #payment ul.payment_methods li img{margin-right:10px}
 .woocommerce div.product form.cart table td,.woocommerce #content div.product form.cart table td,.woocommerce-page div.product form.cart table td,.woocommerce-page #content div.product form.cart table td{padding-left:10px!important}
-.woocommerce ul.cart_list li img,.woocommerce ul.product_list_widget li img,.woocommerce-page ul.cart_list li img,.woocommerce-page ul.product_list_widget li img{width:44px}
+.woocommerce ul.cart_list li img,.woocommerce ul.product_list_widget li img,.woocommerce-page ul.cart_list li img,.woocommerce-page ul.product_list_widget li img{width:50px}
 h3#ship-to-different-address label{font-weight:400}
 
 /* Cart */
@@ -422,10 +420,10 @@ h3#ship-to-different-address label{font-weight:400}
 .woocommerce .widget_shopping_cart p.total .amount{float:left}
 .woocommerce .widget_shopping_cart p.total .button_cart{float:right}
 .woocommerce .widget_shopping_cart .cart_list li{padding:8px 0}
+.woocommerce .widget_shopping_cart .cart_list li a.remove{left:auto;right:-10px;top:-2px}
 .woocommerce .widget_shopping_cart ul.product_list_widget li a{font-weight:400}
 .woocommerce .widget_shopping_cart ul.product_list_widget li a:hover{text-decoration:none}
-.woocommerce .widget_shopping_cart ul.product_list_widget li .wp-post-image{width:65px!important;float:left!important}
-.woocommerce .widget_shopping_cart ul.product_list_widget li .desc{margin-left:80px}
+.woocommerce .widget_shopping_cart ul.product_list_widget li .desc{margin-right:60px}
 .woocommerce .widget_shopping_cart ul.product_list_widget li h6{padding-top:5px;margin-bottom:3px}
 .woocommerce .widget_shopping_cart ul.product_list_widget li .quantity{display:block;width:100%}
 .woocommerce .widget_shopping_cart ul.product_list_widget li dl{margin:0!important;padding:0!important;border-left:0!important;display:block;overflow:hidden}
@@ -476,8 +474,9 @@ h3#ship-to-different-address label{font-weight:400}
 	.woocommerce table.cart td.actions input{margin-bottom:8px!important}
 
 	/* Shopping cart */
-	.widget_shopping_cart ul.product_list_widget li a img{width:45px!important}
-	.widget_shopping_cart ul.product_list_widget li a .desc{margin-left:60px}
+	.woocommerce .widget_shopping_cart p.total{text-align:right}
+	.woocommerce .widget_shopping_cart p.total strong,
+	.woocommerce .widget_shopping_cart p.total .amount{float:none}
 }
 
 /* Responsive | < 782 - wp default value for admin bar ------------------------------- */

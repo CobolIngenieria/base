@@ -19,12 +19,8 @@ class MFN_Options_upload extends MFN_Options{
 	 */
 	function render( $meta = false ){
 
-		// class ----------------------------------------------------
-		if( isset( $this->field['class']) ){
-			$class = $this->field['class'];
-		} else {
-			$class = 'image';
-		}
+		// data
+		$data 	= isset( $this->field[ 'data' ] ) ? $this->field[ 'data' ] : 'image';
 
 		// name -----------------------------------------------------
 		if( $meta == 'new' ){
@@ -56,15 +52,17 @@ class MFN_Options_upload extends MFN_Options{
 		// echo -----------------------------------------------------
 		echo '<div class="mfn-upload-field">';
 
-			echo '<input type="text" '. $name .' value="'. $this->value .'" class="'.$class.'" />';
+			echo '<input type="text" '. $name .' value="'. $this->value .'" class="'. $data .'" />';
 
 			echo '&nbsp;<a href="javascript:void(0);" data-choose="Choose a File" data-update="Select File" class="mfn-opts-upload" '. $upload .'><span></span>'. __('Browse', 'mfn-opts') .'</a>';
 			echo ' <a href="javascript:void(0);" class="mfn-opts-upload-remove" '. $remove .'>'.__('Remove Upload', 'mfn-opts').'</a>';
 
-			if( $class == 'image' ) echo '<img class="mfn-opts-screenshot '.$class.'" src="'.$this->value.'" />';
+			if( 'image' == $data  ){
+				echo '<img class="mfn-opts-screenshot '. $data .'" src="'. $this->value .'" />';
+			}
 
 			if( isset( $this->field['desc'] ) ){
-				echo '<span class="description '. $class .'">'. $this->field['desc'] .'</span>';
+				echo '<span class="description '. $data .'">'. $this->field['desc'] .'</span>';
 			}
 
 		echo '</div>';
@@ -76,9 +74,7 @@ class MFN_Options_upload extends MFN_Options{
     function enqueue() {
 
 			wp_enqueue_media();
-
 			wp_enqueue_script( 'mfn-opts-field-upload-js', MFN_OPTIONS_URI .'fields/upload/field_upload.js', array( 'jquery' ), THEME_VERSION, true );
 
-      wp_localize_script( 'mfn-opts-field-upload-js', 'mfn_upload', array( 'url' => $this->url .'fields/upload/blank.png' ) );
     }
 }

@@ -12,10 +12,10 @@
  * --------------------------------------------------------------------------- */
 if( ! function_exists( 'mfn_layout_post_type' ) )
 {
-	function mfn_layout_post_type() 
+	function mfn_layout_post_type()
 	{
 		$layout_item_slug = mfn_opts_get( 'layout-slug', 'layout-item' );
-		
+
 		$labels = array(
 			'name' 					=> __( 'Layouts', 'mfn-opts' ),
 			'singular_name' 		=> __( 'Layout', 'mfn-opts' ),
@@ -26,23 +26,23 @@ if( ! function_exists( 'mfn_layout_post_type' ) )
 			'view_item' 			=> __( 'View Layout', 'mfn-opts' ),
 			'search_items' 			=> __( 'Search Layouts', 'mfn-opts' ),
 			'not_found' 			=> __( 'No layouts found', 'mfn-opts' ),
-			'not_found_in_trash'	=> __( 'No layouts found in Trash', 'mfn-opts' ), 
+			'not_found_in_trash'	=> __( 'No layouts found in Trash', 'mfn-opts' ),
 		  );
-			
+
 		$args = array(
 			'labels' 				=> $labels,
 			'menu_icon'				=> 'dashicons-edit',
-				
+
 			'public' 				=> false,
-			'show_ui' 				=> true, 
-				
+			'show_ui' 				=> true,
+
 			'supports' 				=> array( 'title', 'page-attributes' ),
-		); 
-		  
+		);
+
 		register_post_type( 'layout', $args );
 	}
 }
-add_action( 'init', 'mfn_layout_post_type' ); 
+add_action( 'init', 'mfn_layout_post_type' );
 
 
 /* ---------------------------------------------------------------------------
@@ -95,8 +95,8 @@ $mfn_layout_meta_box = array(
 	'context' 	=> 'normal',
 	'priority'	=> 'high',
 	'fields' 	=> array(
-			
-		// layout	
+
+		// layout
 		array(
 			'id' 		=> 'mfn-post-info-layout',
 			'type' 		=> 'info',
@@ -116,7 +116,7 @@ $mfn_layout_meta_box = array(
 			'std' 		=> 'full-width',
 			'class' 	=> 'wide',
 		),
-	
+
 		array(
 			'id' 		=> 'mfn-post-info-background',
 			'type' 		=> 'info',
@@ -124,13 +124,13 @@ $mfn_layout_meta_box = array(
 			'desc' 		=> __('Background', 'mfn-opts'),
 			'class' 	=> 'mfn-info',
 		),
-		
+
 		array(
 			'id' 		=> 'mfn-post-bg',
 			'type' 		=> 'upload',
 			'title' 	=> __('Image', 'mfn-opts'),
 		),
-		
+
 		array(
 			'id' 		=> 'mfn-post-bg-pos',
 			'type' 		=> 'select',
@@ -139,8 +139,8 @@ $mfn_layout_meta_box = array(
 			'options' 	=> mfna_bg_position(),
 			'std' 		=> 'center top no-repeat',
 		),
-			
-		// logo	
+
+		// logo
 		array(
 			'id' 		=> 'mfn-post-info-logo',
 			'type' 		=> 'info',
@@ -148,13 +148,13 @@ $mfn_layout_meta_box = array(
 			'desc' 		=> __('Logo', 'mfn-opts'),
 			'class' 	=> 'mfn-info',
 		),
-	
+
 		array(
 			'id'		=> 'mfn-post-logo-img',
 			'type'		=> 'upload',
 			'title'		=> __('Logo', 'mfn-opts'),
 		),
-			
+
 		array(
 			'id'		=> 'mfn-post-retina-logo-img',
 			'type'		=> 'upload',
@@ -162,15 +162,15 @@ $mfn_layout_meta_box = array(
 			'desc'		=> __('Retina Logo should be 2x larger than Custom Logo', 'mfn-opts'),
 			'sub_desc'	=> __('optional', 'mfn-opts'),
 		),
-			
+
 		array(
 			'id'		=> 'mfn-post-sticky-logo-img',
 			'type'		=> 'upload',
 			'title'		=> __('Sticky Header', 'mfn-opts'),
 			'sub_desc'	=> __('optional', 'mfn-opts'),
 			'desc'		=> __('Use if you want different logo for Sticky Header', 'mfn-opts'),
-		),	
-		
+		),
+
 		array(
 			'id'		=> 'mfn-post-sticky-retina-logo-img',
 			'type'		=> 'upload',
@@ -178,7 +178,7 @@ $mfn_layout_meta_box = array(
 			'sub_desc'	=> __('optional', 'mfn-opts'),
 			'desc'		=> __('Retina Logo should be 2x larger than Sticky Logo', 'mfn-opts'),
 		),
-			
+
 		array(
 			'id'		=> 'mfn-post-responsive-logo-img',
 			'type'		=> 'upload',
@@ -186,7 +186,7 @@ $mfn_layout_meta_box = array(
 			'sub_desc'	=> __('<b>< 768px</b><br />optional', 'mfn-opts'),
 			'desc'		=> __('Use if you want different logo for Mobile', 'mfn-opts'),
 		),
-		
+
 		array(
 			'id'		=> 'mfn-post-responsive-retina-logo-img',
 			'type'		=> 'upload',
@@ -194,7 +194,7 @@ $mfn_layout_meta_box = array(
 			'sub_desc'	=> __('optional', 'mfn-opts'),
 			'desc'		=> __('Retina Logo should be 2x larger than Mobile Logo', 'mfn-opts'),
 		),
-			
+
 		array(
 			'id'		=> 'mfn-post-responsive-sticky-logo-img',
 			'type'		=> 'upload',
@@ -202,7 +202,7 @@ $mfn_layout_meta_box = array(
 			'sub_desc'	=> __('<b>< 768px</b><br />optional', 'mfn-opts'),
 			'desc'		=> __('Use if you want different logo for Mobile Sticky Header', 'mfn-opts'),
 		),
-		
+
 		array(
 			'id'		=> 'mfn-post-responsive-sticky-retina-logo-img',
 			'type'		=> 'upload',
@@ -210,7 +210,7 @@ $mfn_layout_meta_box = array(
 			'sub_desc'	=> __('optional', 'mfn-opts'),
 			'desc'		=> __('Retina Logo should be 2x larger than Mobile Sticky Header Logo', 'mfn-opts'),
 		),
-			
+
 		// header
 		array(
 			'id' 		=> 'mfn-post-info-header',
@@ -219,7 +219,7 @@ $mfn_layout_meta_box = array(
 			'desc' 		=> __('Header', 'mfn-opts'),
 			'class' 	=> 'mfn-info',
 		),
-			
+
 		array(
 			'id' 		=> 'mfn-post-header-style',
 			'type' 		=> 'radio_img',
@@ -228,7 +228,7 @@ $mfn_layout_meta_box = array(
 			'std'		=> 'modern',
 			'class'		=> 'wide',
 		),
-				
+
 		array(
 			'id'		=> 'mfn-post-minimalist-header',
 			'type'		=> 'select',
@@ -240,7 +240,7 @@ $mfn_layout_meta_box = array(
 				'no' 		=> 'Minimalist without Header space',
 			),
 		),
-			
+
 		array(
 			'id'		=> 'mfn-post-sticky-header',
 			'type'		=> 'switch',
@@ -250,15 +250,16 @@ $mfn_layout_meta_box = array(
 		),
 
 		array(
-			'id'		=> 'mfn-post-sticky-header-style',
+			'id'			=> 'mfn-post-sticky-header-style',
 			'type'		=> 'select',
-			'title'		=> __('Sticky | Style', 'mfn-opts'),
+			'title'		=> __( 'Sticky | Style', 'mfn-opts' ),
 			'options'	=> array(
-				'white'		=> 'White',
-				'dark'		=> 'Dark',
+				'tb-color'	=> __( 'The same as Top Bar Left background', 'mfn-opts' ),
+				'white'			=> __( 'White', 'mfn-opts' ),
+				'dark'			=> __( 'Dark', 'mfn-opts' ),
 			),
 		),
-			
+
 		// colors
 		array(
 			'id' 		=> 'mfn-post-info-colors',
@@ -267,7 +268,7 @@ $mfn_layout_meta_box = array(
 			'desc' 		=> __('Colors', 'mfn-opts'),
 			'class' 	=> 'mfn-info',
 		),
-	
+
 		array(
 			'id' 		=> 'mfn-post-skin',
 			'type' 		=> 'select',
@@ -277,14 +278,14 @@ $mfn_layout_meta_box = array(
 			'options' 	=> mfna_skin(),
 			'std' 		=> 'custom',
 		),
-			
+
 		array(
 			'id' 		=> 'mfn-post-background-subheader',
 			'type' 		=> 'color',
 			'title' 	=> __('Subheader | Background', 'mfn-opts'),
 			'std' 		=> '#F7F7F7',
 		),
-		
+
 		array(
 			'id' 		=> 'mfn-post-color-subheader',
 			'type' 		=> 'color',
@@ -317,21 +318,21 @@ if( ! function_exists( 'mfn_layout_show_box' ) )
 	function mfn_layout_show_box() {
 		global $MFN_Options, $mfn_layout_meta_box, $post;
 		$MFN_Options->_enqueue();
-	 	
+
 		// Use nonce for verification
 		echo '<div id="mfn-wrapper">';
 			echo '<input type="hidden" name="mfn_layout_meta_nonce" value="', wp_create_nonce(basename(__FILE__)), '" />';
-			
+
 			echo '<table class="form-table">';
 				echo '<tbody>';
-		 
+
 					foreach ($mfn_layout_meta_box['fields'] as $field) {
 						$meta = get_post_meta($post->ID, $field['id'], true);
 						if( ! key_exists('std', $field) ) $field['std'] = false;
 						$meta = ( $meta || $meta==='0' ) ? $meta : stripslashes(htmlspecialchars(( $field['std']), ENT_QUOTES ));
 						mfn_meta_field_input( $field, $meta );
 					}
-		 
+
 				echo '</tbody>';
 			echo '</table>';
 		echo '</div>';
@@ -346,19 +347,19 @@ if( ! function_exists( 'mfn_layout_save_data' ) )
 {
 	function mfn_layout_save_data($post_id) {
 		global $mfn_layout_meta_box;
-	 
+
 		// verify nonce
 		if( key_exists( 'mfn_layout_meta_nonce',$_POST ) ) {
 			if ( ! wp_verify_nonce( $_POST['mfn_layout_meta_nonce'], basename(__FILE__) ) ) {
 				return $post_id;
 			}
 		}
-	 
+
 		// check autosave
 		if (defined('DOING_AUTOSAVE') && DOING_AUTOSAVE) {
 			return $post_id;
 		}
-	 
+
 		// check permissions
 		if ( (key_exists('post_type', $_POST)) && ('page' == $_POST['post_type']) ) {
 			if (!current_user_can('edit_page', $post_id)) {
@@ -367,7 +368,7 @@ if( ! function_exists( 'mfn_layout_save_data' ) )
 		} elseif (!current_user_can('edit_post', $post_id)) {
 			return $post_id;
 		}
-	 
+
 		foreach ($mfn_layout_meta_box['fields'] as $field) {
 			$old = get_post_meta($post_id, $field['id'], true);
 			if( key_exists($field['id'], $_POST) ) {
@@ -376,7 +377,7 @@ if( ! function_exists( 'mfn_layout_save_data' ) )
 	//			$new = ""; // problem with "quick edit"
 				continue;
 			}
-	 
+
 			if ( isset($new) && $new != $old) {
 				update_post_meta($post_id, $field['id'], $new);
 			} elseif ('' == $new && $old) {

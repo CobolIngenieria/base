@@ -12,7 +12,7 @@
 		echo '<html class="no-js" lang="ar" dir="rtl">';
 	else:
 ?>
-<html <?php language_attributes(); ?> class="no-js<?php esc_attr_e( mfn_user_os() ); ?>" <?php mfn_tag_schema(); ?>>
+<html <?php language_attributes(); ?> class="no-js<?php esc_attr_e( mfn_user_os() ); ?>"<?php mfn_tag_schema(); ?>>
 <?php endif; ?>
 
 <!-- head -->
@@ -33,13 +33,14 @@
 
 <?php do_action( 'wp_seo' ); ?>
 
-<link rel="shortcut icon" href="<?php mfn_opts_show( 'favicon-img', THEME_URI .'/images/favicon.ico' ); ?>" />
-<?php if( mfn_opts_get('apple-touch-icon') ): ?>
-<link rel="apple-touch-icon" href="<?php mfn_opts_show( 'apple-touch-icon' ); ?>" />
+<link rel="shortcut icon" href="<?php echo esc_url( mfn_opts_get( 'favicon-img', THEME_URI .'/images/favicon.ico' ) ); ?>" />
+<?php if( mfn_opts_get( 'apple-touch-icon' ) ): ?>
+<link rel="apple-touch-icon" href="<?php echo esc_url( mfn_opts_get( 'apple-touch-icon' ) ); ?>" />
 <?php endif; ?>
 
 <!-- wp_head() -->
 <?php wp_head(); ?>
+
 </head>
 
 <!-- body -->
@@ -49,37 +50,46 @@
 
 	<?php get_template_part( 'includes/header', 'sliding-area' ); ?>
 
-	<?php if( mfn_header_style( true ) == 'header-creative' ) get_template_part( 'includes/header', 'creative' ); ?>
+	<?php
+		if( mfn_header_style( true ) == 'header-creative' ){
+			get_template_part( 'includes/header', 'creative' );
+		}
+	?>
 
 	<!-- #Wrapper -->
 	<div id="Wrapper">
 
 		<?php
 			// Featured Image | Parallax ----------
-			$header_style = '';
+			$header_style_escaped = '';
 
 			if( mfn_opts_get( 'img-subheader-attachment' ) == 'parallax' ){
 
 				if( mfn_opts_get( 'parallax' ) == 'stellar' ){
-					$header_style = ' class="bg-parallax" data-stellar-background-ratio="0.5"';
+					$header_style_escaped = ' class="bg-parallax" data-stellar-background-ratio="0.5"';
 				} else {
-					$header_style = ' class="bg-parallax" data-enllax-ratio="0.3"';
+					$header_style_escaped = ' class="bg-parallax" data-enllax-ratio="0.3"';
 				}
 
 			}
 		?>
 
-		<?php if( mfn_header_style( true ) == 'header-below' ) echo mfn_slider(); ?>
+		<?php
+			if( mfn_header_style( true ) == 'header-below' ){
+				echo mfn_slider();
+			}
+		?>
 
 		<!-- #Header_bg -->
-		<div id="Header_wrapper" <?php echo $header_style; ?>>
+		<div id="Header_wrapper"<?php echo $header_style_escaped; ?>>
 
 			<!-- #Header -->
 			<?php
-				if( has_action( 'mfn_header' ) ){
+				if( 'mhb' == mfn_header_style() ){
 
 					// action: mfn_header | for future use
 					do_action( 'mfn_header' );
+					echo mfn_slider();
 
 				} else {
 
@@ -106,14 +116,14 @@
 					$subheader_style = '';
 
 					if( mfn_opts_get( 'subheader-padding' ) ){
-						$subheader_style .= 'padding:'. mfn_opts_get( 'subheader-padding' ) .';';
+						$subheader_style .= 'padding:'. mfn_opts_get( 'subheader-padding' );
 					}
 
 
 					if( is_search() ){
 						// Page title -------------------------
 
-						echo '<div id="Subheader" style="'. $subheader_style .'">';
+						echo '<div id="Subheader" style="'. esc_attr($subheader_style) .'">';
 							echo '<div class="container">';
 								echo '<div class="column one">';
 

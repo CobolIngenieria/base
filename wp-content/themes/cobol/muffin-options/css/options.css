@@ -171,7 +171,7 @@
 #mfn-wrapper .form-table tr.mfn-info td span { font-size: 10px; margin-left: 10px; opacity: 0.9;}
 
 #mfn-wrapper .form-table tr.mfn-info.desc{background:#fff;top:-2px}
-#mfn-wrapper .form-table tr.mfn-info.desc td{letter-spacing:0.5px;text-transform:none;}
+#mfn-wrapper .form-table tr.mfn-info.desc td{letter-spacing:0;text-transform:none;}
 
 #mfn-wrapper .form-table tr.mfn-info.info { background: none; top:0; border-bottom-color:#ebecec !important;}
 #mfn-wrapper .form-table tr.mfn-info.info td{box-shadow:-3px 0 0 0 #e5e5e5;color:#555;letter-spacing:unset;text-transform:none}
@@ -181,17 +181,12 @@
 
 
 /* -------------- input, textarea, select, checkbox --------------- */
-#mfn-wrapper .form-table input[type="number"],
-#mfn-wrapper .form-table input[type="text"],
-#mfn-wrapper .form-table textarea,
-#mfn-wrapper .form-table select { font-family: Arial, sans-serif; padding:10px; color:#666666; font-size:12px; line-height:16px; height:36px; width:100%; max-width:339px; border-color: #edeeee; background: #fff; border-radius:0;}
-#mfn-wrapper .form-table input[type="number"] { padding:10px 5px 10px 10px;}
-#mfn-wrapper .form-table input[type="text"],
-#mfn-wrapper .form-table textarea,
-#mfn-wrapper .form-table select { box-shadow: 0 0 0 0 transparent;}
-#mfn-wrapper .form-table input.small-text { width:160px; float:left; margin-right:15px;}
+#mfn-wrapper .form-table input[type="number"],#mfn-wrapper .form-table input[type="text"],#mfn-wrapper .form-table textarea,#mfn-wrapper .form-table select{font-family:Arial,sans-serif;padding:10px;color:#666;font-size:12px;line-height:16px;height:36px;width:100%;max-width:339px;border-color:#edeeee;background:#fff;border-radius:0}
+#mfn-wrapper .form-table input[type="number"]{padding:10px 5px 10px 10px}
+#mfn-wrapper .form-table input[type="text"],#mfn-wrapper .form-table textarea,#mfn-wrapper .form-table select{box-shadow:0 0 0 0 transparent}
+#mfn-wrapper .form-table input.small-text{width:160px;float:left;margin-right:15px}
 #mfn-wrapper .form-table textarea{height:150px;max-width:450px}
-#mfn-wrapper .form-table select { height: 33px; padding: 7px 6px;}
+#mfn-wrapper .form-table select{height:33px;padding:7px 6px;box-sizing:border-box}
 
 
 /* -------------- .mfn-field-color -------------- */
@@ -250,14 +245,15 @@
 
 
 /* -------------- .tabs -------------- */
-#mfn-wrapper .form-table .mfn-add-tab { float:left; margin-bottom:5px;}
-#mfn-wrapper .form-table .tabs-ul { margin:0 0 10px; overflow:hidden;}
-#mfn-wrapper .form-table .tabs-ul li { float:left; padding:10px; margin:10px 1% 0 0; width:49%; border:1px solid #DFDFDF; background:#F9F9F9; position:relative; box-sizing:border-box;}
-#mfn-wrapper .form-table .tabs-ul li.tabs-default { display:none;}
+#mfn-wrapper .form-table .mfn-add-tab{float:left;margin-bottom:5px}
+#mfn-wrapper .form-table .tabs-ul{margin:0 0 10px;overflow:hidden}
+#mfn-wrapper .form-table .tabs-ul li{float:left;padding:5px 10px 10px;margin:10px 1% 0 0;width:49%;border:1px solid #DFDFDF;background:#F9F9F9;position:relative;box-sizing:border-box}
+#mfn-wrapper .form-table .tabs-ul li.tabs-default{display:none}
+#mfn-wrapper .form-table .tabs-ul li label{display:block;width:100%;padding:5px 0;cursor:move}
 #mfn-wrapper .form-table .tabs-ul li input,
-#mfn-wrapper .form-table .tabs-ul li textarea { max-width:100%;}
-#mfn-wrapper .form-table .tabs-ul li .mfn-remove-tab { position:absolute; top:10px; right:10px; height:16px; width:16px;}
-#mfn-wrapper .form-table .tabs-ul li .mfn-remove-tab em { height:16px; width:16px;}
+#mfn-wrapper .form-table .tabs-ul li textarea{max-width:100%}
+#mfn-wrapper .form-table .tabs-ul li .mfn-remove-tab{position:absolute;top:10px;right:10px;height:16px;width:16px}
+#mfn-wrapper .form-table .tabs-ul li .mfn-remove-tab em{height:16px;width:16px}
 
 
 /* -------------- .mfn-upload-field --------------- */
@@ -448,7 +444,12 @@
 .white-label #mfn-wrapper .mfn-logo { background-image:none;}
 .white-label .mfn-header .mfn-buttons { display:none;}
 
+/* ----- Plugin active: Header Builder ----- */
 
+form.mhb-active .mhb-opt{opacity:.25}
+form.mhb-active .mhb-opt td{position:relative}
+form.mhb-active .mhb-opt td:after{content:"";position:absolute;left:0;top:0;width:100%;height:100%;z-index:2}
+form.mhb-active .mhb-opt td > *{max-height:40px;overflow:hidden}
 /* ------------------------- Responsive -------------------------- */
 @media only screen and (max-width: 782px){
 	#mfn-wrapper .form-table tr th { padding: 15px 0 0 0;}

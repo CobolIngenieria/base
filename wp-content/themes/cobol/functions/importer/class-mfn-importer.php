@@ -4,11 +4,14 @@ if ( ! defined( 'ABSPATH' ) ){
 }
 
 /**
- * Install pre-built websites
+ * Pre-built websites
  *
- * @author Muffin Group
+ * @package Betheme
+ * @author Muffin group
+ * @link https://muffingroup.com
  * @version 2.1.1
  */
+
 class Mfn_Importer {
 
 	private $error	= array();
@@ -30,48 +33,50 @@ class Mfn_Importer {
 	private $plugins = array(
 		'bud'	=> array(
 			'name' 	=> 'BuddyPress',
-			's'		=> 'BuddyPress',
-			'url'	=> 'buddypress/bp-loader.php',
+			'class' => 'BuddyPress',
+			's'	=> 'BuddyPress',
 		),
 		'cf7'	=> array(
-			'name' 	=> 'Contact Form 7',
-			'url' 	=> 'contact-form-7/wp-contact-form-7.php',
+			'name' => 'Contact Form 7',
+			'class' => 'WPCF7',
 		),
 		'mch'	=> array(
-			'name' 	=> 'MailChimp',
-			's'		=> 'MailChimp+Forms+by+MailMunch',
-			'url'	=> 'mailchimp-for-wp/mailchimp-for-wp.php',
+			'name' => 'MailChimp',
+			'class' => 'Mailchimp_Mailmunch',
+			's' => 'MailChimp+Forms+by+MailMunch',
 		),
 		'rev'	=> array(
-			'name' 	=> 'Revolution Slider',
-			'url' 	=> 'revslider/revslider.php',
+			'name' => 'Revolution Slider',
+			'class' => 'RevSlider',
 		),
 		'woo'	=> array(
-			'name' 	=> 'WooCommerce',
-			's'		=> 'WooCommerce',
-			'url'	=> 'woocommerce/woocommerce.php',
+			'name' => 'WooCommerce',
+			'class'	=> 'WooCommerce',
+			's'	=> 'WooCommerce',
 		),
 	);
-
 
 	/**
 	 * Constructor
 	 */
+
 	function __construct() {
 
 		// Set demos list
+
 		require_once LIBS_DIR. '/importer/demos.php';
 		$this->demos = $demos;
 
-		// It runs after the basic admin panel menu structure is in place.
+		// It runs after the basic admin panel menu structure is in place
+
 		add_action( 'admin_menu', array( &$this, 'init' ), 12 );
 
 	}
 
-
 	/**
 	 * Add theme page & enqueue styles
 	 */
+
 	function init() {
 
 		$this->page = add_submenu_page(
@@ -86,10 +91,10 @@ class Mfn_Importer {
 		add_action( 'admin_print_styles-'.$this->page, array( &$this, '_enqueue' ) );
 	}
 
-
 	/**
 	 * Enqueue
 	 */
+
 	function _enqueue(){
 
 		wp_enqueue_style( 'mfn-opts-font', 'http'. mfn_ssl() .'://fonts.googleapis.com/css?family=Open+Sans:300,400,400italic,600' );
@@ -99,7 +104,6 @@ class Mfn_Importer {
 
 	}
 
-
 	/**
 	 * Demo URL
 	 *
@@ -108,6 +112,7 @@ class Mfn_Importer {
 	 * @param string $demo
 	 * @return string
 	 */
+
 	function get_demo_url( $demo ){
 		if( $demo == 'theme' ){
 			$url = 'http://themes.muffingroup.com/betheme/';
@@ -120,7 +125,6 @@ class Mfn_Importer {
 		return $url;
 	}
 
-
 	/**
 	 * Get FILE data
 	 *
@@ -132,6 +136,7 @@ class Mfn_Importer {
 	 * @param $method string
 	 * @return string
 	 */
+
 	function get_file_data( $path ){
 
 		$data 	= false;
@@ -161,12 +166,12 @@ class Mfn_Importer {
 		return $data;
 	}
 
-
 	/**
 	 * Import | Content
 	 *
 	 * @param string $file
 	 */
+
 	function import_content( $file ){
 		$import = new WP_Import();
 
@@ -181,19 +186,16 @@ class Mfn_Importer {
 		ob_end_clean();
 	}
 
-
 	/**
 	 * Import | Menu - Locations
 	 *
 	 * @param string $file
 	 */
+
 	function import_menu_location( $file ){
 
 		$file_data 	= $this->get_file_data( $file );
-		$data 		= @unserialize( call_user_func( 'base'.'64_decode', $file_data ) );
-
-		// debug
-// 		print_r( $data );
+		$data = @unserialize( call_user_func( 'base'.'64_decode', $file_data ) );
 
 		if( is_array( $data ) ){
 
@@ -216,28 +218,27 @@ class Mfn_Importer {
 		}
 	}
 
-
 	/**
 	 * Import | Theme Options
 	 *
 	 * @param string $file
 	 * @param string $url
 	 */
+
 	function import_options( $file, $url = false ){
 
 		$file_data 	= $this->get_file_data( $file );
-		$data 		= @unserialize( call_user_func( 'base'.'64_decode', $file_data ) );
-
-		// debug
-// 		print_r( $data );
+		$data = @unserialize( call_user_func( 'base'.'64_decode', $file_data ) );
 
 		if( is_array( $data ) ){
 
 			// images URL | replace exported URL with destination URL
+
 			if( $url ){
 				$replace = home_url('/');
 				foreach( $data as $key => $option ){
-					if( is_string( $option ) ){						// variable type string only
+					if( is_string( $option ) ){
+						// variable type string only
 						$option 	= $this->migrate_cb_ms( $option );
 						$data[$key] = str_replace( $url, $replace, $option );
 					}
@@ -255,18 +256,15 @@ class Mfn_Importer {
 		}
 	}
 
-
 	/**
 	 * Import | Widgets
 	 *
 	 * @param string $file
 	 */
+
 	function import_widget( $file ){
 
 		$file_data 	= $this->get_file_data( $file );
-
-		// debug
-// 		print_r( $file_data );
 
 		if( $file_data ){
 
@@ -279,12 +277,12 @@ class Mfn_Importer {
 		}
 	}
 
-
 	/**
 	 * Import | Revolution Slider
 	 *
 	 * @param string $demo
 	 */
+
 	function import_slider( $demo_path, $demo ){
 
 		$sliders = array();
@@ -336,7 +334,6 @@ class Mfn_Importer {
 		return true;
 	}
 
-
 	/**
 	 * Import | Migrate Multisite
 	 *
@@ -345,6 +342,7 @@ class Mfn_Importer {
 	 * @param string $field
 	 * @return string
 	 */
+
 	function migrate_cb_ms( $field ){
 		if ( is_multisite() ){
 			global $current_blog;
@@ -362,6 +360,7 @@ class Mfn_Importer {
 	 *
 	 * @param string $old_url
 	 */
+
 	function migrate_cb( $old_url ){
 		global $wpdb;
 
@@ -372,24 +371,26 @@ class Mfn_Importer {
 		" );
 
 		// posts loop -----------------
+
 		if( is_array( $results ) ){
 			foreach( $results as $result_key => $result ){
 
 				$meta_id 	= $result->meta_id;
 				$meta_value = @unserialize( $result->meta_value );
 
+				// Builder 2.0 compatibility
 
-				// Builder 2.0 Compatibility
 				if( $meta_value === false ){
 					$meta_value = unserialize( call_user_func( 'base'.'64_decode', $result->meta_value ) );
 				}
 
-
 				// Loop | Sections ----------------
+
 				if( is_array( $meta_value ) ){
 					foreach( $meta_value as $sec_key => $sec ){
 
 						// Loop | Section Attributes ----------------
+
 						if( isset( $sec['attr'] ) && is_array( $sec['attr'] ) ){
 							foreach( $sec['attr'] as $attr_key => $attr ){
 								$attr = str_replace( $old_url, $new_url, $attr );
@@ -398,10 +399,12 @@ class Mfn_Importer {
 						}
 
 						// Builder 3.0 | Loop | Wraps ----------------
+
 						if( isset( $sec['wraps'] ) && is_array( $sec['wraps'] ) ){
 							foreach( $sec['wraps'] as $wrap_key => $wrap ){
 
 								// Loop | Wrap Attributes ----------------
+
 								if( isset( $wrap['attr'] ) && is_array( $wrap['attr'] ) ){
 									foreach( $wrap['attr'] as $attr_key => $attr ){
 
@@ -412,17 +415,21 @@ class Mfn_Importer {
 								}
 
 								// Loop | Items ----------------
+
 								if( isset( $wrap['items'] ) && is_array( $wrap['items'] ) ){
 									foreach( $wrap['items'] as $item_key => $item ){
 
 										// Loop | Fields ----------------
+
 										if( isset( $item['fields'] ) && is_array( $item['fields'] ) ){
 											foreach( $item['fields'] as $field_key => $field ) {
 
 												if( $field_key == 'tabs' ) {
+
 													// Tabs, Accordion, FAQ, Timeline
 
 													// Loop | Tabs --------------------
+
 													if( isset( $field ) && is_array( $field ) ){
 														foreach( $field as $tab_key => $tab ){
 															$field = str_replace( $old_url, $new_url, $tab['content'] );
@@ -431,7 +438,9 @@ class Mfn_Importer {
 														}
 													}
 												} else {
+
 													// Default
+
 													$field = str_replace( $old_url, $new_url, $field );
 													$field = $this->migrate_cb_ms( $field );
 													$meta_value[$sec_key]['wraps'][$wrap_key]['items'][$item_key]['fields'][$field_key] = $field;
@@ -446,17 +455,21 @@ class Mfn_Importer {
 						}
 
 						// Builder 2.0 | Loop | Items ----------------
+
 						if( isset( $sec['items'] ) && is_array( $sec['items'] ) ){
 							foreach( $sec['items'] as $item_key => $item ){
 
 								// Loop | Fields ----------------
+
 								if( isset( $item['fields'] ) && is_array( $item['fields'] ) ){
 									foreach( $item['fields'] as $field_key => $field ) {
 
 										if( $field_key == 'tabs' ) {
+
 											// Tabs, Accordion, FAQ, Timeline
 
 											// Loop | Tabs --------------------
+
 											if( is_array( $field ) ){
 												foreach( $field as $tab_key => $tab ){
 													$field = str_replace( $old_url, $new_url, $tab['content'] );
@@ -465,7 +478,9 @@ class Mfn_Importer {
 												}
 											}
 										} else {
+
 											// Default
+
 											$field = str_replace( $old_url, $new_url, $field );
 											$field = $this->migrate_cb_ms( $field );
 											$meta_value[$sec_key]['items'][$item_key]['fields'][$field_key] = $field;
@@ -497,6 +512,7 @@ class Mfn_Importer {
 	 * Returns formated error messages
 	 * @return string
 	 */
+
 	public function get_error_messages( $errors ){
 
 		$output = '';
@@ -512,14 +528,14 @@ class Mfn_Importer {
 		return $output;
 	}
 
-
 	/**
 	 * Import
 	 */
+
 	function import(){
 
 		if( WHITE_LABEL ){
-			include_once LIBS_DIR . '/admin/templates/parts/white-label.php';
+			include_once LIBS_DIR .'/admin/templates/parts/white-label.php';
 			return false;
 		}
 
@@ -530,12 +546,6 @@ class Mfn_Importer {
 			// AFTER IMPORT --------------------
 
 			if ( wp_verify_nonce( $_POST['Mfn_Importer_nonce'], basename(__FILE__) ) ){
-
-
-				// debug
-// 				print_r($_POST);
-// 				exit;
-
 
 				// Importer classes
 
@@ -551,7 +561,6 @@ class Mfn_Importer {
 					require_once LIBS_DIR . '/importer/wordpress-importer.php';
 				}
 
-
 				// Import START
 
 				if( class_exists( 'WP_Importer' ) && class_exists( 'WP_Import' ) ){
@@ -559,6 +568,7 @@ class Mfn_Importer {
 					$demo = htmlspecialchars( stripslashes( $_POST['demo'] ) );
 
 					// Importer remote API
+
 					require_once LIBS_DIR . '/importer/class-mfn-importer-api.php';
 					$importer_api = new Mfn_Importer_API( $demo );
 					$demo_path = $importer_api->remote_get_demo();
@@ -608,25 +618,25 @@ class Mfn_Importer {
 
 							// Complete pre-built website ---------------------------------
 
-
 							// WordPress XML importer
+
 							$file = wp_normalize_path( $demo_path .'/content.xml.gz' );
 							$this->import_content( $file );
 
 							$this->migrate_cb( $this->get_demo_url( $demo ) );
 
-
 							// Menu locations
+
 							$file = wp_normalize_path( $demo_path .'/menu.txt' );
 							$this->import_menu_location( $file );
 
-
 							// Theme Options
+
 							$file = wp_normalize_path( $demo_path .'/options.txt' );
 							$this->import_options( $file, $this->get_demo_url( $demo ) );
 
-
 							// Widgets
+
 							$file = wp_normalize_path( $demo_path .'/widget_data.json' );
 							$this->import_widget( $file );
 
@@ -639,8 +649,8 @@ class Mfn_Importer {
 								}
 							}
 
-
 							// Set HOME page
+
 							$home = get_page_by_title( 'Home' );
 							if( isset( $home->ID ) ) {
 								update_option( 'show_on_front', 'page' );
@@ -672,26 +682,11 @@ class Mfn_Importer {
 		} else {
 
 			// BEFORE IMPORT --------------------
-
-			// PHP 7 & Default WordPress Importer
-
-			$phpversion = 0;
-			if( function_exists( 'phpversion' ) ){
-				$phpversion = floatval( phpversion() );
-			}
-
-			if( ( $phpversion >= 7 ) && is_plugin_active( 'wordpress-importer/wordpress-importer.php' ) ){
-				$output .= '<div class="mfn-message mfn-error php-7">';
-					$output .= 'Default <a target="_blank" href="plugins.php">WordPress Importer</a> plugin is not compatible with PHP '. $phpversion .', please deactivate this plugin before import';
-				$output .= '</div>';
-			}
-
 			$this->import_html( 'before', $output );
 
 		}
 
 	}
-
 
 	/**
 	 * Import HTML
@@ -699,6 +694,7 @@ class Mfn_Importer {
 	 * @param string $status
 	 * @param string|array $output
 	 */
+
 	function import_html( $status, $output = '' ){
 		?>
 
@@ -715,7 +711,6 @@ class Mfn_Importer {
 				<input type="hidden" name="data" id="input-data" value="content" />
 				<input type="hidden" name="attachments" id="input-attachments" value="1" />
 				<input type="hidden" name="slider" id="input-slider" value="1" />
-
 
 				<div class="header">
 					<div class="logo">
@@ -742,9 +737,7 @@ class Mfn_Importer {
 					<div class="title"><?php echo esc_html( get_admin_page_title() ) ?></div>
 				</div>
 
-
 				<?php if( $status == 'after' ): ?>
-
 
 					<?php if( ! $this->error ): ?>
 
@@ -785,16 +778,6 @@ class Mfn_Importer {
 
 							<div class="done-buttons">
 
-								<?php
-// 									if( $slider ){
-// 										if( is_plugin_active( $this->plugins[ 'rev' ][ 'url' ] ) ){
-// 											echo '<a target="_blank" href="admin.php?page=revslider" class="mfn-button mfn-button-secondary">Import slider</a>';
-// 										} else {
-// 											echo '<a target="_blank" href="admin.php?page=be-plugins" class="mfn-button mfn-button-secondary">Install Revolution Slider</a>';
-// 										}
-// 									}
-								?>
-
 								<a target="_blank" href="admin.php?page=be-options" class="mfn-button mfn-button-secondary">Go to Muffin Options</a>
 								<a target="_blank" href="<?php echo get_home_url(); ?>" class="mfn-button mfn-button-primary">Preview website</a>
 
@@ -817,15 +800,12 @@ class Mfn_Importer {
 
 					<?php else: echo $output; endif; ?>
 
-
 				<?php else: ?>
-
 
 					<?php
 						// PHP error messages
 						echo $output;
 					?>
-
 
 					<div class="subheader">
 
@@ -847,7 +827,6 @@ class Mfn_Importer {
 
 					</div>
 
-
 					<ul class="demos">
 						<?php
 							foreach( $this->demos as $key => $demo ){
@@ -856,6 +835,7 @@ class Mfn_Importer {
 								$categories = implode( ', ', $categories );
 
 								// class | categories
+
 								$class = '';
 								if( is_array( $demo['categories'] ) ){
 									foreach( $demo['categories'] as $cat ){
@@ -864,11 +844,13 @@ class Mfn_Importer {
 								}
 
 								// pre-selected demo
+
 								if( isset( $_GET['demo'] ) && ( $_GET['demo'] == $key ) ){
 									$class .= ' active';
 								}
 
 								// data | name
+
 								if( isset( $demo['name'] ) ){
 									$demo_name = $demo['name'];
 								} else {
@@ -911,24 +893,16 @@ class Mfn_Importer {
 
 														if( ( $plugins_key = array_search( 'rev', $demo['plugins'] ) ) !== false ){
 
-// 															if( isset( $demo['revslider'] ) ){
-// 																$slider_name = $demo['revslider'];
-// 															} else {
-// 																$slider_name = $key .'.zip';
-// 															}
-
 															echo '<li class="plugin-rev">';
 																echo '<b>'. $this->plugins[ 'rev' ]['name'] .'</b><br />';
 
-																	if( is_plugin_active( $this->plugins[ 'rev' ]['url'] ) ){
+																	if( class_exists( $this->plugins['rev']['class'] ) ){
 																		echo '<span class="install is-active">Active</span>';
 																	} else {
 																		echo '<span class="install"><a href="admin.php?page=be-plugins">Install</a></span>';
 																		echo 'Slider demo <u>will not</u> be installed if Revolution Slider is not active';
 																	}
 
-// 																echo 'Import <span class="slider-name">'. $slider_name .'</span> after plugin installation. ';
-// 																echo '<a target="_blank" href="http://themes.muffingroup.com/betheme/documentation/#slider">How to import slider</a>';
 															echo '</li>';
 
 															unset( $demo['plugins'][$plugins_key] );
@@ -946,7 +920,7 @@ class Mfn_Importer {
 
 																echo '<b>'. $this->plugins[ $plugin ]['name'] .'</b><br />';
 
-																if( is_plugin_active( $this->plugins[ $plugin ]['url'] ) ){
+																if( class_exists( $this->plugins[ $plugin ]['class'] ) ){
 																	echo '<span class="install">Active</span>';
 																} else {
 																	echo '<span class="install"><a target="_blank" href="'. $install_url .'">Install</a></span>';
@@ -983,7 +957,6 @@ class Mfn_Importer {
 						?>
 					</ul>
 
-
 					<div id="mfn-demo-popup">
 						<div class="popup-inner">
 
@@ -1010,10 +983,10 @@ class Mfn_Importer {
 											<b>Important:</b> If you reset <i>options</i> table re-registration of the theme will be required.
 
 											<?php
-												if( is_plugin_active( 'wordpress-database-reset/wp-reset.php' ) ){
+												if( class_exists( 'DB_Reset_Manager' ) ){
 													echo '<span class="install"><a target="_blank" href="tools.php?page=database-reset">Reset</a></span>';
 												} else {
-													echo '<span class="install"><a target="_blank" href="plugin-install.php?s=WordPress+Database+Reset+&tab=search&type=term">Install</a></span>';
+													echo '<span class="install"><a target="_blank" href="plugin-install.php?s=WordPress+Database+Reset+Chris+Berthe&tab=search&type=term">Install</a></span>';
 												}
 											?>
 										</li>
@@ -1074,9 +1047,7 @@ class Mfn_Importer {
 						</div>
 					</div>
 
-
 					<input id="form-submit" type="submit" name="submit" value="import" style="display:none" />
-
 
 				<?php endif; ?>
 
@@ -1087,7 +1058,6 @@ class Mfn_Importer {
 		<?php
 	}
 
-
 	/**
 	 * Parse JSON import file
 	 *
@@ -1095,14 +1065,15 @@ class Mfn_Importer {
 	 *
 	 * @param string $json_data
 	 */
+
 	function import_widget_data( $json_data ) {
 
 		$json_data 		= json_decode( $json_data, true );
 		$sidebar_data 	= $json_data[0];
 		$widget_data 	= $json_data[1];
-// 		print_r($json_data);
 
 		// prepare widgets table
+
 		$widgets = array();
 		foreach( $widget_data as $k_w => $widget_type ){
 			if( $k_w ){
@@ -1112,9 +1083,9 @@ class Mfn_Importer {
 				}
 			}
 		}
-// 		print_r($widgets);
 
 		// sidebars
+
 		foreach ( $sidebar_data as $title => $sidebar ) {
 			$count = count( $sidebar );
 			for ( $i = 0; $i < $count; $i++ ) {
@@ -1129,17 +1100,16 @@ class Mfn_Importer {
 		}
 
 		// widgets
+
 		foreach ( $widgets as $widget_title => $widget_value ) {
 			foreach ( $widget_value as $widget_key => $widget_value ) {
 				$widgets[$widget_title][$widget_key] = $widget_data[$widget_title][$widget_key];
 			}
 		}
-// 		print_r($sidebar_data);
 
 		$sidebar_data = array( array_filter( $sidebar_data ), $widgets );
 		$this->parse_import_data( $sidebar_data );
 	}
-
 
 	/**
 	 * Import widgets
@@ -1149,24 +1119,22 @@ class Mfn_Importer {
 	 * @param array $import_array
 	 * @return boolean
 	 */
+
 	function parse_import_data( $import_array ) {
 		$sidebars_data 		= $import_array[0];
 		$widget_data 		= $import_array[1];
 
 		mfn_register_sidebars(); // fix for sidebars added in Theme Options
-// 		$current_sidebars 	= get_option( 'sidebars_widgets' );
 
 		$current_sidebars 	= array( );
 		$new_widgets 		= array( );
-
-// 		print_r($sidebars_data);
-// 		print_r($current_sidebars);
 
 		foreach ( $sidebars_data as $import_sidebar => $import_widgets ) :
 
 			foreach ( $import_widgets as $import_widget ) :
 
 				// if NOT the sidebar exists
+
 				if ( ! isset( $current_sidebars[$import_sidebar] ) ){
 					$current_sidebars[$import_sidebar] = array();
 				}
@@ -1187,6 +1155,7 @@ class Mfn_Importer {
 					$new_widgets[$title][$new_index] = $widget_data[$title][$index];
 
 					// notice fix
+
 					if( ! key_exists('_multiwidget',$new_widgets[$title]) ) $new_widgets[$title]['_multiwidget'] = '';
 
 					$multiwidget = $new_widgets[$title]['_multiwidget'];
@@ -1196,6 +1165,7 @@ class Mfn_Importer {
 					$current_widget_data[$new_index] = $widget_data[$title][$index];
 
 					// notice fix
+
 					if( ! key_exists('_multiwidget',$current_widget_data) ) $current_widget_data['_multiwidget'] = '';
 
 					$current_multiwidget = $current_widget_data['_multiwidget'];
@@ -1210,6 +1180,7 @@ class Mfn_Importer {
 		endforeach;
 
 		// remove old widgets
+
 		delete_option( 'sidebars_widgets' );
 
 		if ( isset( $new_widgets ) && isset( $current_sidebars ) ) {
@@ -1224,7 +1195,6 @@ class Mfn_Importer {
 		return false;
 	}
 
-
 	/**
 	 * Get new widget name
 	 *
@@ -1234,6 +1204,7 @@ class Mfn_Importer {
 	 * @param int $widget_index
 	 * @return string
 	 */
+
 	function get_new_widget_name( $widget_name, $widget_index ) {
 		$current_sidebars = get_option( 'sidebars_widgets' );
 		$all_widget_array = array( );

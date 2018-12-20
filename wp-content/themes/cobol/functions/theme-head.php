@@ -59,8 +59,8 @@ if( ! function_exists( 'mfn_seo' ) )
 
 			// hreflang | only if WMPL is not active
 			if( ! function_exists( 'icl_object_id' ) ){
-				$format_locale = strtolower( str_replace( '_', '-', get_locale() ) );
-				echo '<link rel="alternate" hreflang="'. $format_locale .'" href="'. get_permalink() .'" />'."\n";
+				$format_locale = str_replace( '_', '-', get_locale() );
+				echo '<link rel="alternate" hreflang="'. $format_locale .'" href="'. get_permalink( mfn_ID() ) .'" />'."\n";
 			}
 
 		}
@@ -680,10 +680,6 @@ if( ! function_exists( 'mfn_scripts' ) )
 			wp_enqueue_script( 'jquery-stellar', THEME_URI .'/js/parallax/stellar.js', array( 'jquery' ), THEME_VERSION, true );
 		}
 
-		if( mfn_opts_get( 'nice-scroll' ) == 'smooth' ){
-			wp_enqueue_script( 'jquery-smoothscroll', THEME_URI .'/js/parallax/smoothscroll.js', array( 'jquery' ), THEME_VERSION, true );
-		}
-
 		// scripts config -----------------------------
 		mfn_scripts_config();
 
@@ -739,9 +735,6 @@ if( ! function_exists( 'mfn_scripts_config' ) )
 
 					// mobile menu initial width
 					echo 'mobile_init:'. mfn_opts_get( 'mobile-menu-initial', 1240 ) .',';
-
-					// nice scroll
-					echo 'nicescroll:'. mfn_opts_get( 'nice-scroll-speed', 40 ) .',';
 
 					// parallax
 					echo 'parallax:"'. mfn_parallax_plugin() .'",';
@@ -802,6 +795,11 @@ if( ! function_exists( 'mfn_header_style' ) )
 	function mfn_header_style( $firstPartOnly = false ){
 		$header_layout = false;
 
+		// Plugin: Muffin Header Builder
+		if( class_exists( 'Mfn_HB_Front' ) && get_site_option( 'mfn_header_builder' ) ){
+			return 'mhb';
+		}
+
 		if( $_GET && key_exists( 'mfn-h', $_GET ) ){
 			$header_layout = esc_html( $_GET['mfn-h'] ); // demo
 		} elseif( $layoutID = mfn_layout_ID() ){
@@ -816,7 +814,9 @@ if( ! function_exists( 'mfn_header_style' ) )
 			$a_header_layout = explode( ',', $header_layout );
 
 			// return only First Parameter
-			if( $firstPartOnly ) return 'header-'.$a_header_layout[0];
+			if( $firstPartOnly ){
+				return 'header-'.$a_header_layout[0];
+			}
 
 			foreach( (array)$a_header_layout as $key => $val ){
 				$a_header_layout[$key] = 'header-'. $val;
@@ -1030,10 +1030,6 @@ if( ! function_exists( 'mfn_body_classes' ) )
 		if( get_post_meta( mfn_ID(), 'mfn-post-one-page', true ) ){
 			$classes[] = 'one-page';
 		}
-
-
-		// Nice Scroll ----------------------------------------
-		if( mfn_opts_get( 'nice-scroll' ) == '1' ) $classes[] = 'nice-scroll-on';
 
 
 		// Image Frame | Style --------------------------------

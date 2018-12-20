@@ -80,6 +80,8 @@ class MFN_Options_visual extends MFN_Options{
 			echo '</div>';
 
 		echo '</div>';
+
+		$this->enqueue();
 	}
 
   /**
@@ -87,7 +89,13 @@ class MFN_Options_visual extends MFN_Options{
    */
   function enqueue() {
 
+		$localize = array(
+			'mfnsc' => LIBS_URI . '/tinymce/plugin.js'
+		);
+
   	wp_enqueue_media();
+		wp_enqueue_script( 'mfn-opts-field-visual-js', MFN_OPTIONS_URI .'fields/visual/field_visual.js', array( 'jquery' ), THEME_VERSION, true );
+		wp_localize_script( 'mfn-opts-field-visual-js', 'fieldVisualJS', $localize );
 
   }
 }

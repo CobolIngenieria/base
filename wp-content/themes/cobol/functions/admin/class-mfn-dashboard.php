@@ -7,11 +7,11 @@ class Mfn_Dashboard extends Mfn_API {
 
 	public $notices = array(
 
-		'no_purchase_code' 	=> 'Please enter purchase code.',
-		'no_connection' 		=> 'Could not connect to the Envato (ThemeForest) server to verify purchase. Please try again later.',
+		'no_purchase_code' => 'Please enter purchase code.',
+		'no_connection' => 'Could not connect to the Envato (ThemeForest) server to verify purchase. Please try again later.',
 
-		'registered'				=> 'Thank you for registration.',
-		'deregistered'			=> 'Theme deregistered.',
+		'registered' => 'Thank you for registration.',
+		'deregistered' => 'Theme deregistered.',
 	);
 
 	public $version = '';
@@ -19,12 +19,16 @@ class Mfn_Dashboard extends Mfn_API {
 	/**
 	 * Mfn_Dashboard constructor
 	 */
+
 	public function __construct(){
 
 		parent::__construct();
 
 		// after_switch_theme is triggered on the request immediately following a theme switch.
 		add_action( 'after_switch_theme', array( $this, 'after_switch_theme' ) );
+
+		// switch_theme is triggered when the blog's theme is changed. Specifically, it fires after the theme has been switched but before the next request.
+		add_action( 'switch_theme', array( $this, 'switch_theme' ) );
 
 		// Notices displayed near the top of admin pages. The hook function should echo a message to be displayed.
 		add_action( 'admin_notices', array( $this, 'admin_notices' ), 1 );
@@ -43,29 +47,29 @@ class Mfn_Dashboard extends Mfn_API {
 
 	}
 
-
 	/**
 	 * Under Construction active | Admin notice
 	 */
+
 	public function admin_bar_menu(){
 
 		if( mfn_opts_get( 'construction' ) ){
 			global $wp_admin_bar;
 
 			$wp_admin_bar->add_menu( array(
-				'id'     	=> 'mfn-notice-construction',
-				'href' 		=> 'admin.php?page=be-options',
-				'parent' 	=> 'top-secondary',
-				'title'  	=> __( 'Under Construction active', 'mfn-opts' ),
-				'meta'   	=> array( 'class' => 'mfn-notice' ),
+				'id' => 'mfn-notice-construction',
+				'href' => 'admin.php?page=be-options',
+				'parent' => 'top-secondary',
+				'title' => __( 'Under Construction active', 'mfn-opts' ),
+				'meta' => array( 'class' => 'mfn-notice' ),
 			) );
 		}
 	}
 
-
 	/**
 	 * Check if purchase code is empty
 	 */
+
 	public function is_code_empty( $new = false, $old = false ) {
 		if( ! $new && $new === $old ) {
 			add_settings_error( 'betheme_registration', 'registration_error', $this->notices[ 'no_purchase_code' ], 'error inline mfn-dashboard-error' );
@@ -78,6 +82,7 @@ class Mfn_Dashboard extends Mfn_API {
 	/**
 	 * Add admin page & enqueue styles
 	 */
+
 	public function init(){
 
 		$title = array(
@@ -122,6 +127,7 @@ class Mfn_Dashboard extends Mfn_API {
 	/**
 	 * Dashboard template
 	 */
+
 	public function template(){
 		include_once LIBS_DIR . '/admin/templates/dashboard.php';
 	}
@@ -129,6 +135,7 @@ class Mfn_Dashboard extends Mfn_API {
 	/**
 	 * Enqueue styles and scripts
 	 */
+
 	public function enqueue(){
 		wp_enqueue_style( 'mfn-dashboard', LIBS_URI. '/admin/assets/dashboard.css', array(), THEME_VERSION );
 		wp_enqueue_script( 'mfn-dashboard', LIBS_URI. '/admin/assets/dashboard.js', false, THEME_VERSION, true );
@@ -137,6 +144,7 @@ class Mfn_Dashboard extends Mfn_API {
 	/**
 	 * Redirect after switch theme
 	 */
+
 	public function after_switch_theme(){
 
 		if( mfn_is_registered() ){
@@ -147,8 +155,21 @@ class Mfn_Dashboard extends Mfn_API {
 	}
 
 	/**
+	 * Theme deactivation - deactivate all theme related plugins
+	 */
+
+	public function switch_theme(){
+
+		if( class_exists( 'Mfn_HB_Admin' ) ) {
+      deactivate_plugins( 'mfn-header-builder/mfn-header-builder.php' );
+    }
+
+	}
+
+	/**
 	 * Admin notice - plase register
 	 */
+
 	public function admin_notices(){
 
 		// Current screen is not always available, most notably on the customizer screen.
@@ -182,6 +203,7 @@ class Mfn_Dashboard extends Mfn_API {
 	/**
 	 * Refresh site transients
 	 */
+
 	public function refresh_transients(){
 
 		delete_site_transient( 'betheme_update_plugins' );
@@ -195,6 +217,7 @@ class Mfn_Dashboard extends Mfn_API {
 	/**
 	 * Register a setting and its data
 	 */
+
 	public function register_setting(){
 		register_setting( 'betheme_registration', 'betheme_purchase_code', array( $this, 'registration' ) );
 	}
@@ -202,6 +225,7 @@ class Mfn_Dashboard extends Mfn_API {
 	/**
 	 * A callback function that sanitizes the option's value
 	 */
+
 	public function registration( $code ){
 		$code = trim( $code );
 
@@ -217,6 +241,7 @@ class Mfn_Dashboard extends Mfn_API {
 	/**
 	 * Register theme
 	 */
+
 	protected function register( $code ){
 
 		if( ! $code ){
@@ -254,6 +279,7 @@ class Mfn_Dashboard extends Mfn_API {
 	/**
 	 * Deregister theme
 	 */
+
 	protected function deregister(){
 
 		$code = mfn_get_purchase_code();
@@ -293,6 +319,7 @@ class Mfn_Dashboard extends Mfn_API {
 	/**
 	 * Update the value of an option that was already added for the current network
 	 */
+
 	public function on_load(){
 
 		if( ! isset( $_POST['option_page'] ) || $_POST['option_page'] !== 'betheme_registration' ){

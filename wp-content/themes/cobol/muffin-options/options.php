@@ -450,10 +450,17 @@ if ( ! class_exists( 'MFN_Options' ) ){
 		*/
 		function _options_page_html(){
 
-			echo '<div id="mfn-wrapper">';
-				echo '<form method="post" action="options.php" enctype="multipart/form-data" id="mfn-form-wrapper">';
+			$form_class = '';
 
-					settings_fields($this->args['opt_name'].'_group');
+			// Plugin: Muffin Header Builder
+			if( class_exists( 'Mfn_HB_Admin' ) && get_site_option( 'mfn_header_builder' ) ){
+				$form_class = 'mhb-active';
+			}
+
+			echo '<div id="mfn-wrapper">';
+				echo '<form id="mfn-form-wrapper" class="'. esc_attr( $form_class ) .'" method="post" action="options.php" enctype="multipart/form-data" >';
+
+					settings_fields( $this->args['opt_name'].'_group' );
 
 					$this->options['last_tab'] = isset( $this->options['last_tab'] ) ? $this->options['last_tab'] : false;
 					echo '<input type="hidden" id="last_tab" name="'.$this->args['opt_name'].'[last_tab]" value="'.$this->options['last_tab'].'" />';
@@ -510,10 +517,19 @@ if ( ! class_exists( 'MFN_Options' ) ){
 
 							foreach($this->sections as $k => $section){
 								echo '<div id="'.$k.'-mfn-section'.'" class="mfn-section">';
+
+									if( $form_class ){
+										echo '<div class="mfn-message plugin first">';
+											echo 'BeTheme <a target="_blank" href="admin.php?page=be-header">Header Builder plugin is active</a>. Header related options are hidden.';
+										echo '</div>';
+									}
+
 									do_settings_sections($k.'_section_group');
+
 									echo '<div class="mfn-sections-footer">';
 										echo '<input type="submit" name="submit" value="'.__('Save Changes', 'mfn-opts').'" class="mfn-popup-save" tabindex="-1"/>';
 									echo '</div>';
+
 								echo '</div>';
 							}
 

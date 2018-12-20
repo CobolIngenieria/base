@@ -28,8 +28,8 @@ if( ! function_exists( 'mfn_get_fields_section' ) )
 			array(
 				'id' 			=> 'title',
 				'type' 		=> 'text',
-				'title' 	=> __('Title', 'mfn-opts'),
-				'desc' 		=> __('This field is used as an Section Label in admin panel only', 'mfn-opts'),
+				'title' 	=> __( 'Title', 'mfn-opts' ),
+				'desc' 		=> __( 'This field is used as an Section Label in admin panel only', 'mfn-opts' ),
 			),
 
 			// background
@@ -59,7 +59,7 @@ if( ! function_exists( 'mfn_get_fields_section' ) )
 				'id' 			=> 'bg_position',
 				'type' 		=> 'select',
 				'title' 	=> __('Background | Position', 'mfn-opts'),
-				'desc' 		=> __('iOS does <b>not</b> support background-position: fixed</br>For parallax required background image size is 1920px x 1080px', 'mfn-opts'),
+				'desc' 		=> __('iOS does <b>not</b> support background-position: fixed<br/>For parallax required background image size is 1920px x 1080px', 'mfn-opts'),
 				'options' => mfna_bg_position(),
 				'std' 		=> 'center top no-repeat',
 			),
@@ -75,18 +75,18 @@ if( ! function_exists( 'mfn_get_fields_section' ) )
 			array(
 				'id'			=> 'bg_video_mp4',
 				'type'		=> 'upload',
-				'title'		=> __('Background | Video HTML5', 'mfn-opts'),
-				'sub_desc'=> __('m4v [.mp4]', 'mfn-opts'),
-				'desc'		=> __('Please add both mp4 and ogv for cross-browser compatibility. Background Image will be used as video placeholder before video loads and on mobile devices', 'mfn-opts'),
-				'class'		=> __('video', 'mfn-opts'),
+				'title'		=> __( 'Background | Video HTML5', 'mfn-opts' ),
+				'sub_desc'=> __( 'm4v [.mp4]', 'mfn-opts' ),
+				'desc'		=> __( 'Please add both mp4 and ogv for cross-browser compatibility. Background Image will be used as video placeholder before video loads and on mobile devices', 'mfn-opts' ),
+				'data'		=> 'video',
 			),
 
 			array(
 				'id'			=> 'bg_video_ogv',
 				'type'		=> 'upload',
-				'title'		=> __('Background | Video HTML5', 'mfn-opts'),
-				'sub_desc'=> __('ogg [.ogv]', 'mfn-opts'),
-				'class'		=> __('video', 'mfn-opts'),
+				'title'		=> __( 'Background | Video HTML5', 'mfn-opts' ),
+				'sub_desc'=> __( 'ogg [.ogv]', 'mfn-opts' ),
+				'data'		=> 'video',
 			),
 
 			// layout
@@ -269,7 +269,7 @@ if( ! function_exists( 'mfn_get_fields_wrap' ) )
 				'id' 			=> 'bg_position',
 				'type' 		=> 'select',
 				'title' 	=> __('Background | Position', 'mfn-opts'),
-				'desc' 		=> __('iOS does <b>not</b> support background-position: fixed</br>For parallax required background image size is 1920px x 1080px', 'mfn-opts'),
+				'desc' 		=> __('iOS does <b>not</b> support background-position: fixed<br/>For parallax required background image size is 1920px x 1080px', 'mfn-opts'),
 				'options' => mfna_bg_position(),
 				'std' 		=> 'center top no-repeat',
 			),
@@ -468,89 +468,91 @@ if( ! function_exists( 'mfn_get_fields_item' ) )
 
 			'article_box' => array(
 				'type'		=> 'article_box',
-				'title'		=> __('Article box', 'mfn-opts'),
+				'title'		=> __( 'Article box', 'mfn-opts' ),
 				'size'		=> '1/3',
 				'cat' 		=> 'boxes',
 				'fields'	=> array(
 
 					array(
-						'id' 		=> 'image',
+						'id' 			=> 'image',
 						'type' 		=> 'upload',
-						'title' 	=> __('Image', 'mfn-opts'),
-						'sub_desc' 	=> __('Featured Image', 'mfn-opts'),
-						'desc' 		=> __('Recommended image width: <b>384px - 960px</b>, depending on size of the item', 'mfn-opts'),
+						'title' 	=> __( 'Image', 'mfn-opts' ),
+						'sub_desc'=> __( 'Featured Image', 'mfn-opts' ),
+						'desc' 		=> __( 'Recommended image width: <b>384px - 960px</b>, depending on size of the item', 'mfn-opts' ),
 					),
 
 					array(
-						'id' 		=> 'slogan',
+						'id' 			=> 'slogan',
 						'type' 		=> 'text',
-						'title' 	=> __('Slogan', 'mfn-opts'),
+						'title' 	=> __( 'Slogan', 'mfn-opts' ),
+						'desc' 		=> __( 'Allowed HTML tags: span, strong, b, em, i, u', 'mfn-opts' ),
 					),
 
 					array(
-						'id' 		=> 'title',
+						'id' 			=> 'title',
 						'type' 		=> 'text',
-						'title' 	=> __('Title', 'mfn-opts'),
+						'title' 	=> __( 'Title', 'mfn-opts' ),
+						'desc' 		=> __( 'Allowed HTML tags: span, strong, b, em, i, u', 'mfn-opts' ),
 					),
 
 					// link
 					array(
-						'id' 		=> 'info_link',
+						'id' 			=> 'info_link',
 						'type' 		=> 'info',
 						'title' 	=> '',
-						'desc' 		=> __('Link', 'mfn-opts'),
+						'desc' 		=> __( 'Link', 'mfn-opts' ),
 						'class' 	=> 'mfn-info',
 					),
 
 					array(
-						'id' 		=> 'link',
+						'id' 			=> 'link',
 						'type' 		=> 'text',
-						'title' 	=> __('Link', 'mfn-opts'),
+						'title' 	=> __( 'Link', 'mfn-opts' ),
 					),
 
 					array(
-						'id' 		=> 'target',
+						'id' 			=> 'target',
 						'type' 		=> 'select',
-						'title' 	=> __('Link | Target', 'mfn-opts'),
+						'title' 	=> __( 'Link | Target', 'mfn-opts' ),
 						'options'	=> array(
-							0 			=> __( 'Default | _self', 'mfn-opts' ),
-							1 			=> __( 'New Tab or Window | _blank', 'mfn-opts' ),
-							'lightbox' 	=> __( 'Lightbox (image or embed video)', 'mfn-opts' ),
+							0 					=> __( 'Default | _self', 'mfn-opts' ),
+							1 					=> __( 'New Tab or Window | _blank', 'mfn-opts' ),
+							'lightbox'	=> __( 'Lightbox (image or embed video)', 'mfn-opts' ),
 						),
 					),
 
 					// advanced
 					array(
-						'id' 		=> 'info_advanced',
+						'id' 			=> 'info_advanced',
 						'type' 		=> 'info',
 						'title' 	=> '',
-						'desc' 		=> __('Advanced', 'mfn-opts'),
+						'desc' 		=> __( 'Advanced', 'mfn-opts' ),
 						'class' 	=> 'mfn-info',
 					),
 
 					array(
-						'id' 		=> 'animate',
+						'id' 			=> 'animate',
 						'type' 		=> 'select',
-						'title' 	=> __('Animation', 'mfn-opts'),
-						'sub_desc' 	=> __('Entrance animation', 'mfn-opts'),
-						'options' 	=> mfn_get_animations(),
+						'title' 	=> __( 'Animation', 'mfn-opts' ),
+						'sub_desc'=> __( 'Entrance animation', 'mfn-opts' ),
+						'options' => mfn_get_animations(),
 					),
 
 					// custom
 					array(
-						'id' 		=> 'info_custom',
+						'id' 			=> 'info_custom',
 						'type' 		=> 'info',
 						'title' 	=> '',
-						'desc' 		=> __('Custom', 'mfn-opts'),
+						'desc' 		=> __( 'Custom', 'mfn-opts' ),
 						'class' 	=> 'mfn-info',
 					),
 
 					array(
-						'id' 		=> 'classes',
+						'id' 			=> 'classes',
 						'type' 		=> 'text',
-						'title' 	=> __('Classes', 'mfn-opts'),
-						'sub_desc'	=> __('Custom CSS Item Classes Names', 'mfn-opts'),
-						'desc'		=> __('Multiple classes should be separated with SPACE', 'mfn-opts'),
+						'title' 	=> __( 'Classes', 'mfn-opts' ),
+						'sub_desc'=> __( 'Custom CSS Item Classes Names', 'mfn-opts' ),
+						'desc'		=> __( 'Multiple classes should be separated with SPACE', 'mfn-opts' ),
 					),
 
 				),
@@ -2561,87 +2563,88 @@ if( ! function_exists( 'mfn_get_fields_item' ) )
 
 			'feature_box' => array(
 				'type' 		=> 'feature_box',
-				'title' 	=> __('Feature Box', 'mfn-opts'),
+				'title' 	=> __( 'Feature Box', 'mfn-opts' ),
 				'size' 		=> '1/4',
 				'cat' 		=> 'boxes',
 				'fields' 	=> array(
 
 					array(
-						'id' 		=> 'image',
+						'id' 			=> 'image',
 						'type' 		=> 'upload',
-						'title' 	=> __('Image', 'mfn-opts'),
-						'desc' 		=> __('Recommended image width: <b>384px - 960px</b>, depending on size of the item', 'mfn-opts'),
+						'title' 	=> __( 'Image', 'mfn-opts' ),
+						'desc' 		=> __( 'Recommended image width: <b>384px - 960px</b>, depending on size of the item', 'mfn-opts' ),
 					),
 
 					array(
-						'id' 		=> 'title',
+						'id' 			=> 'title',
 						'type' 		=> 'text',
-						'title' 	=> __('Title', 'mfn-opts'),
+						'title' 	=> __( 'Title', 'mfn-opts' ),
+						'desc' 		=> __( 'Allowed HTML tags: span, strong, b, em, i, u', 'mfn-opts' ),
 					),
 
 					array(
-						'id' 		=> 'content',
+						'id' 			=> 'content',
 						'type' 		=> 'textarea',
-						'title' 	=> __('Content', 'mfn-opts'),
-						'validate'	=> 'html',
+						'title' 	=> __( 'Content', 'mfn-opts' ),
+						'validate'=> 'html',
 					),
 
 					array(
-						'id' 		=> 'background',
+						'id' 			=> 'background',
 						'type' 		=> 'color',
-						'title' 	=> __('Background color', 'mfn-opts'),
+						'title' 	=> __( 'Background color', 'mfn-opts' ),
 					),
 
 					// link
 					array(
-						'id' 		=> 'info_link',
+						'id' 			=> 'info_link',
 						'type' 		=> 'info',
 						'title' 	=> '',
-						'desc' 		=> __('Link', 'mfn-opts'),
+						'desc' 		=> __( 'Link', 'mfn-opts' ),
 						'class' 	=> 'mfn-info',
 					),
 
 					array(
-						'id' 		=> 'link',
+						'id' 			=> 'link',
 						'type' 		=> 'text',
-						'title' 	=> __('Link', 'mfn-opts'),
-						'sub_desc' 	=> __('Image Link', 'mfn-opts'),
+						'title' 	=> __( 'Link', 'mfn-opts' ),
+						'sub_desc'=> __( 'Image Link', 'mfn-opts' ),
 					),
 
 					array(
-						'id' 		=> 'target',
+						'id' 			=> 'target',
 						'type' 		=> 'select',
-						'title' 	=> __('Link | Target', 'mfn-opts'),
+						'title' 	=> __( 'Link | Target', 'mfn-opts' ),
 						'options'	=> array(
-							0 			=> __( 'Default | _self', 'mfn-opts' ),
-							1 			=> __( 'New Tab or Window | _blank', 'mfn-opts' ),
+							0 					=> __( 'Default | _self', 'mfn-opts' ),
+							1 					=> __( 'New Tab or Window | _blank', 'mfn-opts' ),
 							'lightbox' 	=> __( 'Lightbox (image or embed video)', 'mfn-opts' ),
 						),
 					),
 
 					// advanced
 					array(
-						'id' 		=> 'info_advanced',
+						'id' 			=> 'info_advanced',
 						'type' 		=> 'info',
 						'title' 	=> '',
-						'desc' 		=> __('Advanced', 'mfn-opts'),
+						'desc' 		=> __( 'Advanced', 'mfn-opts' ),
 						'class' 	=> 'mfn-info',
 					),
 
 					array(
-						'id' 		=> 'animate',
+						'id' 			=> 'animate',
 						'type' 		=> 'select',
-						'title' 	=> __('Animation', 'mfn-opts'),
-						'sub_desc' 	=> __('Entrance animation', 'mfn-opts'),
-						'options' 	=> mfn_get_animations(),
+						'title' 	=> __( 'Animation', 'mfn-opts' ),
+						'sub_desc'=> __( 'Entrance animation', 'mfn-opts' ),
+						'options'	=> mfn_get_animations(),
 					),
 
 					array(
-						'id' 		=> 'classes',
+						'id' 			=> 'classes',
 						'type' 		=> 'text',
-						'title' 	=> __('Custom | Classes', 'mfn-opts'),
-						'sub_desc'	=> __('Custom CSS Item Classes Names', 'mfn-opts'),
-						'desc'		=> __('Multiple classes should be separated with SPACE', 'mfn-opts'),
+						'title' 	=> __( 'Custom | Classes', 'mfn-opts' ),
+						'sub_desc'=> __( 'Custom CSS Item Classes Names', 'mfn-opts' ),
+						'desc'		=> __( 'Multiple classes should be separated with SPACE', 'mfn-opts' ),
 					),
 
 				),
@@ -2664,7 +2667,7 @@ if( ! function_exists( 'mfn_get_fields_item' ) )
 					),
 
 					array(
-						'id' 	=> 'content',
+						'id' 		=> 'content',
 						'type' 	=> 'textarea',
 						'title' => __('Content', 'mfn-opts'),
 						'desc' 	=> __('Please use <strong>[item icon="" title="" link="" target=""]</strong> shortcodes.', 'mfn-opts'),
@@ -2699,114 +2702,115 @@ if( ! function_exists( 'mfn_get_fields_item' ) )
 
 			// Flat Box -------------------------------------------------------
 
-			'flat_box' => array(
+			'flat_box' 	=> array(
 				'type' 		=> 'flat_box',
-				'title' 	=> __('Flat Box', 'mfn-opts'),
+				'title' 	=> __( 'Flat Box', 'mfn-opts' ),
 				'size' 		=> '1/4',
 				'cat' 		=> 'boxes',
 				'fields' 	=> array(
 
 					array(
-						'id' 		=> 'image',
+						'id' 			=> 'image',
 						'type' 		=> 'upload',
-						'title' 	=> __('Image', 'mfn-opts'),
-						'desc' 		=> __('Recommended image width: <b>768px - 1920px</b>, depending on size of the item', 'mfn-opts'),
+						'title' 	=> __( 'Image', 'mfn-opts' ),
+						'desc' 		=> __( 'Recommended image width: <b>768px - 1920px</b>, depending on size of the item', 'mfn-opts' ),
 					),
 
 					array(
-						'id' 		=> 'title',
+						'id' 			=> 'title',
 						'type' 		=> 'text',
-						'title' 	=> __('Title', 'mfn-opts'),
+						'title' 	=> __( 'Title', 'mfn-opts' ),
+						'desc' 		=> __( 'Allowed HTML tags: span, strong, b, em, i, u', 'mfn-opts' ),
 					),
 
 					array(
-						'id' 		=> 'content',
+						'id' 			=> 'content',
 						'type' 		=> 'textarea',
-						'title' 	=> __('Content', 'mfn-opts'),
-						'desc' 		=> __('Some Shortcodes and HTML tags allowed', 'mfn-opts'),
+						'title' 	=> __( 'Content', 'mfn-opts' ),
+						'desc' 		=> __( 'Some Shortcodes and HTML tags allowed', 'mfn-opts' ),
 						'class'		=> 'full-width sc',
-						'validate'	=> 'html',
+						'validate'=> 'html',
 					),
 
 					// icon
 					array(
-						'id' 		=> 'info_icon',
+						'id' 			=> 'info_icon',
 						'type' 		=> 'info',
 						'title' 	=> '',
-						'desc' 		=> __('Icon', 'mfn-opts'),
+						'desc' 		=> __( 'Icon', 'mfn-opts' ),
 						'class' 	=> 'mfn-info',
 					),
 
 					array(
-						'id' 		=> 'icon',
+						'id' 			=> 'icon',
 						'type' 		=> 'icon',
-						'title' 	=> __('Icon', 'mfn-opts'),
+						'title' 	=> __( 'Icon', 'mfn-opts' ),
 						'std' 		=> 'icon-lamp',
 						'class' 	=> 'small-text',
 					),
 
 					array(
-						'id' 		=> 'icon_image',
+						'id' 			=> 'icon_image',
 						'type' 		=> 'upload',
-						'title' 	=> __('Icon | Image', 'mfn-opts'),
-						'desc' 		=> __('You can use image icon instead of font icon', 'mfn-opts'),
+						'title' 	=> __( 'Icon | Image', 'mfn-opts' ),
+						'desc' 		=> __( 'You can use image icon instead of font icon', 'mfn-opts' ),
 					),
 
 					array(
-						'id' 		=> 'background',
+						'id' 			=> 'background',
 						'type' 		=> 'color',
-						'title' 	=> __('Background', 'mfn-opts'),
+						'title' 	=> __( 'Background', 'mfn-opts' ),
 					),
 
 					// link
 					array(
-						'id' 		=> 'info_link',
+						'id' 			=> 'info_link',
 						'type' 		=> 'info',
 						'title' 	=> '',
-						'desc' 		=> __('Link', 'mfn-opts'),
+						'desc' 		=> __( 'Link', 'mfn-opts' ),
 						'class' 	=> 'mfn-info',
 					),
 
 					array(
-						'id' 		=> 'link',
+						'id' 			=> 'link',
 						'type' 		=> 'text',
-						'title' 	=> __('Link', 'mfn-opts'),
+						'title' 	=> __( 'Link', 'mfn-opts' ),
 					),
 
 					array(
-						'id' 		=> 'target',
+						'id' 			=> 'target',
 						'type' 		=> 'select',
-						'title' 	=> __('Link | Target', 'mfn-opts'),
+						'title' 	=> __( 'Link | Target', 'mfn-opts' ),
 						'options'	=> array(
-							0 			=> __( 'Default | _self', 'mfn-opts' ),
-							1 			=> __( 'New Tab or Window | _blank', 'mfn-opts' ),
+							0 					=> __( 'Default | _self', 'mfn-opts' ),
+							1 					=> __( 'New Tab or Window | _blank', 'mfn-opts' ),
 							'lightbox' 	=> __( 'Lightbox (image or embed video)', 'mfn-opts' ),
 						),
 					),
 
 					// advanced
 					array(
-						'id' 		=> 'info_advanced',
+						'id' 			=> 'info_advanced',
 						'type' 		=> 'info',
 						'title' 	=> '',
-						'desc' 		=> __('Advanced', 'mfn-opts'),
+						'desc' 		=> __( 'Advanced', 'mfn-opts' ),
 						'class' 	=> 'mfn-info',
 					),
 
 					array(
-						'id' 		=> 'animate',
+						'id' 			=> 'animate',
 						'type' 		=> 'select',
-						'title' 	=> __('Animation', 'mfn-opts'),
-						'sub_desc' 	=> __('Entrance animation', 'mfn-opts'),
-						'options' 	=> mfn_get_animations(),
+						'title' 	=> __( 'Animation', 'mfn-opts' ),
+						'sub_desc'=> __( 'Entrance animation', 'mfn-opts' ),
+						'options' => mfn_get_animations(),
 					),
 
 					array(
-						'id' 		=> 'classes',
+						'id' 			=> 'classes',
 						'type' 		=> 'text',
-						'title' 	=> __('Custom | Classes', 'mfn-opts'),
-						'sub_desc'	=> __('Custom CSS Item Classes Names', 'mfn-opts'),
-						'desc'		=> __('Multiple classes should be separated with SPACE', 'mfn-opts'),
+						'title' 	=> __( 'Custom | Classes', 'mfn-opts' ),
+						'sub_desc'=> __( 'Custom CSS Item Classes Names', 'mfn-opts' ),
+						'desc'		=> __( 'Multiple classes should be separated with SPACE', 'mfn-opts' ),
 					),
 
 				),
@@ -4121,7 +4125,7 @@ if( ! function_exists( 'mfn_get_fields_item' ) )
 						'id' 			=> 'latlng',
 						'type' 		=> 'textarea',
 						'title' 	=> __( 'Additional Markers | Lat,Lng,IconURL', 'mfn-opts' ),
-						'desc' 		=> __( 'Separate Lat,Lang,IconURL[optional] with <b>coma</b> [ , ]<br />Separate multiple Markers with <b>semicolon</b> [ ; ]<br />Example: <b>-33.88,151.21,ICON_URL;-33.89,151.22</b>', 'mfn-opts' ),
+						'desc' 		=> __( 'Separate Lat,Lng,IconURL[optional] with <b>coma</b> [ , ]<br />Separate multiple Markers with <b>semicolon</b> [ ; ]<br />Example: <b>-33.88,151.21,ICON_URL;-33.89,151.22</b>', 'mfn-opts' ),
 					),
 
 					// contact
@@ -4693,65 +4697,84 @@ if( ! function_exists( 'mfn_get_fields_item' ) )
 
 			'photo_box' => array(
 				'type' 		=> 'photo_box',
-				'title' 	=> __('Photo Box', 'mfn-opts'),
+				'title' 	=> __( 'Photo Box', 'mfn-opts' ),
 				'size' 		=> '1/4',
 				'cat' 		=> 'boxes',
 				'fields' 	=> array(
 
 					array(
-						'id'		=> 'title',
+						'id'			=> 'title',
 						'type'		=> 'text',
-						'title'		=> __('Title', 'mfn-opts'),
+						'title'		=> __( 'Title', 'mfn-opts' ),
+						'desc' 		=> __( 'Allowed HTML tags: span, strong, b, em, i, u', 'mfn-opts' ),
 					),
 
 					array(
-						'id'		=> 'image',
+						'id'			=> 'image',
 						'type'		=> 'upload',
-						'title'		=> __('Image', 'mfn-opts'),
-						'desc' 		=> __('Recommended image width: <b>768px - 1920px</b>, depending on size of the item', 'mfn-opts'),
+						'title'		=> __( 'Image', 'mfn-opts' ),
+						'desc' 		=> __( 'Recommended image width: <b>768px - 1920px</b>, depending on size of the item', 'mfn-opts' ),
 					),
 
 					array(
-						'id'		=> 'content',
+						'id'			=> 'content',
 						'type'		=> 'textarea',
-						'title'		=> __('Content', 'mfn-opts'),
-						'desc' 		=> __('Some Shortcodes and HTML tags allowed', 'mfn-opts'),
+						'title'		=> __( 'Content', 'mfn-opts' ),
+						'desc' 		=> __( 'Some Shortcodes and HTML tags allowed', 'mfn-opts' ),
 						'class'		=> 'full-width sc',
 					),
 
 					array(
-						'id'		=> 'align',
+						'id'			=> 'align',
 						'type'		=> 'select',
-						'title'		=> __('Text Align', 'mfn-opts'),
-						'options' 	=> array(
-							''			=> __( 'Center', 'mfn-opts' ),
+						'title'		=> __( 'Text Align', 'mfn-opts' ),
+						'options' => array(
+							''				=> __( 'Center', 'mfn-opts' ),
 							'left'		=> __( 'Left', 'mfn-opts' ),
 							'right'		=> __( 'Right', 'mfn-opts' ),
 						),
 					),
 
+					// link
 					array(
-						'id' 		=> 'link',
-						'type'		=> 'text',
-						'title' 	=> __('Link', 'mfn-opts'),
+						'id' 			=> 'info_link',
+						'type' 		=> 'info',
+						'title' 	=> '',
+						'desc' 		=> __( 'Link', 'mfn-opts' ),
+						'class' 	=> 'mfn-info',
 					),
 
 					array(
-						'id' 		=> 'target',
+						'id' 			=> 'link',
+						'type'		=> 'text',
+						'title' 	=> __( 'Link', 'mfn-opts' ),
+					),
+
+					array(
+						'id' 			=> 'target',
 						'type' 		=> 'select',
-						'title' 	=> __('Link | Target', 'mfn-opts'),
+						'title' 	=> __( 'Link | Target', 'mfn-opts' ),
 						'options'	=> array(
-							0 			=> __( 'Default | _self', 'mfn-opts' ),
-							1 			=> __( 'New Tab or Window | _blank', 'mfn-opts' ),
+							0 					=> __( 'Default | _self', 'mfn-opts' ),
+							1 					=> __( 'New Tab or Window | _blank', 'mfn-opts' ),
 							'lightbox' 	=> __( 'Lightbox (image or embed video)', 'mfn-opts' ),
 						),
 					),
 
+					// advanced
 					array(
-						'id'		=> 'greyscale',
+						'id' 			=> 'info_advanced',
+						'type' 		=> 'info',
+						'title' 	=> '',
+						'desc' 		=> __( 'Advanced', 'mfn-opts' ),
+						'class' 	=> 'mfn-info',
+					),
+
+					array(
+						'id'			=> 'greyscale',
 						'type'		=> 'select',
-						'title'		=> 'Greyscale Images',
-						'desc'		=> 'Works only for images with link',
+						'title'		=> __( 'Greyscale Images', 'mfn-opts' ),
+						'desc'		=> __( 'Works only for images with link', 'mfn-opts' ),
 						'options' 	=> array(
 							0 => __( 'No', 'mfn-opts' ),
 							1 => __( 'Yes', 'mfn-opts' ),
@@ -4759,19 +4782,28 @@ if( ! function_exists( 'mfn_get_fields_item' ) )
 					),
 
 					array(
-						'id' 		=> 'animate',
+						'id' 			=> 'animate',
 						'type' 		=> 'select',
-						'title' 	=> __('Animation', 'mfn-opts'),
-						'sub_desc' 	=> __('Entrance animation', 'mfn-opts'),
-						'options' 	=> mfn_get_animations(),
+						'title' 	=> __( 'Animation', 'mfn-opts' ),
+						'sub_desc'=> __( 'Entrance animation', 'mfn-opts' ),
+						'options' => mfn_get_animations(),
+					),
+
+					// custom
+					array(
+						'id' 			=> 'info_custom',
+						'type' 		=> 'info',
+						'title' 	=> '',
+						'desc' 		=> __( 'Custom', 'mfn-opts' ),
+						'class' 	=> 'mfn-info',
 					),
 
 					array(
-						'id' 		=> 'classes',
+						'id' 			=> 'classes',
 						'type' 		=> 'text',
-						'title' 	=> __('Custom | Classes', 'mfn-opts'),
-						'sub_desc'	=> __('Custom CSS Item Classes Names', 'mfn-opts'),
-						'desc'		=> __('Multiple classes should be separated with SPACE', 'mfn-opts'),
+						'title' 	=> __( 'Custom | Classes', 'mfn-opts' ),
+						'sub_desc'=> __( 'Custom CSS Item Classes Names', 'mfn-opts' ),
+						'desc'		=> __( 'Multiple classes should be separated with SPACE', 'mfn-opts' ),
 					),
 
 				),
@@ -5522,7 +5554,7 @@ if( ! function_exists( 'mfn_get_fields_item' ) )
 					),
 
 					array(
-						'id' 		=> 'content',
+						'id' 			=> 'content',
 						'type' 		=> 'textarea',
 						'title' 	=> __('Content', 'mfn-opts'),
 						'desc' 		=> __('Please use <strong>[bar title="Title" value="50" size="20"]</strong> shortcodes here.', 'mfn-opts'),
@@ -6011,55 +6043,56 @@ if( ! function_exists( 'mfn_get_fields_item' ) )
 
 			'sliding_box' => array(
 				'type' 		=> 'sliding_box',
-				'title' 	=> __('Sliding Box', 'mfn-opts'),
+				'title' 	=> __( 'Sliding Box', 'mfn-opts' ),
 				'size' 		=> '1/4',
 				'cat' 		=> 'boxes',
 				'fields' 	=> array(
 
 					array(
-						'id' 		=> 'image',
+						'id' 			=> 'image',
 						'type' 		=> 'upload',
-						'title'		=> __('Image', 'mfn-opts'),
-						'desc' 		=> __('Recommended image width: <b>768px - 1920px</b>, depending on size of the item', 'mfn-opts'),
+						'title'		=> __( 'Image', 'mfn-opts' ),
+						'desc' 		=> __( 'Recommended image width: <b>768px - 1920px</b>, depending on size of the item', 'mfn-opts' ),
 					),
 
 					array(
-						'id' 		=> 'title',
+						'id' 			=> 'title',
 						'type' 		=> 'text',
-						'title' 	=> __('Title', 'mfn-opts'),
+						'title' 	=> __( 'Title', 'mfn-opts' ),
+						'desc' 		=> __( 'Allowed HTML tags: span, strong, b, em, i, u', 'mfn-opts' ),
 					),
 
 					array(
-						'id' 		=> 'link',
+						'id' 			=> 'link',
 						'type' 		=> 'text',
-						'title' 	=> __('Link', 'mfn-opts'),
+						'title' 	=> __( 'Link', 'mfn-opts' ),
 					),
 
 					array(
-						'id' 		=> 'target',
+						'id' 			=> 'target',
 						'type' 		=> 'select',
-						'title' 	=> __('Link | Target', 'mfn-opts'),
+						'title' 	=> __( 'Link | Target', 'mfn-opts' ),
 						'options'	=> array(
-							0 			=> __( 'Default | _self', 'mfn-opts' ),
-							1 			=> __( 'New Tab or Window | _blank', 'mfn-opts' ),
+							0 					=> __( 'Default | _self', 'mfn-opts' ),
+							1 					=> __( 'New Tab or Window | _blank', 'mfn-opts' ),
 							'lightbox' 	=> __( 'Lightbox (image or embed video)', 'mfn-opts' ),
 						),
 					),
 
 					array(
-						'id' 		=> 'animate',
+						'id' 			=> 'animate',
 						'type' 		=> 'select',
-						'title' 	=> __('Animation', 'mfn-opts'),
-						'sub_desc' 	=> __('Entrance animation', 'mfn-opts'),
-						'options' 	=> mfn_get_animations(),
+						'title' 	=> __( 'Animation', 'mfn-opts' ),
+						'sub_desc'=> __( 'Entrance animation', 'mfn-opts' ),
+						'options' => mfn_get_animations(),
 					),
 
 					array(
-						'id' 		=> 'classes',
+						'id' 			=> 'classes',
 						'type' 		=> 'text',
-						'title' 	=> __('Custom | Classes', 'mfn-opts'),
-						'sub_desc'	=> __('Custom CSS Item Classes Names', 'mfn-opts'),
-						'desc'		=> __('Multiple classes should be separated with SPACE', 'mfn-opts'),
+						'title' 	=> __( 'Custom | Classes', 'mfn-opts' ),
+						'sub_desc'=> __( 'Custom CSS Item Classes Names', 'mfn-opts' ),
+						'desc'		=> __( 'Multiple classes should be separated with SPACE', 'mfn-opts' ),
 					),
 
 				),
@@ -6530,20 +6563,20 @@ if( ! function_exists( 'mfn_get_fields_item' ) )
 					),
 
 					array(
-						'id'		=> 'mp4',
+						'id'			=> 'mp4',
 						'type'		=> 'upload',
-						'title'		=> __('HTML5 | MP4 video', 'mfn-opts'),
-						'sub_desc'	=> __('m4v [.mp4]', 'mfn-opts'),
-						'desc'		=> __('Please add both mp4 and ogv for cross-browser compatibility.', 'mfn-opts'),
-						'class'		=> __('video', 'mfn-opts'),
+						'title'		=> __( 'HTML5 | MP4 video', 'mfn-opts' ),
+						'sub_desc'=> __( 'm4v [.mp4]', 'mfn-opts' ),
+						'desc'		=> __( 'Please add both mp4 and ogv for cross-browser compatibility.', 'mfn-opts' ),
+						'data'		=> 'video',
 					),
 
 					array(
-						'id'		=> 'ogv',
+						'id'			=> 'ogv',
 						'type'		=> 'upload',
-						'title'		=> __('HTML5 | OGV video', 'mfn-opts'),
-						'sub_desc'	=> __('ogg [.ogv]', 'mfn-opts'),
-						'class'		=> __('video', 'mfn-opts'),
+						'title'		=> __( 'HTML5 | OGV video', 'mfn-opts' ),
+						'sub_desc'=> __( 'ogg [.ogv]', 'mfn-opts' ),
+						'data'		=> 'video',
 					),
 
 					array(

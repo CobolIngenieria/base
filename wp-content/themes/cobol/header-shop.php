@@ -8,11 +8,11 @@
  */
 ?><!DOCTYPE html>
 <?php
-	if( $_GET && key_exists('mfn-rtl', $_GET) ):
+	if( $_GET && key_exists( 'mfn-rtl', $_GET ) ):
 		echo '<html class="no-js" lang="ar" dir="rtl">';
 	else:
 ?>
-<html class="no-js<?php echo mfn_user_os(); ?>" <?php language_attributes(); ?><?php mfn_tag_schema(); ?>>
+<html <?php language_attributes(); ?> class="no-js<?php esc_attr_e( mfn_user_os() ); ?>"<?php mfn_tag_schema(); ?>>
 <?php endif; ?>
 
 <!-- head -->
@@ -21,8 +21,8 @@
 <!-- meta -->
 <meta charset="<?php bloginfo( 'charset' ); ?>" />
 <?php
-	if( mfn_opts_get('responsive') ){
-		if( mfn_opts_get('responsive-zoom') ){
+	if( mfn_opts_get( 'responsive' ) ){
+		if( mfn_opts_get( 'responsive-zoom' ) ){
 			echo '<meta name="viewport" content="width=device-width, initial-scale=1" />';
 		} else {
 			echo '<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />';
@@ -31,15 +31,16 @@
 	}
 ?>
 
-<?php do_action('wp_seo'); ?>
+<?php do_action( 'wp_seo' ); ?>
 
-<link rel="shortcut icon" href="<?php mfn_opts_show( 'favicon-img', THEME_URI .'/images/favicon.ico' ); ?>" />
-<?php if( mfn_opts_get('apple-touch-icon') ): ?>
-<link rel="apple-touch-icon" href="<?php mfn_opts_show( 'apple-touch-icon' ); ?>" />
+<link rel="shortcut icon" href="<?php echo esc_url( mfn_opts_get( 'favicon-img', THEME_URI .'/images/favicon.ico' ) ); ?>" />
+<?php if( mfn_opts_get( 'apple-touch-icon' ) ): ?>
+<link rel="apple-touch-icon" href="<?php echo esc_url( mfn_opts_get( 'apple-touch-icon' ) ); ?>" />
 <?php endif; ?>
 
 <!-- wp_head() -->
 <?php wp_head(); ?>
+
 </head>
 
 <!-- body -->
@@ -49,7 +50,11 @@
 
 	<?php get_template_part( 'includes/header', 'sliding-area' ); ?>
 
-	<?php if( mfn_header_style( true ) == 'header-creative' ) get_template_part( 'includes/header', 'creative' ); ?>
+	<?php
+		if( mfn_header_style( true ) == 'header-creative' ){
+			get_template_part( 'includes/header', 'creative' );
+		}
+	?>
 
 	<!-- #Wrapper -->
 	<div id="Wrapper">
@@ -58,14 +63,14 @@
 			$shop_id = wc_get_page_id( 'shop' );
 
 			// Featured Image -----------
-			$header_style = '';
+			$header_style_escaped = '';
 
 			if( mfn_opts_get('img-subheader-attachment') == 'parallax' ){
 
 				if( mfn_opts_get( 'parallax' ) == 'stellar' ){
-					$header_style .= ' class="bg-parallax" data-stellar-background-ratio="0.5"';
+					$header_style_escaped .= ' class="bg-parallax" data-stellar-background-ratio="0.5"';
 				} else {
-					$header_style .= ' class="bg-parallax" data-enllax-ratio="0.3"';
+					$header_style_escaped .= ' class="bg-parallax" data-enllax-ratio="0.3"';
 				}
 
 			}
@@ -80,19 +85,33 @@
 		?>
 
 		<!-- #Header_bg -->
-		<div id="Header_wrapper" <?php echo $header_style; ?>>
+		<div id="Header_wrapper"<?php echo $header_style_escaped; ?>>
 
 			<!-- #Header -->
-			<header id="Header">
-				<?php if( mfn_header_style( true ) != 'header-creative' ) get_template_part( 'includes/header', 'top-area' ); ?>
-				<?php
-					if( mfn_header_style( true ) != 'header-below' ){
-						if( is_shop() || ( mfn_opts_get('shop-slider') == 'all' ) ){
-							echo mfn_slider( $shop_id );
-						}
+			<?php
+				if( 'mhb' == mfn_header_style() ){
+
+					// action: mfn_header | for future use
+					do_action( 'mfn_header' );
+					if( is_shop() || ( mfn_opts_get( 'shop-slider' ) == 'all' ) ){
+						echo mfn_slider( $shop_id );
 					}
-				?>
-			</header>
+
+				} else {
+
+					echo '<header id="Header">';
+						if( mfn_header_style( true ) != 'header-creative' ){
+							get_template_part( 'includes/header', 'top-area' );
+						}
+						if( mfn_header_style( true ) != 'header-below' ){
+							if( is_shop() || ( mfn_opts_get( 'shop-slider' ) == 'all' ) ){
+								echo mfn_slider( $shop_id );
+							}
+						}
+					echo '</header>';
+
+				}
+			?>
 
 			<?php
 				function mfn_woocommerce_show_page_title(){
@@ -106,7 +125,7 @@
 				$subheader_style = '';
 
 				if( mfn_opts_get( 'subheader-padding' ) ){
-					$subheader_style .= 'padding:'. mfn_opts_get( 'subheader-padding' ) .';';
+					$subheader_style .= 'padding:'. mfn_opts_get( 'subheader-padding' );
 				}
 
 
@@ -142,7 +161,7 @@
 
 					// Subheader | Print
 					if( $subheader_show ){
-						echo '<div id="Subheader" style="'. $subheader_style .'">';
+						echo '<div id="Subheader" style="'. esc_attr($subheader_style) .'">';
 							echo '<div class="container">';
 								echo '<div class="column one">';
 

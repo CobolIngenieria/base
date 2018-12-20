@@ -13,7 +13,7 @@
  * @see 	    https://docs.woocommerce.com/document/template-structure/
  * @author 		WooThemes
  * @package 	WooCommerce/Templates
- * @version     1.6.4
+ * @version   3.5.0
  */
 
 if ( ! defined( 'ABSPATH' ) ) {
@@ -28,8 +28,23 @@ if ( ! $messages ){
 
 <?php foreach ( $messages as $message ) : ?>
 	<div class="woocommerce-info alert alert_info">
+
 		<div class="alert_icon"><i class="icon-help"></i></div>
-		<div class="alert_wrapper"><?php echo wp_kses_post( $message ); ?></div>
+
+		<div class="alert_wrapper">
+
+			<?php
+				// WC < 3.5 backward compatibility
+				if( version_compare( WC_VERSION, '3.5', '<' ) ){
+					echo wp_kses_post( $message );
+				} else {
+					echo wc_kses_notice( $message );
+				}
+			?>
+
+		</div>
+
 		<a class="close" href="#"><i class="icon-cancel"></i></a>
+
 	</div>
 <?php endforeach; ?>

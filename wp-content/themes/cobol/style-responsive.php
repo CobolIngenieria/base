@@ -139,12 +139,10 @@ if ( ! defined( 'ABSPATH' ) ) exit; // Exit if accessed directly
 
 	/* Menu style | Arrow Top  */
 	.menu-arrow-top #Top_bar .menu > li > a:after{background:none repeat scroll 0 0 rgba(0,0,0,0)!important;border-color:#ccc transparent transparent;border-style:solid;border-width:7px 7px 0;display:block;height:0;left:50%;margin-left:-7px;top:0!important;width:0}
-	.menu-arrow-top.header-transparent #Top_bar .menu > li > a:after,.menu-arrow-top.header-plain #Top_bar .menu > li > a:after{display:none}
 	.menu-arrow-top #Top_bar.is-sticky .menu > li > a:after{top:0!important}
 
 	/* Menu style | Arrow Bottom  */
 	.menu-arrow-bottom #Top_bar .menu > li > a:after{background:none!important;border-color:transparent transparent #ccc;border-style:solid;border-width:0 7px 7px;display:block;height:0;left:50%;margin-left:-7px;top:auto;bottom:0;width:0}
-	.menu-arrow-bottom.header-transparent #Top_bar .menu > li > a:after,.menu-arrow-bottom.header-plain #Top_bar .menu > li > a:after{display:none}
 	.menu-arrow-bottom #Top_bar.is-sticky .menu > li > a:after{top:auto;bottom:0}
 
 	/* Menu style | No Borders  */
@@ -231,7 +229,6 @@ if ( ! defined( 'ABSPATH' ) ) exit; // Exit if accessed directly
 	/* Header Creative | Right */
 	body.header-rtl.header-creative{padding-left:0;padding-right:50px}
 	.header-rtl #Header_creative{left:auto;right:-200px}
-	.header-rtl.nice-scroll #Header_creative{margin-right:10px}
 	.header-rtl #Header_creative .creative-wrapper{margin-left:50px;margin-right:0}
 	.header-rtl #Header_creative a.creative-menu-toggle{left:8px;right:auto}
 	.header-rtl #Header_creative .creative-social{left:0;right:auto}
@@ -309,7 +306,6 @@ if ( ! defined( 'ABSPATH' ) ) exit; // Exit if accessed directly
 	#Top_bar.is-sticky{position:fixed!important;width:100%;left:0;top:-60px;height:60px;z-index:701;background:#fff;opacity:.97;filter:alpha(opacity = 97);-webkit-box-shadow:0 2px 5px 0 rgba(0,0,0,0.1);-moz-box-shadow:0 2px 5px 0 rgba(0,0,0,0.1);box-shadow:0 2px 5px 0 rgba(0,0,0,0.1)}
 
 	.layout-boxed.header-boxed #Top_bar.is-sticky{max-width:<?php echo $mobileMenuInitW; ?>px;left:50%;-webkit-transform:translateX(-50%);transform:translateX(-50%)}
-	.layout-boxed.header-boxed.nice-scroll #Top_bar.is-sticky{margin-left:-5px}
 
 	#Top_bar.is-sticky .top_bar_left,#Top_bar.is-sticky .top_bar_right,#Top_bar.is-sticky .top_bar_right:before{background:none}
 	#Top_bar.is-sticky .top_bar_right{top:-4px;height:auto;}

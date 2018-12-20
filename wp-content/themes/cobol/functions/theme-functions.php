@@ -986,9 +986,6 @@ if( ! function_exists( 'mfn_breadcrumbs' ) )
 			$blogID = false;
 			if( get_option( 'page_for_posts' ) ){
 				$blogID = get_option( 'page_for_posts' );	// Setings / Reading
-			} elseif( mfn_opts_get( 'blog-page' ) ){
-				// remove it: do not need to show blog if the blog is on the homepage
-// 				$blogID = mfn_opts_get( 'blog-page' );		// Theme Options / Getting Started / Blog
 			}
 
 			if( $blogID ){
@@ -2219,7 +2216,7 @@ if( ! function_exists( 'mfn_tag_schema' ) )
 		}
 
 		if( mfn_opts_get( 'mfn-seo-schema-type' ) && $type ){
-			echo ' itemscope itemtype="' . $schema . $type . '"';
+			echo ' itemscope itemtype="'. $schema . $type .'"';
 		}
 
 		return true;
@@ -2256,6 +2253,8 @@ function mfn_get_purchase_code(){
 	if( mfn_is_hosted() ){
 		return SUBSCRIPTION_CODE;
 	}
+
+	// envato_purchase_code_7758048
 
 	return get_site_option( 'betheme_purchase_code' );
 }

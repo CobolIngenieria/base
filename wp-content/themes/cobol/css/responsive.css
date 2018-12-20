@@ -5,7 +5,6 @@ html,body{overflow-x:hidden}
 @media only screen and (min-width: 1240px)
 {
 	.layout-boxed{padding:25px}
-	.layout-boxed.nice-scroll{padding:25px 25px 25px 15px}
 	.layout-boxed.boxed-no-margin{padding:0;}
 	#Top_bar.loading{display:none}
 
@@ -146,6 +145,8 @@ html,body{overflow-x:hidden}
 	.Recent_posts ul li .desc{margin-right:60px}
 	.Recent_posts ul li .photo{width:60px;height:60px}
 	.Recent_posts ul li .photo .c{width:20px;height:20px;line-height:20px;bottom:5px;right:-8px}
+	.Recent_posts ul li.format-link .photo:after {width: 60px; height: 60px; line-height: 60px; font-size: 30px; }
+	.Recent_posts ul li.format-quote .photo:after { width: 60px; height: 60px; line-height: 60px; font-size: 30px; }
 
 	/* Zoom Box */
 	.zoom_box .desc .desc_txt{font-size:22px;line-height:26px}
@@ -238,6 +239,8 @@ html,body{overflow-x:hidden}
 	.Recent_posts ul li .photo{width:40px;height:40px}
 	.Recent_posts ul li.format-link .photo{background-size:40% auto}
 	.Recent_posts ul li .photo .c{width:20px;height:20px;line-height:20px;bottom:5px;right:-8px}
+	.Recent_posts ul li.format-link .photo:after {width: 40px; height: 40px; line-height: 40px; font-size: 20px; }
+	.Recent_posts ul li.format-quote .photo:after { width: 40px; height: 40px; line-height: 40px; font-size: 20px; }
 
 	/* Portfolio list */
 	body:not(.with_aside) .portfolio_group.list .portfolio-item .portfolio-item-fw-wrapper{width:694px}
@@ -380,7 +383,7 @@ html,body{overflow-x:hidden}
 
 	/* Header | Plain */
 	.tr-menu.header-plain #Top_bar{position:absolute}
-	.tr-menu.header-plain #Top_bar:not(.is-sticky){top:0!important;background:none!important}
+	.tr-menu.header-plain #Top_bar:not(.is-sticky){top:0!important;background-color:transparent!important}
 	.tr-menu.header-plain.ab-show #Top_bar:not(.is-sticky){top:45px!important}
 	.tr-menu.header-plain.minimalist-header:not(.template-slider) #Header{min-height:125px}
 	.header-plain #Top_bar,.header-plain #Top_bar .menu > li > a span:not(.description),
@@ -399,7 +402,7 @@ html,body{overflow-x:hidden}
 
 	/* Header | Stack */
 	.tr-menu.header-stack #Top_bar{position:absolute}
-	.tr-menu.header-stack #Top_bar:not(.is-sticky){top:0!important;background:none!important}
+	.tr-menu.header-stack #Top_bar:not(.is-sticky){top:0!important;background-color:transparent!important}
 	.tr-menu.header-stack.ab-show #Top_bar:not(.is-sticky){top:45px!important}
 	.tr-menu.header-stack.minimalist-header:not(.template-slider) #Header{min-height:196px}
 
@@ -917,7 +920,7 @@ html,body{overflow-x:hidden}
 	.ui-tabs .ui-tabs-nav{background:none}
 	.ui-tabs .ui-tabs-nav li{float:none!important;width:100%!important;border-width:0 0 1px}
 	.ui-tabs .ui-tabs-nav li:last-child{border-bottom:0}
-	.ui-tabs .ui-tabs-nav li a{text-align:center;background-image:url(../images/bg_panel.png);background-repeat:repeat-x;background-position:left top}
+	.ui-tabs .ui-tabs-nav li a{text-align:center;background:#f9f9f9;box-shadow:inset 0px 4px 3px -2px rgba(0,0,0,.04);}
 	.ui-tabs .ui-tabs-nav li.ui-tabs-selected a,.ui-tabs .ui-tabs-nav li.ui-state-active a{background-image:none}
 	.ui-tabs .ui-tabs-nav li.ui-tabs-selected:after,.ui-tabs .ui-tabs-nav li.ui-state-active:after{display:none}
 	.ui-tabs .ui-tabs-nav li.ui-tabs-selected a:after,.ui-tabs .ui-tabs-nav li.ui-state-disabled a:after,.ui-tabs .ui-tabs-nav li.ui-state-processing a:after,.ui-tabs .ui-tabs-nav li.ui-state-active a:after{display:none}

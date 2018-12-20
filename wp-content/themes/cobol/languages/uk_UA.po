@@ -2,9 +2,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Betheme\n"
 "POT-Creation-Date: 2018-02-19 08:56+0100\n"
-"PO-Revision-Date: 2018-02-19 08:57+0100\n"
+"PO-Revision-Date: 2018-10-18 15:37+0100\n"
 "Last-Translator: \n"
-"Language-Team: Muffin Group <muffingroup.com>\n"
+"Language-Team: \n"
 "Language: uk_UA\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -14,7 +14,6 @@ msgstr ""
 "X-Poedit-Basepath: .\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Poedit-SearchPath-0: /Applications/XAMPP/xamppfiles/htdocs/betheme\n"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/404.php:10
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:5694
@@ -38,52 +37,52 @@ msgstr "повернутися на Головну сторінку"
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/bbpress/content-single-topic-lead.php:18
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/bbpress/content-single-topic-lead.php:90
 msgid "Creator"
-msgstr ""
+msgstr "Автор"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/bbpress/content-single-topic-lead.php:22
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/bbpress/content-single-topic-lead.php:94
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/bbpress/loop-topics.php:19
 msgid "Topic"
-msgstr ""
+msgstr "Тема (topic)"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/bbpress/form-reply-move.php:22
 #, php-format
 msgid "Move reply \"%s\""
-msgstr ""
+msgstr "Переместить ответ \"%s\""
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/bbpress/form-reply-move.php:27
 msgid "You can either make this reply a new topic with a new title, or merge it into an existing topic."
-msgstr ""
+msgstr "Ви можете або відповісти створивши нову тему з новою назвою, або об'єднати його в існуючу тему."
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/bbpress/form-reply-move.php:31
 msgid "If you choose an existing topic, replies will be ordered by the time and date they were created."
-msgstr ""
+msgstr "Якщо Ви вибираєте існуючу тему, відповіді будуть впорядковані за датою їх створення."
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/bbpress/form-reply-move.php:35
 msgid "Move Method"
-msgstr ""
+msgstr "Метод переносу"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/bbpress/form-reply-move.php:39
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/bbpress/form-topic-split.php:39
 #, php-format
 msgid "New topic in <strong>%s</strong> titled:"
-msgstr ""
+msgstr "Нова тема в <strong>%s</strong> названа:"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/bbpress/form-reply-move.php:40
 #, php-format
 msgid "Moved: %s"
-msgstr ""
+msgstr "Перенесено: %s"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/bbpress/form-reply-move.php:47
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/bbpress/form-topic-split.php:47
 msgid "Use an existing topic in this forum:"
-msgstr ""
+msgstr "Использование существующей темы в этом форуме:"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/bbpress/form-reply-move.php:66
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/bbpress/form-topic-merge.php:87
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/bbpress/form-topic-split.php:91
 msgid "<strong>WARNING:</strong> This process cannot be undone."
-msgstr ""
+msgstr "<strong>Увага:</strong>Цей процес не може бути скасовано ."
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/bbpress/form-reply-move.php:70
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/bbpress/form-reply.php:133
@@ -91,34 +90,34 @@ msgstr ""
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/bbpress/form-topic-split.php:95
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/bbpress/form-topic.php:201
 msgid "Submit"
-msgstr ""
+msgstr "Надіслати"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/bbpress/form-reply-move.php:83
 msgid "You do not have the permissions to edit this reply!"
-msgstr ""
+msgstr "У вас нет прав на редактирование этого ответа!"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/bbpress/form-reply-move.php:83
 msgid "You cannot edit this reply."
-msgstr ""
+msgstr "Вы не можете редактировать этот ответ."
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/bbpress/form-reply.php:27
 #, php-format
 msgid "Reply To: %s"
-msgstr ""
+msgstr "Відповідь у темі: %s"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/bbpress/form-reply.php:34
 msgid "This topic is marked as closed to new replies, however your posting capabilities still allow you to do so."
-msgstr ""
+msgstr "Ця тема відзначена як закрита для нових відповідей , однак ваші ранішні публікації дозволяють зробити це ."
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/bbpress/form-reply.php:42
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/bbpress/form-topic.php:59
 msgid "Your account has the ability to post unrestricted HTML content."
-msgstr ""
+msgstr "Ви можете застосовувати HTML-вміст"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/bbpress/form-reply.php:62
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/bbpress/form-topic.php:88
 msgid "You may use these <abbr title=\"HyperText Markup Language\">HTML</abbr> tags and attributes:"
-msgstr ""
+msgstr "Ви можете використовувати ці <abbr title=\"HyperText Markup Language\"> HTML </abbr> теги і атрибути:"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/bbpress/form-reply.php:73
 msgid "Tags:"
@@ -127,45 +126,45 @@ msgstr "Теги:"
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/bbpress/form-reply.php:91
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/bbpress/form-topic.php:162
 msgid "Notify the author of follow-up replies via email"
-msgstr ""
+msgstr "Повідомити автора про подальших відповідях по електронній пошті"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/bbpress/form-reply.php:95
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/bbpress/form-topic.php:166
 msgid "Notify me of follow-up replies via email"
-msgstr ""
+msgstr "Інформувати мене про нові відповіді по email"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/bbpress/form-reply.php:112
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/bbpress/form-topic.php:182
 msgid "Keep a log of this edit:"
-msgstr ""
+msgstr "Зберегти в журнал цю зміну:"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/bbpress/form-reply.php:116
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/bbpress/form-topic.php:186
 msgid "Optional reason for editing:"
-msgstr ""
+msgstr "Необов'язково причина для редагування :"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/bbpress/form-reply.php:156
 #, php-format
 msgid "The topic &#8216;%s&#8217; is closed to new replies."
-msgstr ""
+msgstr "Тема &#8216;%s&#8217; закрита для нових відповідей ."
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/bbpress/form-reply.php:164
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/bbpress/form-topic.php:224
 #, php-format
 msgid "The forum &#8216;%s&#8217; is closed to new topics and replies."
-msgstr ""
+msgstr "Форум &#8216;%s&#8217; закритий для нових тем і відповідей ."
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/bbpress/form-reply.php:172
 msgid "You cannot reply to this topic."
-msgstr ""
+msgstr "Ви не можете відповісти в тему ."
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/bbpress/form-reply.php:172
 msgid "You must be logged in to reply to this topic."
-msgstr ""
+msgstr "Вибачте , ви повинні увійти в систему , щоб відповісти в темі ."
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/bbpress/form-search.php:14
 msgid "Search for:"
-msgstr ""
+msgstr "Пошук для:"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/bbpress/form-search.php:16
 msgid "Search forum"
@@ -174,17 +173,19 @@ msgstr ""
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/bbpress/form-topic-merge.php:22
 #, php-format
 msgid "Merge topic \"%s\""
-msgstr ""
+msgstr "Злиття теми \"%s\""
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/bbpress/form-topic-merge.php:27
 msgid ""
 "Select the topic to merge this one into. The destination topic will remain the lead topic, and this one will change into a "
 "reply."
 msgstr ""
+"Виберіть тему , щоб об'єднати цей ст. Тема призначення залишатиметься провідною темою , і цей буде змінюватися у відповідь ."
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/bbpress/form-topic-merge.php:28
 msgid "To keep this topic as the lead, go to the other topic and use the merge tool from there instead."
 msgstr ""
+"Щоб зберегти цю тему в якості ведучого , перейти до іншої теми і використовувати інструмент злиття звідти замість цього ."
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/bbpress/form-topic-merge.php:32
 msgid ""
@@ -192,227 +193,234 @@ msgid ""
 "date they were posted. If the destination topic was created after this one, it's post date will be updated to second "
 "earlier than this one."
 msgstr ""
+"Всі відповіді в рамках обох тим будуть об'єднані в хронологічному порядку . Порядок приєднуються відповідей заснований на "
+"часі і дати , коли вони були розміщені . Якщо тема призначення була створена після того , як цей , це повідомлення дата "
+"буде оновлено до другої раніше , ніж цей ."
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/bbpress/form-topic-merge.php:36
 msgid "Destination"
-msgstr ""
+msgstr "Призначення"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/bbpress/form-topic-merge.php:40
 msgid "Merge with this topic:"
-msgstr ""
+msgstr "Злиття з цією темою :"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/bbpress/form-topic-merge.php:54
 msgid "There are no other topics in this forum to merge with."
-msgstr ""
+msgstr "Немає інших тем в цьому форумі , щоб зливатися."
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/bbpress/form-topic-merge.php:62
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/bbpress/form-topic-split.php:66
 msgid "Topic Extras"
-msgstr ""
+msgstr "Додаткова тема"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/bbpress/form-topic-merge.php:69
 msgid "Merge topic subscribers"
-msgstr ""
+msgstr "Злиття підписчіків теми"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/bbpress/form-topic-merge.php:74
 msgid "Merge topic favoriters"
-msgstr ""
+msgstr "Злиття теми уподобань"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/bbpress/form-topic-merge.php:79
 msgid "Merge topic tags"
-msgstr ""
+msgstr "Об'єднати тегі теми"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/bbpress/form-topic-merge.php:104
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/bbpress/form-topic-split.php:108
 msgid "You do not have the permissions to edit this topic!"
-msgstr ""
+msgstr "У вас немає дозволу редагувати цю тему !"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/bbpress/form-topic-merge.php:104
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/bbpress/form-topic-split.php:108
 msgid "You cannot edit this topic."
-msgstr ""
+msgstr "Вы не можете редактировать эту тему."
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/bbpress/form-topic-split.php:22
 #, php-format
 msgid "Split topic \"%s\""
-msgstr ""
+msgstr "Розділити тему \"%s\""
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/bbpress/form-topic-split.php:27
 msgid ""
 "When you split a topic, you are slicing it in half starting with the reply you just selected. Choose to use that reply as a "
 "new topic with a new title, or merge those replies into an existing topic."
 msgstr ""
+"Коли ви поділяєте тему, ви розділяєте її навпіл , починаючи з відповіддю яку ви тільки що вибрали. Виберіть , щоб "
+"використовувати цю відповідь в якості нової теми з новою назвою, або об'єднати ці відповіді в існуючу тему ."
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/bbpress/form-topic-split.php:31
 msgid ""
 "If you use the existing topic option, replies within both topics will be merged chronologically. The order of the merged "
 "replies is based on the time and date they were posted."
 msgstr ""
+"Якщо ви використовуєте існуючий варіант тему , відповіді в межах обох тим будуть об'єднані в хронологічному порядку . "
+"Порядок приєднуються відповідей заснований на часі і дати , коли вони були розміщені ."
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/bbpress/form-topic-split.php:35
 msgid "Split Method"
-msgstr ""
+msgstr "Спосіб розподілу"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/bbpress/form-topic-split.php:40
 #, php-format
 msgid "Split: %s"
-msgstr ""
+msgstr "Розщеплення: %s"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/bbpress/form-topic-split.php:73
 msgid "Copy subscribers to the new topic"
-msgstr ""
+msgstr "Копіювання підписчіків на нову тему"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/bbpress/form-topic-split.php:78
 msgid "Copy favoriters to the new topic"
-msgstr ""
+msgstr "Копіювання уподобань на нову тему"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/bbpress/form-topic-split.php:83
 msgid "Copy topic tags to the new topic"
-msgstr ""
+msgstr "Скопіюйте теги тем  на нову тему"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/bbpress/form-topic-tag.php:18
 #, php-format
 msgid "Manage Tag: \"%s\""
-msgstr ""
+msgstr "Злиття Тег : \"%s\""
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/bbpress/form-topic-tag.php:22
 msgid "Rename"
-msgstr ""
+msgstr "Перейменувати"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/bbpress/form-topic-tag.php:25
 msgid "Leave the slug empty to have one automatically generated."
-msgstr ""
+msgstr "Залиште слаг порожнім , щоб мати один автоматично ."
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/bbpress/form-topic-tag.php:29
 msgid "Changing the slug affects its permalink. Any links to the old slug will stop working."
-msgstr ""
+msgstr "Зміна слага впливає на його постійне посилання . Будь-які посилання на старий слаг перестане працювати ."
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/bbpress/form-topic-tag.php:35
 msgid "Name:"
-msgstr ""
+msgstr "Ім'я:"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/bbpress/form-topic-tag.php:40
 msgid "Slug:"
-msgstr ""
+msgstr "Ярлик:"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/bbpress/form-topic-tag.php:59
 msgid "Merge"
-msgstr ""
+msgstr "Об'єднати"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/bbpress/form-topic-tag.php:62
 msgid "Merging tags together cannot be undone."
-msgstr ""
+msgstr "Об'єднання тегів разом не можуть бути скасовані ."
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/bbpress/form-topic-tag.php:68
 msgid "Existing tag:"
-msgstr ""
+msgstr "Існуючи тегі:"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/bbpress/form-topic-tag.php:73
 #, php-format
 msgid "Are you sure you want to merge the \"%s\" tag into the tag you specified?"
-msgstr ""
+msgstr "Ви впевнені , що хочете об'єднати \"%s\" тег в тег що ви вказали ?"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/bbpress/form-topic-tag.php:88
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/back.php:141
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/back.php:282
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/back.php:398
 msgid "Delete"
-msgstr ""
+msgstr "Видалити"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/bbpress/form-topic-tag.php:91
 msgid "This does not delete your topics. Only the tag itself is deleted."
-msgstr ""
+msgstr "Це не видаляє свої теми . Тільки сам тег видаляється ."
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/bbpress/form-topic-tag.php:94
 msgid "Deleting a tag cannot be undone."
-msgstr ""
+msgstr "Видалення тегу не може бути скасовано ."
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/bbpress/form-topic-tag.php:95
 msgid "Any links to this tag will no longer function."
-msgstr ""
+msgstr "Будь-які посилання на цій мітці функції більше не буде  ."
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/bbpress/form-topic-tag.php:101
 #, php-format
 msgid "Are you sure you want to delete the \"%s\" tag? This is permanent and cannot be undone."
-msgstr ""
+msgstr "Ви впевнені , що хочете видалити \"%s\" тег ? Це є постійним і не може бути скасовано ."
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/bbpress/form-topic.php:39
 #, php-format
 msgid "Now Editing &ldquo;%s&rdquo;"
-msgstr ""
+msgstr "Зараз редагується &ldquo;%s&rdquo;"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/bbpress/form-topic.php:41
 #, php-format
 msgid "Create New Topic in &ldquo;%s&rdquo;"
-msgstr ""
+msgstr "Створити нову тему в &ldquo;%s&rdquo;"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/bbpress/form-topic.php:41
 msgid "Create New Topic"
-msgstr ""
+msgstr "Створити нову тему"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/bbpress/form-topic.php:51
 msgid "This forum is marked as closed to new topics, however your posting capabilities still allow you to do so."
-msgstr ""
+msgstr "Форум закритий для нових тем, але ви можете додавати."
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/bbpress/form-topic.php:73
 #, php-format
 msgid "Topic Title (Maximum Length: %d):"
-msgstr ""
+msgstr "Назва теми (Максимальна довжина: %d) :"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/bbpress/form-topic.php:99
 msgid "Topic Tags:"
-msgstr ""
+msgstr "Теги для теми:"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/bbpress/form-topic.php:112
 msgid "Forum:"
-msgstr ""
+msgstr "Форум:"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/bbpress/form-topic.php:115
 msgid "(No Forum)"
-msgstr ""
+msgstr "(Нема форуму)"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/bbpress/form-topic.php:131
 msgid "Topic Type:"
-msgstr ""
+msgstr "Тема типу:"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/bbpress/form-topic.php:143
 msgid "Topic Status:"
-msgstr ""
+msgstr "Статус теми:"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/bbpress/form-topic.php:232
 msgid "You cannot create new topics."
-msgstr ""
+msgstr "Ви не можете створювати нові теми ."
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/bbpress/form-topic.php:232
 msgid "You must be logged in to create new topics."
-msgstr ""
+msgstr "Ви повинні увійти в систему , щоб створювати нові теми ."
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/bbpress/loop-forums.php:19
 msgid "Forum"
-msgstr ""
+msgstr "Форум"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/bbpress/loop-forums.php:20
 msgid "Topics"
-msgstr ""
+msgstr "Теми"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/bbpress/loop-forums.php:21
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/bbpress/loop-replies.php:32
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/bbpress/loop-replies.php:70
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/bbpress/loop-topics.php:21
 msgid "Replies"
-msgstr ""
+msgstr "Відповіді"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/bbpress/loop-forums.php:21
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/bbpress/loop-replies.php:24
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/bbpress/loop-replies.php:66
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/bbpress/loop-topics.php:21
 msgid "Posts"
-msgstr ""
+msgstr "Публікації"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/bbpress/loop-forums.php:22
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/bbpress/loop-topics.php:22
 msgid "Freshness"
-msgstr ""
+msgstr "Свіжість"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/bbpress/loop-replies.php:18
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/bbpress/loop-replies.php:60
@@ -425,78 +433,78 @@ msgstr ""
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:2005
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:2333
 msgid "Author"
-msgstr ""
+msgstr "Автор"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/bbpress/loop-search-forum.php:16
 #, php-format
 msgid "Last updated %s"
-msgstr ""
+msgstr "Оновлено %s"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/bbpress/loop-search-forum.php:26
 msgid "Forum: "
-msgstr ""
+msgstr "Форум: "
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/bbpress/loop-search-reply.php:24
 msgid "In reply to: "
-msgstr ""
+msgstr "У відповідь на:"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/bbpress/loop-search-topic.php:26
 msgid "Topic: "
-msgstr ""
+msgstr "Тема:"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/bbpress/loop-search-topic.php:33
 msgid "in group forum "
-msgstr ""
+msgstr "в форумі групи"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/bbpress/loop-search-topic.php:37
 msgid "in forum "
-msgstr ""
+msgstr "на форумі"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/bbpress/loop-search.php:22
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/bbpress/loop-search.php:44
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:5391
 msgid "Search Results"
-msgstr ""
+msgstr "Результат пошуку"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/bbpress/loop-single-reply.php:21
 msgid "in reply to: "
-msgstr ""
+msgstr "в відповідь на: "
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/bbpress/loop-single-topic.php:60
 #, php-format
 msgid "Started by: %1$s"
-msgstr ""
+msgstr "Почато:  %1$s"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/bbpress/loop-single-topic.php:68
 #, php-format
 msgid "in: <a href=\"%1$s\">%2$s</a>"
-msgstr ""
+msgstr "в: <a href=\"%1$s\">%2$s</a>"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/bbpress/loop-topics.php:20
 msgid "Voices"
-msgstr ""
+msgstr "Учасники"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/bbpress/user-details.php:39
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/bbpress/user-profile.php:15
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/widget-login.php:77
 msgid "Profile"
-msgstr ""
+msgstr "Профіль"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/bbpress/user-details.php:45
 msgid "Topics Started"
-msgstr ""
+msgstr "Розпочаті теми"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/bbpress/user-details.php:51
 msgid "Replies Created"
-msgstr ""
+msgstr "Створені відповіді"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/bbpress/user-details.php:58
 msgid "Favorites"
-msgstr ""
+msgstr "Улюблені"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/bbpress/user-details.php:68
 msgid "Subscriptions"
-msgstr ""
+msgstr "Підписки"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/bbpress/user-details.php:75
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/back.php:138
@@ -504,26 +512,26 @@ msgstr ""
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/back.php:396
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/theme-mega-menu.php:185
 msgid "Edit"
-msgstr ""
+msgstr "Редагувати"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/bbpress/user-profile.php:24
 #, php-format
 msgid "Forum Role: %s"
-msgstr ""
+msgstr "Роль в  форумі: %s"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/bbpress/user-profile.php:25
 #, php-format
 msgid "Topics Started: %s"
-msgstr ""
+msgstr "Почато тем: %s"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/bbpress/user-profile.php:26
 #, php-format
 msgid "Replies Created: %s"
-msgstr ""
+msgstr "Відповідей створено: %s"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/comments.php:9
 msgid "This post is password protected. Enter the password to view any comments."
-msgstr ""
+msgstr "Цей запис захищений паролем. Введіть пароль, щоб переглянути коментарі."
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/comments.php:18
 msgid "Comment"
@@ -537,21 +545,21 @@ msgstr "Коментарі"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/comments.php:31
 msgid "&larr; Older Comments"
-msgstr ""
+msgstr "&larr; Старіші коментарі"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/comments.php:32
 msgid "Newer Comments &rarr;"
-msgstr ""
+msgstr "Новіші коментарі &rarr;"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/comments.php:39
 msgid "Comments are closed."
-msgstr ""
+msgstr "Коментувати не дозволено."
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/admin/class-mfn-changelog.php:25
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/admin/templates/changelog.php:15
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/admin/templates/parts/header.php:89
 msgid "Changelog"
-msgstr ""
+msgstr "Історія змін"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/admin/class-mfn-dashboard.php:59
 msgid "Under Construction active"
@@ -560,7 +568,7 @@ msgstr ""
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/admin/class-mfn-dashboard.php:85
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/widget-login.php:75
 msgid "Dashboard"
-msgstr ""
+msgstr "Майстерня"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/admin/class-mfn-dashboard.php:86
 msgid "BeTheme Options"
@@ -569,7 +577,7 @@ msgstr ""
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/admin/class-mfn-status.php:28
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/admin/templates/dashboard.php:135
 msgid "System Status"
-msgstr ""
+msgstr "Стан системи"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/admin/class-mfn-support.php:25
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/admin/templates/parts/header.php:88
@@ -583,7 +591,7 @@ msgstr ""
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/admin/templates/dashboard.php:17
 msgid "Theme is registered"
-msgstr ""
+msgstr "Тема зареєстрована"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/admin/templates/dashboard.php:36
 msgid "Deregister Theme"
@@ -601,7 +609,7 @@ msgstr ""
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/admin/templates/dashboard.php:49
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/theme-mega-menu.php:299
 msgid "Cancel"
-msgstr ""
+msgstr "Відмінити"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/admin/templates/dashboard.php:50
 msgid "Deregister"
@@ -609,7 +617,7 @@ msgstr ""
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/admin/templates/dashboard.php:61
 msgid "Buy license"
-msgstr ""
+msgstr "Купити ліцензію"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/admin/templates/dashboard.php:63
 msgid "If you need another license for new website"
@@ -628,7 +636,7 @@ msgstr ""
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/admin/tgm/class-mfn-tgmpa.php:73
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/admin/tgm/class-tgm-plugin-activation.php:335
 msgid "Install Plugins"
-msgstr ""
+msgstr "Встановити плаґіни"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/admin/templates/dashboard.php:146
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/importer/class-mfn-importer.php:80
@@ -639,7 +647,7 @@ msgstr ""
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/options.php:42
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/options.php:44
 msgid "Theme Options"
-msgstr ""
+msgstr "Налаштування теми"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/admin/templates/parts/header.php:8
 msgid "Welcome to WordPress"
@@ -666,11 +674,11 @@ msgstr ""
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/admin/templates/parts/header.php:84
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/widget-login.php:43
 msgid "Welcome"
-msgstr ""
+msgstr "Вітаємо"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/admin/templates/parts/header.php:86
 msgid "System status"
-msgstr ""
+msgstr "Стан системи"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/admin/templates/parts/mini-status.php:34
 msgid "API server connection"
@@ -696,22 +704,22 @@ msgstr ""
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/admin/templates/parts/mini-status.php:78
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/admin/templates/status.php:44
 msgid "SUHOSIN Installed"
-msgstr ""
+msgstr "Встановлено SUHOSIN"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/admin/templates/parts/mini-status.php:86
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/admin/templates/status.php:52
 msgid "PHP Memory Limit"
-msgstr ""
+msgstr "Ліміт пам'яті "
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/admin/templates/parts/mini-status.php:110
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/admin/templates/status.php:76
 msgid "PHP Time Limit"
-msgstr ""
+msgstr "Обмеження часу виконання PHP"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/admin/templates/parts/mini-status.php:134
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/admin/templates/status.php:100
 msgid "PHP Max Input Vars"
-msgstr ""
+msgstr "Кількість вхідних параметрів в запиті PHP"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/admin/templates/parts/mini-status.php:150
 msgid "More details"
@@ -719,19 +727,19 @@ msgstr ""
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/admin/templates/status.php:15
 msgid "Server Environment"
-msgstr ""
+msgstr "Оточення сервера"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/admin/templates/status.php:20
 msgid "Server Info"
-msgstr ""
+msgstr "Інформація про сервер"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/admin/templates/status.php:25
 msgid "MySQL Version"
-msgstr ""
+msgstr "версія MySQL"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/admin/templates/status.php:30
 msgid "PHP Version"
-msgstr ""
+msgstr "PHP Version"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/admin/templates/status.php:114
 msgid "WP Max Upload Size"
@@ -743,27 +751,27 @@ msgstr ""
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/admin/templates/status.php:129
 msgid "DOMDocument"
-msgstr ""
+msgstr "DOMDocument"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/admin/templates/status.php:149
 msgid "WordPress Environment"
-msgstr ""
+msgstr "WordPress по навколишньому середовищу"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/admin/templates/status.php:154
 msgid "Home URL"
-msgstr ""
+msgstr "Адреса домашньої сторінки"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/admin/templates/status.php:159
 msgid "Site URL"
-msgstr ""
+msgstr "Адреса сайту"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/admin/templates/status.php:170
 msgid "WP Version"
-msgstr ""
+msgstr "WP версія"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/admin/templates/status.php:182
 msgid "WP Multisite"
-msgstr ""
+msgstr "WP багатовузлових"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/admin/templates/status.php:191
 msgid "WP Debug"
@@ -771,7 +779,7 @@ msgstr ""
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/admin/templates/status.php:200
 msgid "Language"
-msgstr ""
+msgstr "Мова"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/admin/templates/support.php:15
 msgid "Video tutorials"
@@ -779,7 +787,7 @@ msgstr ""
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/admin/templates/support.php:67
 msgid "Support forum"
-msgstr ""
+msgstr "Форум підтримки"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/admin/templates/support.php:101
 msgid "Manual table of content"
@@ -794,114 +802,114 @@ msgstr ""
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/admin/tgm/class-tgm-plugin-activation.php:337
 #, php-format
 msgid "Installing Plugin: %s"
-msgstr ""
+msgstr "Встановлення плаґіну: %s"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/admin/tgm/class-mfn-tgmpa.php:75
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/admin/tgm/class-tgm-plugin-activation.php:340
 msgid "Something went wrong with the plugin API."
-msgstr ""
+msgstr "Щось пішло не так з API плагіна."
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/admin/tgm/class-mfn-tgmpa.php:86
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/admin/tgm/class-tgm-plugin-activation.php:392
 msgid "Return to Required Plugins Installer"
-msgstr ""
+msgstr "Повернутися до Устанвка необхідних плагінів"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/admin/tgm/class-mfn-tgmpa.php:87
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/admin/tgm/class-tgm-plugin-activation.php:394
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/admin/tgm/class-tgm-plugin-activation.php:3261
 msgid "Plugin activated successfully."
-msgstr ""
+msgstr "Плагін успішно активовано."
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/admin/tgm/class-mfn-tgmpa.php:88
 #, php-format
 msgid "All plugins installed and activated successfully. %s"
-msgstr ""
+msgstr "Всі плагіни встановлені і успішно активований. %s"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/admin/tgm/class-tgm-plugin-activation.php:334
 msgid "Install Required Plugins"
-msgstr ""
+msgstr "Встановіть потрібні плагіни"
 
 #. translators: %s: plugin name.
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/admin/tgm/class-tgm-plugin-activation.php:339
 #, php-format
 msgid "Updating Plugin: %s"
-msgstr ""
+msgstr "Оновлення плагіну: %s"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/admin/tgm/class-tgm-plugin-activation.php:393
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/admin/tgm/class-tgm-plugin-activation.php:912
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/admin/tgm/class-tgm-plugin-activation.php:2627
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/admin/tgm/class-tgm-plugin-activation.php:3682
 msgid "Return to the Dashboard"
-msgstr ""
+msgstr "Повернутися в консоль"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/admin/tgm/class-tgm-plugin-activation.php:395
 msgid "The following plugin was activated successfully:"
-msgstr ""
+msgstr "Наступний плагін було успішно активовано:"
 
 #. translators: 1: plugin name.
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/admin/tgm/class-tgm-plugin-activation.php:397
 #, php-format
 msgid "No action taken. Plugin %1$s was already active."
-msgstr ""
+msgstr "Ніяких дій не здійснено. Плагін %1$s було вже активовано."
 
 #. translators: 1: plugin name.
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/admin/tgm/class-tgm-plugin-activation.php:399
 #, php-format
 msgid "Plugin not activated. A higher version of %s is needed for this theme. Please update the plugin."
-msgstr ""
+msgstr "Плагін не активовано. Для цієї теми потрібна новіша версія %s. Будь ласка, оновіть плагін."
 
 #. translators: 1: dashboard link.
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/admin/tgm/class-tgm-plugin-activation.php:401
 #, php-format
 msgid "All plugins installed and activated successfully. %1$s"
-msgstr ""
+msgstr "Все плагіни успішно встановлені і активовані.%1$s"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/admin/tgm/class-tgm-plugin-activation.php:402
 msgid "Dismiss this notice"
-msgstr ""
+msgstr "Прибрати це повідомлення"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/admin/tgm/class-tgm-plugin-activation.php:403
 msgid "There are one or more required or recommended plugins to install, update or activate."
-msgstr ""
+msgstr "Необхідно встановити, оновити або активувати ще один або кілька обов'язкових і рекомендованих плагінів."
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/admin/tgm/class-tgm-plugin-activation.php:404
 msgid "Please contact the administrator of this site for help."
-msgstr ""
+msgstr "Будь ласка, зв'яжіться з адміністратором цього сайту, щоб отримати допомогу."
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/admin/tgm/class-tgm-plugin-activation.php:608
 msgid "Update Required"
-msgstr ""
+msgstr "Потрібне оновлення"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/admin/tgm/class-tgm-plugin-activation.php:1019
 msgid "The remote plugin package does not contain a folder with the desired slug and renaming did not work."
-msgstr ""
+msgstr "Архів плагіна не містить теки з бажаним слаґом і перейменування не спрацювало."
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/admin/tgm/class-tgm-plugin-activation.php:1019
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/admin/tgm/class-tgm-plugin-activation.php:1022
 msgid "Please contact the plugin provider and ask them to package their plugin according to the WordPress guidelines."
-msgstr ""
+msgstr "Будь ласка, зв'яжіться з автором плагіна та попросіть запакувати плагін відповідно до правил WordPress."
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/admin/tgm/class-tgm-plugin-activation.php:1022
 msgid "The remote plugin package consists of more than one file, but the files are not packaged in a folder."
-msgstr ""
+msgstr "Архів плагіна містить більше одного файлу, але ці файли не в теці."
 
 #. translators: %s: version number
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/admin/tgm/class-tgm-plugin-activation.php:2073
 #, php-format
 msgid "TGMPA v%s"
-msgstr ""
+msgstr "TGMPA v%s"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/admin/tgm/class-tgm-plugin-activation.php:2359
 msgid "Required"
-msgstr ""
+msgstr "Обов’язкове"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/admin/tgm/class-tgm-plugin-activation.php:2362
 msgid "Recommended"
-msgstr ""
+msgstr "Рекомендований"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/admin/tgm/class-tgm-plugin-activation.php:2378
 msgid "WordPress Repository"
-msgstr ""
+msgstr "Репозиторій WordPress"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/admin/tgm/class-tgm-plugin-activation.php:2381
 msgid "Bundled Premium Plugin"
@@ -909,202 +917,202 @@ msgstr ""
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/admin/tgm/class-tgm-plugin-activation.php:2384
 msgid "Pre-Packaged"
-msgstr ""
+msgstr "Пре-упаковані"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/admin/tgm/class-tgm-plugin-activation.php:2401
 msgid "Not Installed"
-msgstr ""
+msgstr "Не встановлено"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/admin/tgm/class-tgm-plugin-activation.php:2405
 msgid "Installed But Not Activated"
-msgstr ""
+msgstr "Встановлено, але не активований"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/admin/tgm/class-tgm-plugin-activation.php:2407
 msgid "Active"
-msgstr ""
+msgstr "Діючий"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/admin/tgm/class-tgm-plugin-activation.php:2413
 msgid "Required Update not Available"
-msgstr ""
+msgstr "Потрібне оновлення не доступне"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/admin/tgm/class-tgm-plugin-activation.php:2416
 msgid "Requires Update"
-msgstr ""
+msgstr "Потребує оновлення"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/admin/tgm/class-tgm-plugin-activation.php:2419
 msgid "Update recommended"
-msgstr ""
+msgstr "Оновлення рекомендовано"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/admin/tgm/class-tgm-plugin-activation.php:2584
 msgid "Installed version:"
-msgstr ""
+msgstr "Встановлена версія:"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/admin/tgm/class-tgm-plugin-activation.php:2604
 msgid "Available version:"
-msgstr ""
+msgstr "Доступна версія: "
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/admin/tgm/class-tgm-plugin-activation.php:2627
 msgid "No plugins to install, update or activate."
-msgstr ""
+msgstr "Немає плагінів для встановлення, оновлення або активації."
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/admin/tgm/class-tgm-plugin-activation.php:2641
 msgid "Plugin"
-msgstr ""
+msgstr "Плаґін"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/admin/tgm/class-tgm-plugin-activation.php:2642
 msgid "Source"
-msgstr ""
+msgstr "Джерело"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/admin/tgm/class-tgm-plugin-activation.php:2643
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:3931
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/plugins/visual-composer.php:1588
 msgid "Type"
-msgstr ""
+msgstr "Тип"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/admin/tgm/class-tgm-plugin-activation.php:2647
 msgid "Version"
-msgstr ""
+msgstr "Версія"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/admin/tgm/class-tgm-plugin-activation.php:2648
 msgid "Status"
-msgstr ""
+msgstr "Стан"
 
 #. translators: %2$s: plugin name in screen reader markup
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/admin/tgm/class-tgm-plugin-activation.php:2705
 #, php-format
 msgid "Install %2$s"
-msgstr ""
+msgstr "Встановити %2$s"
 
 #. translators: %2$s: plugin name in screen reader markup
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/admin/tgm/class-tgm-plugin-activation.php:2710
 #, php-format
 msgid "Update %2$s"
-msgstr ""
+msgstr "Оновити %2$s"
 
 #. translators: %2$s: plugin name in screen reader markup
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/admin/tgm/class-tgm-plugin-activation.php:2716
 #, php-format
 msgid "Activate %2$s"
-msgstr ""
+msgstr "Активувати %2$s"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/admin/tgm/class-tgm-plugin-activation.php:2786
 msgid "Upgrade message from the plugin author:"
-msgstr ""
+msgstr "Повідомлення про оновлення від автора плагіна:"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/admin/tgm/class-tgm-plugin-activation.php:2819
 msgid "Install"
-msgstr ""
+msgstr "Встановити"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/admin/tgm/class-tgm-plugin-activation.php:2825
 msgid "Update"
-msgstr ""
+msgstr "Оновлення"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/admin/tgm/class-tgm-plugin-activation.php:2828
 msgid "Activate"
-msgstr ""
+msgstr "Активувати"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/admin/tgm/class-tgm-plugin-activation.php:2859
 msgid "No plugins were selected to be installed. No action taken."
-msgstr ""
+msgstr "Жодних плагінів не обрано для встановлення. Жодних дій не виконано."
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/admin/tgm/class-tgm-plugin-activation.php:2861
 msgid "No plugins were selected to be updated. No action taken."
-msgstr ""
+msgstr "Жодних плагінів не обрано для оновлення. Жодних дій не виконано."
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/admin/tgm/class-tgm-plugin-activation.php:2902
 msgid "No plugins are available to be installed at this time."
-msgstr ""
+msgstr "На даний час немає доступних для встановлення плагінів."
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/admin/tgm/class-tgm-plugin-activation.php:2904
 msgid "No plugins are available to be updated at this time."
-msgstr ""
+msgstr "Немає доступних плагінів для оновлення."
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/admin/tgm/class-tgm-plugin-activation.php:3010
 msgid "No plugins were selected to be activated. No action taken."
-msgstr ""
+msgstr "Жодних плагінів не обрано для активації. Жодних дій не виконано."
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/admin/tgm/class-tgm-plugin-activation.php:3036
 msgid "No plugins are available to be activated at this time."
-msgstr ""
+msgstr "На даний час немає доступних для активації плагінів."
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/admin/tgm/class-tgm-plugin-activation.php:3260
 msgid "Plugin activation failed."
-msgstr ""
+msgstr "Невдала активація плагіна."
 
 #. translators: 1: plugin name, 2: action number 3: total number of actions.
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/admin/tgm/class-tgm-plugin-activation.php:3600
 #, php-format
 msgid "Updating Plugin %1$s (%2$d/%3$d)"
-msgstr ""
+msgstr "Оновлення плаґіну %1$s (%2$d/%3$d)"
 
 #. translators: 1: plugin name, 2: error message.
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/admin/tgm/class-tgm-plugin-activation.php:3603
 #, php-format
 msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
-msgstr ""
+msgstr "При установці%1$s виникла помилка: <strong>%2$s</strong>."
 
 #. translators: 1: plugin name.
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/admin/tgm/class-tgm-plugin-activation.php:3605
 #, php-format
 msgid "The installation of %1$s failed."
-msgstr ""
+msgstr "Установка %1$s завершилася невдало."
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/admin/tgm/class-tgm-plugin-activation.php:3609
 msgid ""
 "The installation and activation process is starting. This process may take a while on some hosts, so please be patient."
-msgstr ""
+msgstr "Починається процес встановлення і активації. Це може зайняти тривалийчас на деяких системах, будь ласка, зачекайте."
 
 #. translators: 1: plugin name.
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/admin/tgm/class-tgm-plugin-activation.php:3611
 #, php-format
 msgid "%1$s installed and activated successfully."
-msgstr ""
+msgstr "%1$s встановлений і успішно активований."
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/admin/tgm/class-tgm-plugin-activation.php:3611
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/admin/tgm/class-tgm-plugin-activation.php:3619
 msgid "Show Details"
-msgstr ""
+msgstr "Показати деталі"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/admin/tgm/class-tgm-plugin-activation.php:3611
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/admin/tgm/class-tgm-plugin-activation.php:3619
 msgid "Hide Details"
-msgstr ""
+msgstr "Сховати деталі"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/admin/tgm/class-tgm-plugin-activation.php:3612
 msgid "All installations and activations have been completed."
-msgstr ""
+msgstr "Всі установки і активації завершені."
 
 #. translators: 1: plugin name, 2: action number 3: total number of actions.
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/admin/tgm/class-tgm-plugin-activation.php:3614
 #, php-format
 msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
-msgstr ""
+msgstr "Встановлюємо і активуємо плагін %1$s (%2$d/%3$d)"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/admin/tgm/class-tgm-plugin-activation.php:3617
 msgid "The installation process is starting. This process may take a while on some hosts, so please be patient."
-msgstr ""
+msgstr "Починається процес установки. Це може зайняти тривалий час надеяких системах, будь ласка, зачекайте."
 
 #. translators: 1: plugin name.
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/admin/tgm/class-tgm-plugin-activation.php:3619
 #, php-format
 msgid "%1$s installed successfully."
-msgstr ""
+msgstr "%1$s встановлений успішно."
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/admin/tgm/class-tgm-plugin-activation.php:3620
 msgid "All installations have been completed."
-msgstr ""
+msgstr "Усі встановлення завершено."
 
 #. translators: 1: plugin name, 2: action number 3: total number of actions.
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/admin/tgm/class-tgm-plugin-activation.php:3622
 #, php-format
 msgid "Installing Plugin %1$s (%2$d/%3$d)"
-msgstr ""
+msgstr "Встановлюємо плагін %1$s(%2$d/%3$d)"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/back.php:120
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:4501
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/vc_templates/vc_accordion_tab.php:5
 msgid "Section"
-msgstr ""
+msgstr "Розділ"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/back.php:130
 msgid "Add Wrap"
@@ -1118,7 +1126,7 @@ msgstr ""
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/back.php:281
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/back.php:397
 msgid "Clone"
-msgstr ""
+msgstr "Клонувати"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/back.php:140
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:230
@@ -1138,7 +1146,7 @@ msgstr ""
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:2360
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:3044
 msgid "Hide"
-msgstr ""
+msgstr "Ховати"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/back.php:259
 msgid "Wrap"
@@ -1146,15 +1154,15 @@ msgstr ""
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/back.php:560
 msgid "Add Section"
-msgstr ""
+msgstr "Додати розділ"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/back.php:614
 msgid "Add Item"
-msgstr ""
+msgstr "Додати елемент"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/back.php:618
 msgid "Close"
-msgstr ""
+msgstr "Закрити тему"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/back.php:628
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/back.php:1118
@@ -1165,11 +1173,11 @@ msgstr ""
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/taxonomy-portfolio-types.php:46
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/template-portfolio.php:58
 msgid "All"
-msgstr ""
+msgstr "Всі"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/back.php:629
 msgid "Typography"
-msgstr ""
+msgstr "Типографіка"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/back.php:630
 msgid "Boxes & Infographics"
@@ -1192,27 +1200,27 @@ msgstr ""
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:871
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:1381
 msgid "Other"
-msgstr ""
+msgstr "Інше"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/back.php:639
 msgid "Search Item"
-msgstr ""
+msgstr "Пошук елемента"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/back.php:671
 msgid "Export"
-msgstr ""
+msgstr "Експорт"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/back.php:672
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/back.php:682
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/options.php:584
 msgid "Import"
-msgstr ""
+msgstr "Імпорт"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/back.php:673
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/meta-template.php:18
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:898
 msgid "Templates"
-msgstr ""
+msgstr "Шаблони"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/back.php:677
 msgid "Copy to clipboard: Ctrl+C (Cmd+C for Mac)"
@@ -1241,7 +1249,7 @@ msgstr ""
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/back.php:1139
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/back.php:1190
 msgid "-- Select --"
-msgstr ""
+msgstr "-- Вибрати --"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/back.php:1077
 msgid "- Not Animated -"
@@ -1249,11 +1257,11 @@ msgstr ""
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/back.php:1078
 msgid "Fade In"
-msgstr ""
+msgstr "Виникнення"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/back.php:1079
 msgid "Fade In Up"
-msgstr ""
+msgstr "Зверху"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/back.php:1080
 msgid "Fade In Down "
@@ -1261,7 +1269,7 @@ msgstr ""
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/back.php:1081
 msgid "Fade In Left"
-msgstr ""
+msgstr "Fade In Ліво"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/back.php:1082
 msgid "Fade In Right "
@@ -1285,23 +1293,23 @@ msgstr ""
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/back.php:1087
 msgid "Zoom In"
-msgstr ""
+msgstr "Збільшити"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/back.php:1088
 msgid "Zoom In Up"
-msgstr ""
+msgstr "Zoom In Up"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/back.php:1089
 msgid "Zoom In Down"
-msgstr ""
+msgstr "Zoom In Down"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/back.php:1090
 msgid "Zoom In Left"
-msgstr ""
+msgstr "Zoom In Left"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/back.php:1091
 msgid "Zoom In Right"
-msgstr ""
+msgstr "Zoom In Right"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/back.php:1092
 msgid "Zoom In Up Large"
@@ -1317,23 +1325,23 @@ msgstr ""
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/back.php:1095
 msgid "Bounce In"
-msgstr ""
+msgstr "Відскочити Всередину"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/back.php:1096
 msgid "Bounce In Up"
-msgstr ""
+msgstr "Bounce In Вгору"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/back.php:1097
 msgid "Bounce In Down"
-msgstr ""
+msgstr "Bounce In Вниз"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/back.php:1098
 msgid "Bounce In Left"
-msgstr ""
+msgstr "Bounce In Ліво"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/back.php:1099
 msgid "Bounce In Right"
-msgstr ""
+msgstr "Bounce In Право"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:31
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:414
@@ -1434,7 +1442,7 @@ msgstr ""
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:5693
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:5734
 msgid "Title"
-msgstr ""
+msgstr "Заголовок"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:32
 msgid "This field is used as an Section Label in admin panel only"
@@ -1459,7 +1467,7 @@ msgstr ""
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:4881
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:4919
 msgid "Background"
-msgstr ""
+msgstr "Тло"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:47
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:256
@@ -1524,7 +1532,7 @@ msgstr ""
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/meta-portfolio.php:242
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/meta-post.php:123
 msgid "video"
-msgstr ""
+msgstr "видеозапис"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:87
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:6433
@@ -1563,7 +1571,7 @@ msgstr ""
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:3087
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:3284
 msgid "Layout"
-msgstr ""
+msgstr "Формат"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:103
 msgid "Padding | Top"
@@ -1585,7 +1593,7 @@ msgstr ""
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:2741
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:2751
 msgid "px"
-msgstr ""
+msgstr "px"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:112
 msgid "Padding | Bottom"
@@ -1625,7 +1633,7 @@ msgstr ""
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:2542
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:3127
 msgid "Options"
-msgstr ""
+msgstr "Опції"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:130
 msgid "Decoration SVG"
@@ -1640,7 +1648,7 @@ msgstr ""
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:3491
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:5174
 msgid "None"
-msgstr ""
+msgstr "Нема інформації"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:134
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:2361
@@ -1698,12 +1706,12 @@ msgstr ""
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/plugins/visual-composer.php:440
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:1733
 msgid "Navigation"
-msgstr ""
+msgstr "Навігація"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:165
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:2445
 msgid "Arrows"
-msgstr ""
+msgstr "Стрілки"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:174
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:349
@@ -1751,7 +1759,7 @@ msgstr ""
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:4943
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:5253
 msgid "Advanced"
-msgstr ""
+msgstr "Додатково"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:181
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:447
@@ -1807,7 +1815,7 @@ msgstr ""
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:2944
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:3356
 msgid "Style"
-msgstr ""
+msgstr "Стиль"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:182
 msgid "Predefined styles for section"
@@ -1824,7 +1832,7 @@ msgstr ""
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:186
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:1110
 msgid "Dark"
-msgstr ""
+msgstr "Темна"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:187
 msgid "Equal Height | items in wrap"
@@ -1838,14 +1846,14 @@ msgstr ""
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/meta-portfolio.php:352
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/meta-post.php:202
 msgid "Full Screen"
-msgstr ""
+msgstr "Повноекранний"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:190
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:1403
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:1923
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:2254
 msgid "Full Width"
-msgstr ""
+msgstr "Повна ширина"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:191
 msgid "Full Width | except mobile"
@@ -2001,7 +2009,7 @@ msgstr ""
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:1159
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:2958
 msgid "Padding"
-msgstr ""
+msgstr "Заповнення"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:304
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:1933
@@ -2016,11 +2024,11 @@ msgstr ""
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:320
 msgid "Margin Bottom"
-msgstr ""
+msgstr "Margin внизу"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:335
 msgid "Vertical Align"
-msgstr ""
+msgstr "Vertical Align"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:336
 msgid "Use with Section Style: <b>Equal Height of Wraps</b>"
@@ -2031,18 +2039,18 @@ msgstr ""
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:678
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:978
 msgid "Top"
-msgstr ""
+msgstr "Угорі"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:339
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:679
 msgid "Middle"
-msgstr ""
+msgstr "Середина"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:340
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:680
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:1002
 msgid "Bottom"
-msgstr ""
+msgstr "Унизу"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:357
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:459
@@ -2123,7 +2131,7 @@ msgstr ""
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:420
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:449
 msgid "Accordion"
-msgstr ""
+msgstr "Акордеон"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:421
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:2520
@@ -2195,7 +2203,7 @@ msgstr ""
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/plugins/visual-composer.php:2586
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/plugins/visual-composer.php:2870
 msgid "No"
-msgstr ""
+msgstr "Ні"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:432
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:816
@@ -2248,7 +2256,7 @@ msgstr ""
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/plugins/visual-composer.php:2587
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/plugins/visual-composer.php:2871
 msgid "Yes"
-msgstr ""
+msgstr "Так"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:440
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:2538
@@ -2262,7 +2270,7 @@ msgstr ""
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:450
 msgid "Toggle"
-msgstr ""
+msgstr "Спойлер"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:458
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:550
@@ -2332,7 +2340,7 @@ msgstr ""
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:469
 msgid "Article box"
-msgstr ""
+msgstr "Поле статті"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:477
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:1605
@@ -2370,13 +2378,13 @@ msgstr ""
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:1191
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:2976
 msgid "Image"
-msgstr ""
+msgstr "Зображення "
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:478
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/plugins/visual-composer.php:45
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:2674
 msgid "Featured Image"
-msgstr ""
+msgstr "Зображення запису"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:479
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:2570
@@ -2447,7 +2455,7 @@ msgstr ""
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:4335
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:4564
 msgid "Link"
-msgstr ""
+msgstr "Посилання"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:512
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:624
@@ -2573,7 +2581,7 @@ msgstr ""
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:6017
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:6369
 msgid "Animation"
-msgstr ""
+msgstr "Анімація"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:533
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:1534
@@ -2632,11 +2640,11 @@ msgstr ""
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:6380
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:5275
 msgid "Custom"
-msgstr ""
+msgstr "Користувацький"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:549
 msgid "Classes"
-msgstr ""
+msgstr "Класи"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:561
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/plugins/visual-composer.php:88
@@ -2682,7 +2690,7 @@ msgstr ""
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/plugins/visual-composer.php:1909
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:5026
 msgid "Blockquote"
-msgstr ""
+msgstr "Блок цитат"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:603
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:1476
@@ -2739,7 +2747,7 @@ msgstr ""
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:4987
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:5112
 msgid "Content"
-msgstr ""
+msgstr "Контент"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:604
 msgid "Blockquote content."
@@ -2763,7 +2771,7 @@ msgstr ""
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:5597
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:5615
 msgid "Blog"
-msgstr ""
+msgstr "Блоґ"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:655
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:917
@@ -2782,7 +2790,7 @@ msgstr ""
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/plugins/visual-composer.php:2292
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:2125
 msgid "Count"
-msgstr ""
+msgstr "Рахувати"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:656
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:918
@@ -2792,7 +2800,7 @@ msgstr ""
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/plugins/visual-composer.php:323
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/plugins/visual-composer.php:394
 msgid "Number of posts to show"
-msgstr ""
+msgstr "Кількість повідомлень для показу"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:665
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:4689
@@ -2808,12 +2816,12 @@ msgstr ""
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:1841
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:3361
 msgid "Classic"
-msgstr ""
+msgstr "Класичний"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:668
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:4692
 msgid "Grid"
-msgstr ""
+msgstr "Сітка"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:669
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:4693
@@ -2832,7 +2840,7 @@ msgstr ""
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:6278
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:6286
 msgid "Timeline"
-msgstr ""
+msgstr "Часова шкала"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:680
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:2674
@@ -2845,7 +2853,7 @@ msgstr ""
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:2134
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:2241
 msgid "Columns"
-msgstr ""
+msgstr "Колонки"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:681
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/plugins/visual-composer.php:196
@@ -2857,7 +2865,7 @@ msgstr ""
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:1932
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:2147
 msgid "Post Image"
-msgstr ""
+msgstr "Зображення запису"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:696
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:1933
@@ -2893,7 +2901,7 @@ msgstr ""
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/plugins/visual-composer.php:2824
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/plugins/visual-composer.php:2889
 msgid "Category"
-msgstr ""
+msgstr "Категорії"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:717
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:937
@@ -2969,7 +2977,7 @@ msgstr ""
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:1962
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:2281
 msgid "Order by"
-msgstr ""
+msgstr "Сортувати за"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:732
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:952
@@ -3018,7 +3026,7 @@ msgstr "Дата"
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:1967
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:2287
 msgid "Random"
-msgstr ""
+msgstr "Випадкова"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:744
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:964
@@ -3051,7 +3059,7 @@ msgstr ""
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:1975
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:2295
 msgid "Order"
-msgstr ""
+msgstr "Порядок"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:746
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:966
@@ -3070,7 +3078,7 @@ msgstr ""
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:1977
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:2297
 msgid "Ascending"
-msgstr ""
+msgstr "У порядку збільшення"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:747
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:967
@@ -3089,7 +3097,7 @@ msgstr ""
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:1978
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:2298
 msgid "Descending"
-msgstr ""
+msgstr "У порядку зменшення"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:764
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:4780
@@ -3114,7 +3122,7 @@ msgstr ""
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:2029
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:2356
 msgid "Filters"
-msgstr ""
+msgstr "Фільтр"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:773
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/plugins/visual-composer.php:247
@@ -3132,7 +3140,7 @@ msgstr ""
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:2031
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:2358
 msgid "Show"
-msgstr ""
+msgstr "Показати"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:777
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:2032
@@ -3161,7 +3169,7 @@ msgstr ""
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:5418
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:5427
 msgid "Pagination"
-msgstr ""
+msgstr "Нумерація сторінок"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:806
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/plugins/visual-composer.php:259
@@ -3194,7 +3202,7 @@ msgstr ""
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:5064
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/plugins/visual-composer.php:281
 msgid "Margin"
-msgstr ""
+msgstr "Зовнішній відступ"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:840
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/plugins/visual-composer.php:282
@@ -3203,7 +3211,7 @@ msgstr ""
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:852
 msgid "Plugins"
-msgstr ""
+msgstr "Плаґіни"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:859
 msgid "Include events"
@@ -3211,7 +3219,7 @@ msgstr ""
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:860
 msgid "The Events Calendar"
-msgstr ""
+msgstr "Календар подій"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:861
 msgid "This option works in <b>Category: All</b> and requires free <b>The Events Calendar</b> plugin"
@@ -3254,7 +3262,7 @@ msgstr ""
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:1758
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:3022
 msgid "Default"
-msgstr ""
+msgstr "Без обумовлення"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:910
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/plugins/visual-composer.php:315
@@ -3264,7 +3272,7 @@ msgstr ""
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:984
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/plugins/visual-composer.php:348
 msgid "Excerpt"
-msgstr ""
+msgstr "Витяг"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:988
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/plugins/visual-composer.php:353
@@ -3301,14 +3309,14 @@ msgstr ""
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:1111
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/plugins/visual-composer.php:419
 msgid "Show Read More button"
-msgstr ""
+msgstr "Показати \"Читати докладніше\" кнопку"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:1125
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:3701
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:4691
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:5822
 msgid "Flat"
-msgstr ""
+msgstr "Плоска"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:1135
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:5836
@@ -3325,7 +3333,7 @@ msgstr ""
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:1137
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/plugins/visual-composer.php:446
 msgid "Hide Navigation"
-msgstr ""
+msgstr "Сховати Шлях"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:1165
 msgid "Blog Teaser"
@@ -3355,13 +3363,13 @@ msgstr ""
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:4390
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:5717
 msgid "Button"
-msgstr ""
+msgstr "Кнопка"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:1323
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:3488
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:5625
 msgid "Align"
-msgstr ""
+msgstr "Вирівняти"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:1325
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:1352
@@ -3378,7 +3386,7 @@ msgstr ""
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:5628
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:1364
 msgid "Left"
-msgstr ""
+msgstr "Ліворуч"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:1326
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:1847
@@ -3392,7 +3400,7 @@ msgstr ""
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:1363
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:3023
 msgid "Center"
-msgstr ""
+msgstr "У центрі"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:1327
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:1353
@@ -3408,7 +3416,7 @@ msgstr ""
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:5629
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:1362
 msgid "Right"
-msgstr ""
+msgstr "Праворуч"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:1336
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:1343
@@ -3433,7 +3441,7 @@ msgstr ""
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:1373
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:2820
 msgid "Icon"
-msgstr ""
+msgstr "Іконка"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:1350
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:1890
@@ -3443,16 +3451,16 @@ msgstr ""
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:1198
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:2982
 msgid "Position"
-msgstr ""
+msgstr "Положення"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:1362
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:1878
 msgid "Color"
-msgstr ""
+msgstr "Колір"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:1375
 msgid "Font"
-msgstr ""
+msgstr "Шрифт"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:1390
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:1899
@@ -3463,19 +3471,19 @@ msgstr ""
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:1207
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:2991
 msgid "Size"
-msgstr ""
+msgstr "Розмір"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:1392
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:5186
 msgid "Small"
-msgstr ""
+msgstr "Малий"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:1394
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:3452
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:3690
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:5188
 msgid "Large"
-msgstr ""
+msgstr "Великий"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:1395
 msgid "Very Large"
@@ -3485,7 +3493,7 @@ msgstr ""
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:1526
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/plugins/visual-composer.php:515
 msgid "Class"
-msgstr ""
+msgstr "Клас"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:1423
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:1527
@@ -3508,7 +3516,7 @@ msgstr ""
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:1436
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/options.php:548
 msgid "Download"
-msgstr ""
+msgstr "Завантажити"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:1437
 msgid "Download file when clicking on the link"
@@ -3529,7 +3537,7 @@ msgstr ""
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:1455
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/plugins/visual-composer.php:456
 msgid "Call to Action"
-msgstr ""
+msgstr "Заклик до дії"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:1477
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:1992
@@ -3543,7 +3551,7 @@ msgstr ""
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:1483
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/plugins/visual-composer.php:488
 msgid "Button Title"
-msgstr ""
+msgstr "Напис на кнопці"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:1484
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/plugins/visual-composer.php:489
@@ -3554,12 +3562,12 @@ msgstr ""
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:1578
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/plugins/visual-composer.php:526
 msgid "Chart"
-msgstr ""
+msgstr "Діаграма"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:1585
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/plugins/visual-composer.php:541
 msgid "Percent"
-msgstr ""
+msgstr "Проценти"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:1586
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/plugins/visual-composer.php:542
@@ -3568,7 +3576,7 @@ msgstr ""
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:1592
 msgid "Label"
-msgstr ""
+msgstr "Мітка"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:1606
 msgid "Recommended image size: <b>70px x 70px</b>"
@@ -3600,7 +3608,7 @@ msgstr ""
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:4116
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:4627
 msgid "optional"
-msgstr ""
+msgstr "необов'язково"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:1651
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/meta-client.php:20
@@ -3608,7 +3616,7 @@ msgstr ""
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:717
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:893
 msgid "Clients"
-msgstr ""
+msgstr "Наші клієнти"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:1659
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/plugins/visual-composer.php:591
@@ -3640,11 +3648,11 @@ msgstr ""
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:6236
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:2285
 msgid "Menu order"
-msgstr ""
+msgstr "Нове замовлення"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:1704
 msgid "Tiles"
-msgstr ""
+msgstr "Блоки"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:1733
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/plugins/visual-composer.php:656
@@ -3654,11 +3662,11 @@ msgstr ""
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:1791
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/plugins/visual-composer.php:707
 msgid "Code"
-msgstr ""
+msgstr "Код"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:1818
 msgid "Column"
-msgstr ""
+msgstr "Стовпець"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:1827
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:2660
@@ -3677,7 +3685,7 @@ msgstr ""
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:4613
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/plugins/visual-composer.php:1995
 msgid "Text Align"
-msgstr ""
+msgstr "Розміщення тексту"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:1848
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:1862
@@ -3685,7 +3693,7 @@ msgstr ""
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:4119
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:4179
 msgid "Justify"
-msgstr ""
+msgstr "По ширині"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:1855
 msgid "Text Align | Mobile"
@@ -3742,7 +3750,7 @@ msgstr ""
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:4034
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/plugins/visual-composer.php:740
 msgid "Address"
-msgstr ""
+msgstr "Адреса"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:1998
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:4298
@@ -3752,12 +3760,12 @@ msgstr ""
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/plugins/visual-composer.php:1895
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:1506
 msgid "Phone"
-msgstr ""
+msgstr "Телефон"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:1999
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:1507
 msgid "Phone number"
-msgstr ""
+msgstr "Номер телефону"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:2006
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/plugins/visual-composer.php:755
@@ -3772,7 +3780,7 @@ msgstr ""
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:2014
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/plugins/visual-composer.php:762
 msgid "Fax"
-msgstr ""
+msgstr "Fax"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:2015
 msgid "Fax number"
@@ -3784,7 +3792,7 @@ msgstr ""
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/plugins/visual-composer.php:1682
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:1522
 msgid "Email"
-msgstr ""
+msgstr "Електронна пошта"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:2028
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:4053
@@ -3802,7 +3810,7 @@ msgstr ""
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/plugins/visual-composer.php:1467
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/plugins/visual-composer.php:1734
 msgid "Background Image"
-msgstr ""
+msgstr "Зображення фону"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:2061
 msgid "Content WP"
@@ -3821,7 +3829,7 @@ msgstr ""
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:5498
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:5507
 msgid "Countdown"
-msgstr ""
+msgstr "Зворотній відлік"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:2097
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/plugins/visual-composer.php:802
@@ -3860,12 +3868,12 @@ msgstr "дні"
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:2172
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/plugins/visual-composer.php:822
 msgid "Counter"
-msgstr ""
+msgstr "Лічильник"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:2187
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/plugins/visual-composer.php:838
 msgid "Icon Color"
-msgstr ""
+msgstr "Колір піктограми"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:2194
 msgid "If you upload an image, icon will not show"
@@ -3885,7 +3893,7 @@ msgstr ""
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/plugins/visual-composer.php:1298
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/plugins/visual-composer.php:2612
 msgid "Number"
-msgstr ""
+msgstr "Номер"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:2214
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:5609
@@ -3901,18 +3909,18 @@ msgstr ""
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:2233
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:6080
 msgid "Horizontal"
-msgstr ""
+msgstr "По горизонталі"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:2234
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:3854
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:4369
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:6082
 msgid "Vertical"
-msgstr ""
+msgstr "По вертикалі"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:2280
 msgid "Divider"
-msgstr ""
+msgstr "Розділювач"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:2288
 msgid "Divider height"
@@ -3920,7 +3928,7 @@ msgstr ""
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:2299
 msgid "Dots"
-msgstr ""
+msgstr "Точки"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:2300
 msgid "ZigZag"
@@ -3931,7 +3939,7 @@ msgstr ""
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:3194
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/plugins/visual-composer.php:1319
 msgid "Line"
-msgstr ""
+msgstr "Лінія"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:2308
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:2321
@@ -3940,12 +3948,12 @@ msgstr ""
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:2311
 msgid "Narrow"
-msgstr ""
+msgstr "Вузький"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:2312
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/meta-portfolio.php:365
 msgid "Wide"
-msgstr ""
+msgstr "Широкий"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:2313
 msgid "No Line"
@@ -3953,7 +3961,7 @@ msgstr ""
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:2320
 msgid "Theme Color"
-msgstr ""
+msgstr "Колір теми"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:2343
 msgid "Fancy Divider"
@@ -4025,7 +4033,7 @@ msgstr ""
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:2505
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:2519
 msgid "FAQ"
-msgstr ""
+msgstr "Часті питання"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:2528
 msgid "Open first tab at start"
@@ -4039,16 +4047,16 @@ msgstr ""
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:3037
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/plugins/visual-composer.php:1214
 msgid "Background color"
-msgstr ""
+msgstr "Колір фону"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:2605
 msgid "Image Link"
-msgstr ""
+msgstr "Посилання зображення"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:2651
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/plugins/visual-composer.php:962
 msgid "Feature List"
-msgstr ""
+msgstr "Особливий список"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:2667
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/plugins/visual-composer.php:980
@@ -4132,7 +4140,7 @@ msgstr ""
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:3009
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/plugins/visual-composer.php:1199
 msgid "Hover Color"
-msgstr ""
+msgstr "Колір при Наведенні"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:3044
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/plugins/visual-composer.php:1221
@@ -4144,7 +4152,7 @@ msgstr ""
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:4888
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:4926
 msgid "Border color"
-msgstr ""
+msgstr "Колір рамки"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:3058
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/plugins/visual-composer.php:1236
@@ -4154,7 +4162,7 @@ msgstr ""
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:3065
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:4950
 msgid "Border width"
-msgstr ""
+msgstr "Ширина рамки"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:3066
 msgid "default: 2px"
@@ -4201,12 +4209,12 @@ msgstr ""
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:3280
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/plugins/visual-composer.php:1353
 msgid "Icon Box"
-msgstr ""
+msgstr "Іконка з текстом"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:3340
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/plugins/visual-composer.php:1391
 msgid "Icon Position"
-msgstr ""
+msgstr "Позиції піктограми"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:3341
 msgid "Left position works only for column widths: 1/4, 1/3 & 1/2"
@@ -4221,7 +4229,7 @@ msgstr ""
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/plugins/visual-composer.php:2582
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:467
 msgid "Border"
-msgstr ""
+msgstr "Рамка"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:3353
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:5518
@@ -4242,13 +4250,13 @@ msgstr ""
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:3451
 msgid "Full size"
-msgstr ""
+msgstr "повний розмір"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:3453
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:3689
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:5187
 msgid "Medium"
-msgstr ""
+msgstr "Cередній"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:3454
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:3688
@@ -4257,7 +4265,7 @@ msgstr ""
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/meta-offer.php:146
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/meta-portfolio.php:74
 msgid "Thumbnail"
-msgstr ""
+msgstr "Мініатюри"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:3461
 msgid "Image | Width"
@@ -4278,7 +4286,7 @@ msgstr ""
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:3501
 msgid "Stretch"
-msgstr ""
+msgstr "Розтягнути"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:3502
 msgid "Stretch image to column width"
@@ -4313,17 +4321,17 @@ msgstr ""
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:5043
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:1292
 msgid "Open in new window"
-msgstr ""
+msgstr "Відкрити в новому вікні"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:3564
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:3839
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:5044
 msgid "Adds a target=\"_blank\" attribute to the link."
-msgstr ""
+msgstr "Додасть атрибут target=\"_blank\" для посилань."
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:3574
 msgid "Hover Effect"
-msgstr ""
+msgstr "Ефект наведення"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:3576
 msgid "- Default -"
@@ -4333,7 +4341,7 @@ msgstr ""
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:3962
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/plugins/visual-composer.php:1622
 msgid "Disable"
-msgstr ""
+msgstr "Відключити"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:3586
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:4291
@@ -4343,7 +4351,7 @@ msgstr ""
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/meta-slide.php:138
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/theme-mega-menu.php:237
 msgid "Description"
-msgstr ""
+msgstr "Докладно"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:3593
 msgid "Alternate Text"
@@ -4352,12 +4360,12 @@ msgstr ""
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:3599
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:478
 msgid "Caption"
-msgstr ""
+msgstr "Підпис"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:3654
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:3662
 msgid "Image Gallery"
-msgstr ""
+msgstr "Галерея зображень"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:3678
 msgid "min: <b>1</b>, max: <b>9</b>"
@@ -4365,26 +4373,26 @@ msgstr ""
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:3691
 msgid "Full Size"
-msgstr ""
+msgstr "Повний розмір"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:3702
 msgid "Fancy"
-msgstr ""
+msgstr "Маска"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:3703
 msgid "Masonry"
-msgstr ""
+msgstr "Плитка"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:3750
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/plugins/visual-composer.php:1444
 msgid "Info Box"
-msgstr ""
+msgstr "Інформаційне повідомлення"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:3798
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:4697
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/plugins/visual-composer.php:1477
 msgid "List"
-msgstr ""
+msgstr "Список"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:3850
 msgid "Only <strong>Vertical Style</strong> works for column widths 1/5 & 1/6"
@@ -4398,7 +4406,7 @@ msgstr ""
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:520
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:3268
 msgid "Transparent"
-msgstr ""
+msgstr "Прозорий"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:3855
 msgid "Ordered list"
@@ -4409,7 +4417,7 @@ msgstr ""
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/plugins/visual-composer.php:1546
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/plugins/visual-composer.php:1591
 msgid "Map"
-msgstr ""
+msgstr "Карта"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:3890
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/plugins/visual-composer.php:1554
@@ -4434,7 +4442,7 @@ msgstr ""
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/plugins/visual-composer.php:1570
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/plugins/visual-composer.php:1604
 msgid "Zoom"
-msgstr ""
+msgstr "Збільшити"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:3914
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:6476
@@ -4443,12 +4451,12 @@ msgstr ""
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:2701
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:2749
 msgid "Height"
-msgstr ""
+msgstr "Висота"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:3934
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/plugins/visual-composer.php:1592
 msgid "Satellite"
-msgstr ""
+msgstr "Супутник"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:3935
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/plugins/visual-composer.php:1593
@@ -4458,17 +4466,17 @@ msgstr ""
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:3936
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/plugins/visual-composer.php:1594
 msgid "Terrain"
-msgstr ""
+msgstr "Місцевість"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:3943
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/plugins/visual-composer.php:1601
 msgid "Controls"
-msgstr ""
+msgstr "Елементи управління"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:3946
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/plugins/visual-composer.php:1605
 msgid "Map Type"
-msgstr ""
+msgstr "Тип мапи"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:3947
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/plugins/visual-composer.php:1606
@@ -4503,12 +4511,12 @@ msgstr ""
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:3959
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/plugins/visual-composer.php:1618
 msgid "Draggable"
-msgstr ""
+msgstr "Доступний для перетягування"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:3961
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/plugins/visual-composer.php:1621
 msgid "Enable"
-msgstr ""
+msgstr "Включити"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:3963
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/plugins/visual-composer.php:1623
@@ -4521,7 +4529,7 @@ msgstr ""
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:3990
 msgid "Marker Icon"
-msgstr ""
+msgstr "Значок іконки"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:3991
 msgid ".png"
@@ -4533,7 +4541,7 @@ msgstr ""
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:4003
 msgid "Styles"
-msgstr ""
+msgstr "Стилі"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:4004
 msgid "Google Maps API styles array"
@@ -4560,7 +4568,7 @@ msgstr ""
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:4041
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/plugins/visual-composer.php:1675
 msgid "Telephone"
-msgstr ""
+msgstr "Телефон"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:4061
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/plugins/visual-composer.php:1699
@@ -4602,7 +4610,7 @@ msgstr ""
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:4207
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/plugins/visual-composer.php:1710
 msgid "Opening Hours"
-msgstr ""
+msgstr "Години роботи"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:4256
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/plugins/visual-composer.php:1744
@@ -4615,7 +4623,7 @@ msgstr ""
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/plugins/visual-composer.php:2605
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:5167
 msgid "Heading"
-msgstr ""
+msgstr "Заголовок"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:4270
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:4450
@@ -4624,7 +4632,7 @@ msgstr ""
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/plugins/visual-composer.php:1759
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/plugins/visual-composer.php:1873
 msgid "Photo"
-msgstr ""
+msgstr "Фото"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:4283
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:4463
@@ -4635,21 +4643,21 @@ msgstr ""
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:5701
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:5742
 msgid "Subtitle"
-msgstr ""
+msgstr "Підзаголовок"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:4312
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:4498
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/plugins/visual-composer.php:1795
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/plugins/visual-composer.php:1916
 msgid "E-mail"
-msgstr ""
+msgstr "Електронна пошта"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:4320
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:4506
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:343
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:4587
 msgid "Social"
-msgstr ""
+msgstr "Соціальні мережі"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:4327
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:4513
@@ -4657,7 +4665,7 @@ msgstr ""
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/plugins/visual-composer.php:1923
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:3555
 msgid "Facebook"
-msgstr ""
+msgstr "Facebook"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:4333
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:4519
@@ -4665,7 +4673,7 @@ msgstr ""
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/plugins/visual-composer.php:1930
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:3569
 msgid "Twitter"
-msgstr ""
+msgstr "Twitter"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:4339
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:4525
@@ -4673,7 +4681,7 @@ msgstr ""
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/plugins/visual-composer.php:1937
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:3597
 msgid "LinkedIn"
-msgstr ""
+msgstr "LinkedIn"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:4345
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:4531
@@ -4682,7 +4690,7 @@ msgstr ""
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:4368
 msgid "Circle"
-msgstr ""
+msgstr "Коло"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:4370
 msgid "Horizontal [only: 1/2]"
@@ -4716,7 +4724,7 @@ msgstr ""
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:5660
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:5669
 msgid "Portfolio"
-msgstr ""
+msgstr "Портфоліо"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:4694
 msgid "Masonry Hover Description"
@@ -4810,7 +4818,7 @@ msgstr ""
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:5184
 msgid "Image size"
-msgstr ""
+msgstr "Розмір зображення"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:5195
 msgid "Slides to scroll"
@@ -4828,7 +4836,7 @@ msgstr ""
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:5226
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/plugins/visual-composer.php:2358
 msgid "Pricing Item"
-msgstr ""
+msgstr "Ціна позиції"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:5241
 msgid "Pricing item title"
@@ -4838,12 +4846,12 @@ msgstr ""
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/plugins/visual-composer.php:2380
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/woocommerce/cart/cart.php:35
 msgid "Price"
-msgstr ""
+msgstr "Ціна"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:5254
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/plugins/visual-composer.php:2387
 msgid "Currency"
-msgstr ""
+msgstr "Валюта"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:5261
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/plugins/visual-composer.php:2394
@@ -4853,7 +4861,7 @@ msgstr ""
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:5271
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/plugins/visual-composer.php:2404
 msgid "Period"
-msgstr ""
+msgstr "Період"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:5311
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:5325
@@ -4876,11 +4884,11 @@ msgstr ""
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:5692
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/plugins/visual-composer.php:2463
 msgid "Featured"
-msgstr ""
+msgstr "Пов`язане"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:5363
 msgid "Box"
-msgstr ""
+msgstr "Коробка"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:5364
 msgid "Table Label"
@@ -4888,7 +4896,7 @@ msgstr ""
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:5365
 msgid "Table"
-msgstr ""
+msgstr "Таблиця"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:5401
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/plugins/visual-composer.php:2489
@@ -4914,7 +4922,7 @@ msgstr ""
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:5506
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/plugins/visual-composer.php:2571
 msgid "Image position"
-msgstr ""
+msgstr "Позиція зображення"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:5557
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:5588
@@ -4959,7 +4967,7 @@ msgstr ""
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:757
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:2590
 msgid "Slider"
-msgstr ""
+msgstr "Слайдер"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:5782
 msgid "Select the slides category"
@@ -5034,7 +5042,7 @@ msgstr ""
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:6037
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:6053
 msgid "Tabs"
-msgstr ""
+msgstr "Вкладки"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:6061
 msgid ""
@@ -5058,7 +5066,7 @@ msgstr ""
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:6089
 msgid "Content Padding"
-msgstr ""
+msgstr "Поліпшення вмісту"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:6090
 msgid "Leave empty to use defult padding"
@@ -5088,7 +5096,7 @@ msgstr ""
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:767
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:899
 msgid "Testimonials"
-msgstr ""
+msgstr "Рекомендації"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:6137
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:6227
@@ -5123,7 +5131,7 @@ msgstr ""
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:6288
 msgid "You can use Drag & Drop to set the order."
-msgstr ""
+msgstr "Можна використовувати Drag & Drop, щоб встановити порядок."
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:6306
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/plugins/visual-composer.php:2935
@@ -5132,7 +5140,7 @@ msgstr ""
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:6362
 msgid "Plain"
-msgstr ""
+msgstr "Простий"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:6370
 msgid ""
@@ -5141,7 +5149,7 @@ msgstr ""
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:6398
 msgid "Video"
-msgstr ""
+msgstr "Відео"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:6406
 msgid "YouTube or Vimeo | Video ID"
@@ -5152,7 +5160,7 @@ msgstr ""
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/meta-portfolio.php:231
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/meta-post.php:112
 msgid "YouTube or Vimeo"
-msgstr ""
+msgstr "YouTube або Vimeo"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:6408
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/meta-portfolio.php:232
@@ -5249,12 +5257,12 @@ msgstr ""
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:2691
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:2739
 msgid "Width"
-msgstr ""
+msgstr "Ширина"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:6497
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:6512
 msgid "Visual Editor"
-msgstr ""
+msgstr "Візуальний редактор"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/builder/fields.php:6532
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/plugins/visual-composer.php:2986
@@ -5310,18 +5318,18 @@ msgstr ""
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/importer/parsers.php:77
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/importer/parsers.php:85
 msgid "There was an error when reading this WXR file"
-msgstr ""
+msgstr "Під час читання цього файлу WXR сталася помилка"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/importer/parsers.php:45
 msgid "Details are shown above. The importer will now try again with a different parser..."
-msgstr ""
+msgstr "Деталі показані вище. Тепер імпортер спробує знову з іншим аналізатором ..."
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/importer/parsers.php:89
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/importer/parsers.php:94
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/importer/parsers.php:287
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/importer/parsers.php:479
 msgid "This does not appear to be a WXR file, missing/invalid WXR version number"
-msgstr ""
+msgstr "Скоріш за все, це не файл WXR; номер версії WXR відсутній або неправильний"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/importer/wordpress-importer.php:134
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/importer/wordpress-importer.php:143
@@ -5329,48 +5337,50 @@ msgstr ""
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/importer/wordpress-importer.php:198
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/importer/wordpress-importer.php:207
 msgid "Sorry, there has been an error."
-msgstr ""
+msgstr "На жаль, сталася помилка."
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/importer/wordpress-importer.php:135
 msgid "The file does not exist, please try again."
-msgstr ""
+msgstr "Файлу не існує, будь ласка, спробуйте ще раз."
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/importer/wordpress-importer.php:178
 msgid "All done."
-msgstr ""
+msgstr "Все зроблено."
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/importer/wordpress-importer.php:178
 msgid "Have fun!"
-msgstr ""
+msgstr "Удачі!"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/importer/wordpress-importer.php:179
 msgid "Remember to update the passwords and roles of imported users."
-msgstr ""
+msgstr "Не забудьте оновити паролі та ролі імпортованих користувачів."
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/importer/wordpress-importer.php:199
 #, php-format
 msgid "The export file could not be found at <code>%s</code>. It is likely that this was caused by a permissions problem."
-msgstr ""
+msgstr "Не вдалося знайти файл експорту в <code>% s</code>. Ймовірно, це пов’язано недостатніми правами доступу."
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/importer/wordpress-importer.php:215
 #, php-format
 msgid "This WXR file (version %s) may not be supported by this version of the importer. Please consider updating."
-msgstr ""
+msgstr "Цей файл WXR (version %s) може не підтримуватися цією версією імпортера. Будь ласка, розгляньте оновлення."
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/importer/wordpress-importer.php:240
 #, php-format
 msgid "Failed to import author %s. Their posts will be attributed to the current user."
-msgstr ""
+msgstr "Не вдалося імпортувати автора %s. Їх посади будуть віднесені до поточного користувача."
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/importer/wordpress-importer.php:266
 msgid "Assign Authors"
-msgstr ""
+msgstr "Призначити авторів"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/importer/wordpress-importer.php:267
 msgid ""
 "To make it easier for you to edit and save the imported content, you may want to reassign the author of the imported item "
 "to an existing user of this site. For example, you may want to import all the entries as <code>admin</code>s entries."
 msgstr ""
+"Щоб полегшити редагування та збереження імпортованого вмісту, можливо, ви захочете перепризначити автора імпортованого "
+"товару існуючому користувачеві цього сайту. Наприклад, ви можете імпортувати всі записи як записи <code> admin </code>."
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/importer/wordpress-importer.php:269
 #, php-format
@@ -5378,133 +5388,138 @@ msgid ""
 "If a new user is created by WordPress, a new password will be randomly generated and the new user&#8217;s role will be set "
 "as %s. Manually changing the new user&#8217;s details will be necessary."
 msgstr ""
+"Якщо новий користувач створюється WordPress, новий пароль буде створено випадковим чином, а роль нового користувача&#8217;"
+"s  буде встановлено як %s. Необхідно вручну змінити дані нового користувача&#8217;s."
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/importer/wordpress-importer.php:279
 msgid "Import Attachments"
-msgstr ""
+msgstr "Імпорт вкладень"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/importer/wordpress-importer.php:282
 msgid "Download and import file attachments"
-msgstr ""
+msgstr "Завантажте та імпортуйте вкладення файлів"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/importer/wordpress-importer.php:299
 msgid "Import author:"
-msgstr ""
+msgstr "Імпортувати автор:"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/importer/wordpress-importer.php:310
 msgid "or create new user with login name:"
-msgstr ""
+msgstr "або створити нового користувача з логіном:"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/importer/wordpress-importer.php:313
 msgid "as a new user:"
-msgstr ""
+msgstr "як новий користувач:"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/importer/wordpress-importer.php:321
 msgid "assign posts to an existing user:"
-msgstr ""
+msgstr "призначити повідомлення для існуючого користувача:"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/importer/wordpress-importer.php:323
 msgid "or assign posts to an existing user:"
-msgstr ""
+msgstr "або призначити публікації існуючому користувачу:"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/importer/wordpress-importer.php:324
 msgid "- Select -"
-msgstr ""
+msgstr "- Вибрати -"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/importer/wordpress-importer.php:374
 #, php-format
 msgid "Failed to create new user for %s. Their posts will be attributed to the current user."
-msgstr ""
+msgstr "Не вдалося створити нового користувача для %s. Їх посади будуть віднесені до поточного користувача."
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/importer/wordpress-importer.php:425
 #, php-format
 msgid "Failed to import category %s"
-msgstr ""
+msgstr "Не вдалося імпортувати категорію %s"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/importer/wordpress-importer.php:465
 #, php-format
 msgid "Failed to import post tag %s"
-msgstr ""
+msgstr "Не вдалося імпортувати тег допису %s"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/importer/wordpress-importer.php:511
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/importer/wordpress-importer.php:652
 #, php-format
 msgid "Failed to import %s %s"
-msgstr ""
+msgstr "Не вдалося імпортувати %s %s"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/importer/wordpress-importer.php:537
 #, php-format
 msgid "Failed to import &#8220;%s&#8221;: Invalid post type %s"
-msgstr ""
+msgstr "Не вдалося імпортувати &#8220;%s&#8221;: недійсний тип публікації %s"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/importer/wordpress-importer.php:559
 #, php-format
 msgid "%s &#8220;%s&#8221; already exists."
-msgstr ""
+msgstr "%s &#8220;%s&#8221; вже існує."
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/importer/wordpress-importer.php:618
 #, php-format
 msgid "Failed to import %s &#8220;%s&#8221;"
-msgstr ""
+msgstr "Не вдалося імпортувати %s &#8220;%s&#8221;"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/importer/wordpress-importer.php:783
 msgid "Menu item skipped due to missing menu slug"
-msgstr ""
+msgstr "Пункт меню пропущено через відсутність слагу меню"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/importer/wordpress-importer.php:790
 #, php-format
 msgid "Menu item skipped due to invalid menu slug: %s"
-msgstr ""
+msgstr "Пункт меню пропущено через неправильний слаг меню: %s"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/importer/wordpress-importer.php:853
 msgid "Fetching attachments is not enabled"
-msgstr ""
+msgstr "Завантаження вкладень не ввімкнено"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/importer/wordpress-importer.php:866
 msgid "Invalid file type"
-msgstr ""
+msgstr "Недійсний тип файлу"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/importer/wordpress-importer.php:910
 msgid "Remote server did not respond"
-msgstr ""
+msgstr "Віддалений сервер не відповідав"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/importer/wordpress-importer.php:916
 #, php-format
 msgid "Remote server returned error response %1$d %2$s"
-msgstr ""
+msgstr "Віддалений сервер повернув відповідь про помилку %1$d %2$s"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/importer/wordpress-importer.php:923
 msgid "Remote file is incorrect size"
-msgstr ""
+msgstr "Віддалений файл неправильний розмір"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/importer/wordpress-importer.php:928
 msgid "Zero size file downloaded"
-msgstr ""
+msgstr "Завантажено файл нульового розміру"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/importer/wordpress-importer.php:934
 #, php-format
 msgid "Remote file is too large, limit is %s"
-msgstr ""
+msgstr "Віддалений файл завеликий, обмеження %s"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/importer/wordpress-importer.php:1032
 msgid "Import WordPress"
-msgstr ""
+msgstr "Імпортувати WordPress"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/importer/wordpress-importer.php:1039
 #, php-format
 msgid ""
 "A new version of this importer is available. Please update to version %s to ensure compatibility with newer export files."
 msgstr ""
+"Доступна нова версія цього імпортера. Будь ласка, оновіть версію %s , щоб забезпечити сумісність із новими файлами експорту."
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/importer/wordpress-importer.php:1054
 msgid ""
 "Howdy! Upload your WordPress eXtended RSS (WXR) file and we&#8217;ll import the posts, pages, comments, custom fields, "
 "categories, and tags into this site."
 msgstr ""
+"Привіт! Завантажити свої WordPress RSS файл (WXR), і ми&#8217; будемо імпортувати записи, сторінки, коментарі, "
+"користувальницькі поля, категорії та теги на цей сайт."
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/importer/wordpress-importer.php:1055
 msgid "Choose a WXR (.xml) file to upload, then click Upload file and import."
-msgstr ""
+msgstr "Виберіть файл WXR (.xml) для завантаження, потім натисніть Завантажити файл та імпортуйте."
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/meta-client.php:21
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/meta-portfolio.php:263
@@ -5522,11 +5537,11 @@ msgstr "Клієнт"
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/meta-template.php:20
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/meta-testimonial.php:22
 msgid "Add New"
-msgstr ""
+msgstr "Додати"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/meta-client.php:23
 msgid "Add New Client"
-msgstr ""
+msgstr "Додати нового клієнта"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/meta-client.php:24
 msgid "Edit Client"
@@ -5538,7 +5553,7 @@ msgstr ""
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/meta-client.php:26
 msgid "View Clients"
-msgstr ""
+msgstr "Відобразити клієнтів"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/meta-client.php:27
 msgid "Search Clients"
@@ -5546,11 +5561,11 @@ msgstr ""
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/meta-client.php:28
 msgid "No clients found"
-msgstr ""
+msgstr "Клієнтів Не Знайдено"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/meta-client.php:29
 msgid "No clients found in Trash"
-msgstr ""
+msgstr "Клієнтів Не Знайдено в Кошику"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/meta-client.php:45
 msgid "Client categories"
@@ -5575,7 +5590,7 @@ msgstr "Категорії"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/meta-client.php:109
 msgid "Client Options"
-msgstr ""
+msgstr "Параметри клієнта"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/meta-client.php:118
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/meta-offer.php:115
@@ -5589,7 +5604,7 @@ msgstr ""
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/meta-slide.php:116
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/meta-testimonial.php:116
 msgid "recommended"
-msgstr ""
+msgstr "ркомендовано"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/meta-client.php:120
 msgid "150px x 75px"
@@ -5602,7 +5617,7 @@ msgstr ""
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/meta-layout.php:20
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:894
 msgid "Layouts"
-msgstr ""
+msgstr "Макети"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/meta-layout.php:23
 msgid "Add New Layout"
@@ -5610,7 +5625,7 @@ msgstr ""
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/meta-layout.php:24
 msgid "Edit Layout"
-msgstr ""
+msgstr "Редагувати макет"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/meta-layout.php:25
 msgid "New Layout"
@@ -5640,7 +5655,7 @@ msgstr ""
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/meta-layout.php:93
 msgid "Layout Options"
-msgstr ""
+msgstr "Опції шаблону"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/meta-layout.php:148
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/meta-layout.php:155
@@ -5651,11 +5666,11 @@ msgstr ""
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:3195
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:3220
 msgid "Logo"
-msgstr ""
+msgstr "Лого"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/meta-layout.php:161
 msgid "Retina"
-msgstr ""
+msgstr "Retina"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/meta-layout.php:162
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:579
@@ -5665,7 +5680,7 @@ msgstr ""
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/meta-layout.php:169
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:1091
 msgid "Sticky Header"
-msgstr ""
+msgstr "Липкий заголовок"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/meta-layout.php:171
 msgid "Use if you want different logo for Sticky Header"
@@ -5681,7 +5696,7 @@ msgstr ""
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/meta-layout.php:185
 msgid "Mobile"
-msgstr ""
+msgstr "Мобільний"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/meta-layout.php:186
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/meta-layout.php:202
@@ -5725,7 +5740,7 @@ msgstr ""
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:3246
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:3937
 msgid "Header"
-msgstr ""
+msgstr "Верхня частина"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/meta-layout.php:235
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:1047
@@ -5742,7 +5757,7 @@ msgstr ""
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:3042
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:3256
 msgid "Sticky"
-msgstr ""
+msgstr "Прикріплена"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/meta-layout.php:255
 msgid "Sticky | Style"
@@ -5751,12 +5766,12 @@ msgstr ""
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/meta-layout.php:267
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:355
 msgid "Colors"
-msgstr ""
+msgstr "Кольори"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/meta-layout.php:274
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:3886
 msgid "Skin"
-msgstr ""
+msgstr "Скін"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/meta-layout.php:275
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:3894
@@ -5788,19 +5803,19 @@ msgstr ""
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/meta-offer.php:23
 msgid "Add New Item"
-msgstr ""
+msgstr "Додати новий елемент"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/meta-offer.php:24
 msgid "Edit Item"
-msgstr ""
+msgstr "Редагувати елемент"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/meta-offer.php:25
 msgid "New Item"
-msgstr ""
+msgstr "Новий елемент"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/meta-offer.php:26
 msgid "View Item"
-msgstr ""
+msgstr "Переглянути запис"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/meta-offer.php:27
 msgid "Search Offer Items"
@@ -5828,11 +5843,11 @@ msgstr ""
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/meta-offer.php:124
 msgid "Button text"
-msgstr ""
+msgstr "Текст кнопки"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/meta-offer.php:132
 msgid "Button link"
-msgstr ""
+msgstr "Посилання кнопки"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/meta-offer.php:138
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/meta-slide.php:130
@@ -5845,7 +5860,7 @@ msgstr ""
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/meta-page.php:54
 msgid "Page Options"
-msgstr ""
+msgstr "Параметри сторінки"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/meta-page.php:72
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/meta-post.php:35
@@ -5880,7 +5895,7 @@ msgstr ""
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:1696
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:2579
 msgid "Sidebar"
-msgstr ""
+msgstr "Бічна панель"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/meta-page.php:97
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/meta-portfolio.php:179
@@ -5904,7 +5919,7 @@ msgstr ""
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/meta-portfolio.php:207
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/meta-post.php:88
 msgid "Media"
-msgstr ""
+msgstr "Медіафайли"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/meta-page.php:137
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:940
@@ -5998,7 +6013,7 @@ msgstr ""
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/meta-page.php:236
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:5784
 msgid "Custom CSS"
-msgstr ""
+msgstr "Користувацький код CSS"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/meta-page.php:243
 msgid "Custom | CSS"
@@ -6034,7 +6049,7 @@ msgstr ""
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/meta-portfolio.php:29
 msgid "No portfolio items found"
-msgstr ""
+msgstr "Елементи досьє не знайдено"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/meta-portfolio.php:30
 msgid "No portfolio items found in Trash"
@@ -6056,17 +6071,17 @@ msgstr ""
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/meta-post.php:75
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/meta-template.php:19
 msgid "Template"
-msgstr ""
+msgstr "Шаблон"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/meta-portfolio.php:196
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/meta-post.php:77
 msgid "Default Template"
-msgstr ""
+msgstr "Шаблон за замовчуванням"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/meta-portfolio.php:197
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/meta-post.php:78
 msgid "Builder"
-msgstr ""
+msgstr "Редактор"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/meta-portfolio.php:198
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/meta-post.php:79
@@ -6091,7 +6106,7 @@ msgstr ""
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/meta-portfolio.php:248
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/meta-post.php:129
 msgid "Header Image"
-msgstr ""
+msgstr "Зображення в заголовку"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/meta-portfolio.php:269
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/includes/content-portfolio.php:18
@@ -6143,7 +6158,7 @@ msgstr ""
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:110
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:3721
 msgid "Parallax"
-msgstr ""
+msgstr "Паралакс"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/meta-portfolio.php:354
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/meta-post.php:204
@@ -6164,11 +6179,11 @@ msgstr ""
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/meta-portfolio.php:367
 msgid "Big"
-msgstr ""
+msgstr "Пожуйшапка"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/meta-post.php:17
 msgid "Post Options"
-msgstr ""
+msgstr "Параметри публікації"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/meta-post.php:167
 msgid "Featured Image | Hide"
@@ -6180,7 +6195,7 @@ msgstr ""
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/meta-post.php:184
 msgid "External Link"
-msgstr ""
+msgstr "Зовнішнє посилання"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/meta-post.php:185
 msgid "for <b>Post Format: Link</b>"
@@ -6188,7 +6203,7 @@ msgstr ""
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/meta-post.php:191
 msgid "Background Color"
-msgstr ""
+msgstr "Колір тла"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/meta-post.php:192
 msgid "for <b>Blog Layout: Masonry Tiles</b> & <b>Template: Intro</b>"
@@ -6197,23 +6212,23 @@ msgstr ""
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/meta-slide.php:20
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:897
 msgid "Slides"
-msgstr ""
+msgstr "Слайди"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/meta-slide.php:21
 msgid "Slide"
-msgstr ""
+msgstr "Ковзання"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/meta-slide.php:23
 msgid "Add New Slide"
-msgstr ""
+msgstr "Додати слайд"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/meta-slide.php:24
 msgid "Edit Slide"
-msgstr ""
+msgstr "Редагувати слайд"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/meta-slide.php:25
 msgid "New Slide"
-msgstr ""
+msgstr "Новий Слайд"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/meta-slide.php:26
 msgid "View Slides"
@@ -6237,7 +6252,7 @@ msgstr ""
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/meta-slide.php:106
 msgid "Slide Options"
-msgstr ""
+msgstr "Параметри слайдів"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/meta-slide.php:117
 msgid "1630px x 860px"
@@ -6249,23 +6264,23 @@ msgstr ""
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/meta-template.php:21
 msgid "Add New Template"
-msgstr ""
+msgstr "Додати новий шаблон"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/meta-template.php:22
 msgid "Edit Template"
-msgstr ""
+msgstr "Редагувати Шаблон"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/meta-template.php:23
 msgid "New Template"
-msgstr ""
+msgstr "Новий шаблон"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/meta-template.php:24
 msgid "View Template"
-msgstr ""
+msgstr "Переглянути шаблон"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/meta-template.php:25
 msgid "Search Template"
-msgstr ""
+msgstr "Шукати шаблон"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/meta-template.php:26
 msgid "No templates found"
@@ -6281,19 +6296,19 @@ msgstr ""
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/meta-testimonial.php:21
 msgid "Testimonial"
-msgstr ""
+msgstr "Рекомендація"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/meta-testimonial.php:23
 msgid "Add New Testimonial"
-msgstr ""
+msgstr "Додати нову рекомендацію"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/meta-testimonial.php:24
 msgid "Edit Testimonial"
-msgstr ""
+msgstr "Редагувати рекомендацію"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/meta-testimonial.php:25
 msgid "New Testimonial"
-msgstr ""
+msgstr "Нова рекомендація"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/meta-testimonial.php:26
 msgid "View Testimonials"
@@ -6301,7 +6316,7 @@ msgstr ""
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/meta-testimonial.php:27
 msgid "Search Testimonials"
-msgstr ""
+msgstr "Шукати рекомендації"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/meta-testimonial.php:28
 msgid "No testimonials found"
@@ -6317,7 +6332,7 @@ msgstr ""
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/meta-testimonial.php:106
 msgid "Testimonial Options"
-msgstr ""
+msgstr "Варіанти відгуків"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/meta-testimonial.php:117
 msgid "85px x 85px"
@@ -6325,7 +6340,7 @@ msgstr ""
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/meta-testimonial.php:130
 msgid "Company"
-msgstr ""
+msgstr "Компанія"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/meta-testimonial.php:137
 msgid "Link to company page"
@@ -6508,7 +6523,7 @@ msgstr ""
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/plugins/visual-composer.php:1046
 msgid "Icon background"
-msgstr ""
+msgstr "Фон іконки"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/plugins/visual-composer.php:1047
 msgid "Leave this field blank to use Theme Background."
@@ -6560,7 +6575,7 @@ msgstr ""
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/plugins/visual-composer.php:1522
 msgid "Target"
-msgstr ""
+msgstr "Ціль"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/plugins/visual-composer.php:1555
 msgid "The map will appear only if this field is filled correctly. Example: -33.87"
@@ -6608,7 +6623,7 @@ msgstr ""
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/plugins/visual-composer.php:2342
 msgid "Navigation Arrows"
-msgstr ""
+msgstr "Стрілки навігації"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/plugins/visual-composer.php:2343
 msgid "Show Navigation Arrows"
@@ -6629,7 +6644,7 @@ msgstr ""
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:5443
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:5444
 msgid "Share"
-msgstr ""
+msgstr "Поділитися"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/theme-functions.php:736
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:5408
@@ -6649,7 +6664,7 @@ msgstr "Завантажити більше"
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/theme-functions.php:834
 #, php-format
 msgid "View all posts filed under %s"
-msgstr ""
+msgstr "Переглянути всі публікації про %s"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/theme-functions.php:961
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/header-shop.php:177
@@ -6663,7 +6678,7 @@ msgstr ""
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/theme-functions.php:2003
 msgid "comments"
-msgstr ""
+msgstr "коментарів"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/theme-functions.php:2004
 msgid "comments off"
@@ -6687,7 +6702,7 @@ msgstr ""
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/theme-mega-menu.php:194
 msgid "URL"
-msgstr ""
+msgstr "Посилання"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/theme-mega-menu.php:201
 msgid "Navigation Label"
@@ -6699,7 +6714,7 @@ msgstr ""
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/theme-mega-menu.php:214
 msgid "Open link in a new window/tab"
-msgstr ""
+msgstr "Відкривати посилання в новому вікні/вкладці"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/theme-mega-menu.php:219
 msgid "CSS Classes (optional)"
@@ -6711,7 +6726,7 @@ msgstr ""
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/theme-mega-menu.php:239
 msgid "The description will be displayed in the menu if the current theme supports it."
-msgstr ""
+msgstr "Опис буде відображено в меню, якщо поточна тема це підтримує."
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/theme-mega-menu.php:250
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:912
@@ -6733,11 +6748,11 @@ msgstr ""
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/theme-mega-menu.php:273
 msgid "Move"
-msgstr ""
+msgstr "Перемістити"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/theme-mega-menu.php:274
 msgid "Up one"
-msgstr ""
+msgstr "Вгору"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/theme-mega-menu.php:275
 msgid "Down one"
@@ -6745,7 +6760,7 @@ msgstr ""
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/theme-mega-menu.php:278
 msgid "To the top"
-msgstr ""
+msgstr "Нагору"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/theme-mega-menu.php:285
 #, php-format
@@ -6754,7 +6769,7 @@ msgstr ""
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/theme-mega-menu.php:298
 msgid "Remove"
-msgstr ""
+msgstr "Видалити"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/theme-menu.php:14
 msgid "Main Menu | depth 5 (Overlay | depth 1)"
@@ -6846,7 +6861,7 @@ msgstr "секунди"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/theme-woocommerce.php:136
 msgid "Your cart is currently empty."
-msgstr ""
+msgstr "Ваш кошик порожній."
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/widget-flickr.php:19
 msgid "Use this widget on pages to display photos from Flickr photostream."
@@ -6863,7 +6878,7 @@ msgstr ""
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/widget-recent-posts.php:143
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/widget-tag-cloud.php:93
 msgid "Title:"
-msgstr ""
+msgstr "Назва:"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/widget-flickr.php:80
 msgid "Flickr User ID:"
@@ -6875,7 +6890,7 @@ msgstr ""
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/widget-flickr.php:86
 msgid "Number of photos:"
-msgstr ""
+msgstr "Кількість фотографій:"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/widget-flickr.php:93
 msgid "Latest uploads"
@@ -6894,7 +6909,7 @@ msgstr ""
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:525
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:4517
 msgid "Footer"
-msgstr ""
+msgstr "Підвал"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/widget-functions.php:60
 msgid "Appears in the Footer section of the site."
@@ -6990,19 +7005,19 @@ msgstr ""
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/widget-login.php:73
 msgid "Logged in as "
-msgstr ""
+msgstr "Ви увійшли як "
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/widget-login.php:79
 msgid "Logout"
-msgstr ""
+msgstr "Вийти "
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/widget-login.php:95
 msgid "Register"
-msgstr ""
+msgstr "Реєстрація"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/widget-login.php:97
 msgid "Lost your password?"
-msgstr ""
+msgstr "Забули ваш пароль?"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/widget-login.php:141
 msgid "Show Remember Me checkbox"
@@ -7094,7 +7109,7 @@ msgstr ""
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/widget-recent-comments.php:93
 msgid "Number of comments:"
-msgstr ""
+msgstr "Кількість комментарів:"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/widget-recent-posts.php:19
 msgid "The most recent posts on your site."
@@ -7106,15 +7121,15 @@ msgstr ""
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/widget-recent-posts.php:148
 msgid "Number of posts:"
-msgstr ""
+msgstr "Кількість записів:"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/widget-recent-posts.php:153
 msgid "Category:"
-msgstr ""
+msgstr "Категорія:"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/widget-recent-posts.php:166
 msgid "Style:"
-msgstr ""
+msgstr "Стиль:"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/widget-tag-cloud.php:19
 msgid "Your most used tags in cloud format ."
@@ -7138,7 +7153,7 @@ msgstr ""
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/functions/widget-tag-cloud.php:121
 msgid "Order:"
-msgstr ""
+msgstr "Сортувати:"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/header.php:112
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:5390
@@ -7213,7 +7228,7 @@ msgstr ""
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/fields/font_select/field_font_select.php:26
 msgid "System"
-msgstr ""
+msgstr "Система"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/fields/font_select/field_font_select.php:34
 msgid "Custom (uploaded below)"
@@ -7222,7 +7237,7 @@ msgstr ""
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/fields/font_select/field_font_select.php:42
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:5043
 msgid "Google Fonts"
-msgstr ""
+msgstr "Google Fonts"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/fields/multi_text/field_multi_text.php:22
 msgid "Type sidebar title here"
@@ -7248,11 +7263,11 @@ msgstr ""
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/fields/typography/field_typography.php:55
 msgid "Font size"
-msgstr ""
+msgstr "Розмір шрифту"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/fields/typography/field_typography.php:68
 msgid "Line height"
-msgstr ""
+msgstr "Висота рядка"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/fields/typography/field_typography.php:81
 msgid "Font weight & style"
@@ -7260,20 +7275,20 @@ msgstr ""
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/fields/typography/field_typography.php:110
 msgid "Letter spacing"
-msgstr ""
+msgstr "Міжбуквений інтервал"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/fields/upload/field_upload.php:62
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/fields/upload_multi/field_upload_multi.php:62
 msgid "Browse"
-msgstr ""
+msgstr "Перегляньте"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/fields/upload/field_upload.php:63
 msgid "Remove Upload"
-msgstr ""
+msgstr "Видалити завантажене"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/fields/upload_multi/field_upload_multi.php:62
 msgid "Add Images"
-msgstr ""
+msgstr "Додати зображення"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/fields/upload_multi/field_upload_multi.php:63
 msgid "Remove All Uploads"
@@ -7292,15 +7307,15 @@ msgstr ""
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/options.php:530
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/options.php:610
 msgid "Save Changes"
-msgstr ""
+msgstr "Зберегти Зміни"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/options.php:537
 msgid "Import & Export"
-msgstr ""
+msgstr "Імпорт & Експорт"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/options.php:543
 msgid "Export Options"
-msgstr ""
+msgstr "Параметри Експорту"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/options.php:544
 msgid ""
@@ -7311,31 +7326,31 @@ msgstr ""
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/options.php:547
 msgid "Copy"
-msgstr ""
+msgstr "Копіювати"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/options.php:549
 msgid "Copy Link"
-msgstr ""
+msgstr "Скопіювати посилання"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/options.php:566
 msgid "Import Options"
-msgstr ""
+msgstr "Імпорт Параметрів"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/options.php:569
 msgid "Import from file"
-msgstr ""
+msgstr "Імпортувати з файлу"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/options.php:570
 msgid "Import from URL"
-msgstr ""
+msgstr "Імпортувати з URL"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/options.php:574
 msgid "Input your backup file below and hit Import to restore your sites options from a backup."
-msgstr ""
+msgstr "Введіть свій файл резервної копії нижче та натисніть Імпорт, щоб відновити параметри веб-сайтів із резервної копії."
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/options.php:579
 msgid "Input the URL to another sites options set and hit Import to load the options from that site."
-msgstr ""
+msgstr "Введіть URL іншим наборам параметрів сайту та натисніть Імпорт, щоб завантажити параметри з цього сайту."
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/options.php:585
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/options.php:596
@@ -7344,11 +7359,11 @@ msgstr ""
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/options.php:592
 msgid "Reset Options"
-msgstr ""
+msgstr "Скинути опції"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/options.php:595
 msgid "Reset to Defaults"
-msgstr ""
+msgstr "Скинути за замовченням"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/options.php:601
 msgid "Confirm reset ALL options"
@@ -7436,15 +7451,15 @@ msgstr ""
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:128
 msgid "Auto"
-msgstr ""
+msgstr "Авто"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:129
 msgid "Contain"
-msgstr ""
+msgstr "Містити"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:130
 msgid "Cover"
-msgstr ""
+msgstr "Накривати"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:131
 msgid "Cover, on ultrawide screens only > 1920px"
@@ -7460,11 +7475,11 @@ msgstr ""
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:148
 msgid "Blue"
-msgstr ""
+msgstr "Блакитний"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:149
 msgid "Brown"
-msgstr ""
+msgstr "Коричневий"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:150
 msgid "Chocolate"
@@ -7472,27 +7487,27 @@ msgstr ""
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:151
 msgid "Gold"
-msgstr ""
+msgstr "Золотий"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:152
 msgid "Green"
-msgstr ""
+msgstr "Зелений"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:153
 msgid "Olive"
-msgstr ""
+msgstr "Оливковий"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:154
 msgid "Orange"
-msgstr ""
+msgstr "Оранжевий"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:155
 msgid "Pink"
-msgstr ""
+msgstr "Рожевий"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:156
 msgid "Red"
-msgstr ""
+msgstr "Червоний"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:157
 msgid "Seagreen"
@@ -7500,11 +7515,11 @@ msgstr ""
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:158
 msgid "Violet"
-msgstr ""
+msgstr "Фіолетовий"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:159
 msgid "Yellow"
-msgstr ""
+msgstr "Жовтий"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:226
 msgid "-- Theme Options --"
@@ -7512,7 +7527,7 @@ msgstr ""
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:289
 msgid "Global"
-msgstr ""
+msgstr "Загальні"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:295
 msgid "Header & Subheader"
@@ -7526,7 +7541,7 @@ msgstr ""
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:1542
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:1549
 msgid "Sidebars"
-msgstr ""
+msgstr "Бічні колонки"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:313
 msgid "Blog, Portfolio & Shop"
@@ -7534,16 +7549,16 @@ msgstr ""
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:319
 msgid "Pages"
-msgstr ""
+msgstr "Сторінки"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:331
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:3076
 msgid "Responsive"
-msgstr ""
+msgstr "Aдаптивний"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:337
 msgid "SEO"
-msgstr ""
+msgstr "SEO"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:349
 msgid "Addons & Plugins"
@@ -7551,11 +7566,11 @@ msgstr ""
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:361
 msgid "Fonts"
-msgstr ""
+msgstr "Шрифти"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:367
 msgid "Translate"
-msgstr ""
+msgstr "Перекласти"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:373
 msgid "Custom CSS & JS"
@@ -7573,7 +7588,7 @@ msgstr ""
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:5105
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:5358
 msgid "General"
-msgstr ""
+msgstr "Загальне"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:411
 msgid "Grid width"
@@ -7606,7 +7621,7 @@ msgstr ""
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:458
 msgid "Overlay"
-msgstr ""
+msgstr "Наддрук"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:459
 msgid "Zoom | without icons"
@@ -7651,7 +7666,7 @@ msgstr ""
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:540
 msgid "Favicon"
-msgstr ""
+msgstr "Favicon"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:541
 msgid "<b>.ico</b> 32x32 pixels"
@@ -7659,7 +7674,7 @@ msgstr ""
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:547
 msgid "Apple Touch Icon"
-msgstr ""
+msgstr "Іконка Apple Touch"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:548
 msgid "<b>apple-touch-icon.png</b> 180x180 pixels"
@@ -7670,7 +7685,7 @@ msgstr ""
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:3203
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:3228
 msgid "Retina Logo"
-msgstr ""
+msgstr "Логотип Retina"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:587
 msgid "Sticky Header Logo"
@@ -7699,7 +7714,7 @@ msgstr ""
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:631
 msgid "Text Logo"
-msgstr ""
+msgstr "Текстовий логотип"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:633
 msgid "Use text <b>instead</b> of graphic logo"
@@ -7747,7 +7762,7 @@ msgstr ""
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:700
 msgid "Sliders"
-msgstr ""
+msgstr "Слайдери"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:708
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:718
@@ -7772,7 +7787,7 @@ msgstr ""
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:747
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:2483
 msgid "Shop"
-msgstr ""
+msgstr "Магазин"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:794
 msgid "Boxed Layout | Side padding"
@@ -7792,11 +7807,11 @@ msgstr ""
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:806
 msgid "Editor"
-msgstr ""
+msgstr "Редактор"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:807
 msgid "Administrator"
-msgstr ""
+msgstr "Адміністратор"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:808
 msgid "HIDE for Everyone"
@@ -7820,7 +7835,7 @@ msgstr ""
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:843
 msgid "Google Maps API Key"
-msgstr ""
+msgstr "Ключ Google Map API"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:845
 msgid ""
@@ -7936,7 +7951,7 @@ msgstr ""
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:958
 msgid "Table Prefix"
-msgstr ""
+msgstr "Префікс таблиць"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:959
 msgid ""
@@ -8018,13 +8033,13 @@ msgstr ""
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:1109
 msgid "White"
-msgstr ""
+msgstr "Білий"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:1120
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:2638
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:4007
 msgid "Subheader"
-msgstr ""
+msgstr "Підзаголовок"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:1136
 msgid "Title & Breadcrumbs Centered"
@@ -8049,13 +8064,13 @@ msgstr ""
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:1150
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:5400
 msgid "Breadcrumbs"
-msgstr ""
+msgstr "Навігаційний ланцюжок"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:1151
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:5003
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:5153
 msgid "Page Title"
-msgstr ""
+msgstr "Назва сторінки"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:1152
 msgid "<b>Subheader</b>"
@@ -8073,7 +8088,7 @@ msgstr ""
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:1168
 msgid "Title tag"
-msgstr ""
+msgstr "Тегі"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:1192
 msgid "Recommended image width: <b>1920px</b>"
@@ -8103,16 +8118,16 @@ msgstr ""
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:1248
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:3032
 msgid "Extras"
-msgstr ""
+msgstr "Додатково"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:1255
 msgid "Top Bar Right"
-msgstr ""
+msgstr "Верхня панель прямо"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:1270
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:3384
 msgid "Action Button"
-msgstr ""
+msgstr "Заклик до дії кнопка"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:1293
 msgid "Scroll to section (use #SectionID as Link)"
@@ -8123,7 +8138,7 @@ msgstr ""
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:3991
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:5727
 msgid "Search"
-msgstr ""
+msgstr "Пошук"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:1310
 msgid "Icon | Default"
@@ -8139,7 +8154,7 @@ msgstr ""
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:1321
 msgid "WPML"
-msgstr ""
+msgstr "WPML"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:1328
 msgid "Custom Switcher Style"
@@ -8180,7 +8195,7 @@ msgstr ""
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:1388
 msgid "Banner"
-msgstr ""
+msgstr "Банер"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:1389
 msgid "Header Magazine (468px x 60px) or Creative (250px x 250px) Banner code "
@@ -8194,7 +8209,7 @@ msgstr ""
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:4030
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:4039
 msgid "Menu"
-msgstr ""
+msgstr "Меню"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:1415
 msgid "For some header style only"
@@ -8230,7 +8245,7 @@ msgstr ""
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:1424
 msgid "Highlight"
-msgstr ""
+msgstr "Підсвітка"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:1425
 msgid "HIDE Menu"
@@ -8239,7 +8254,7 @@ msgstr ""
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:1435
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:3317
 msgid "Align Right"
-msgstr ""
+msgstr "Вирівняти по правому краю"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:1436
 msgid "Arrows for Items with Submenu"
@@ -8289,7 +8304,7 @@ msgstr ""
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:1523
 msgid "Email address"
-msgstr ""
+msgstr "Електронна пошта"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:1550
 msgid "Manage custom sidebars"
@@ -8317,7 +8332,7 @@ msgstr ""
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:1582
 msgid "Sidebar Width"
-msgstr ""
+msgstr "Ширина сайдбара"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:1583
 msgid "Hide Lines"
@@ -8423,7 +8438,7 @@ msgstr ""
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:1782
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:1840
 msgid "Simple"
-msgstr ""
+msgstr "Простий"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:1756
 msgid "Navigation | Sticky Arrows"
@@ -8504,7 +8519,7 @@ msgstr ""
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:1883
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:2213
 msgid "Posts per page"
-msgstr ""
+msgstr "Записів на сторінку"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:1884
 msgid "This is also number of posts on search page"
@@ -8562,15 +8577,15 @@ msgstr ""
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:1994
 msgid "Excerpt Length"
-msgstr ""
+msgstr "Довжина уривка"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:1995
 msgid "Number of words"
-msgstr ""
+msgstr "Кількість слів"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:2003
 msgid "Post Meta"
-msgstr ""
+msgstr "Meta публікації"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:2007
 msgid "Categories & Tags<span>for some Blog styles</span>"
@@ -8592,7 +8607,7 @@ msgstr ""
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:2054
 msgid "Single Post"
-msgstr ""
+msgstr "Окремий запис"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:2062
 msgid "Show Post Title"
@@ -8608,16 +8623,16 @@ msgstr ""
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:2079
 msgid "Author Box"
-msgstr ""
+msgstr "Блок Автора"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:2080
 msgid "Show Author Box"
-msgstr ""
+msgstr "Показати Вікно Автора"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:2089
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:2417
 msgid "Show Comments"
-msgstr ""
+msgstr "Показати коментарі"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:2098
 msgid "Custom layout for all single posts"
@@ -8699,7 +8714,7 @@ msgstr ""
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:2309
 msgid "Details"
-msgstr ""
+msgstr "Деталі"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:2310
 msgid "Popup Image"
@@ -8820,7 +8835,7 @@ msgstr ""
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:2549
 msgid "Images"
-msgstr ""
+msgstr "Картинки"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:2552
 msgid "Show secondary image on hover"
@@ -8874,7 +8889,7 @@ msgstr ""
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:2601
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:2603
 msgid "Sold out"
-msgstr ""
+msgstr "Продано"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:2602
 msgid "Sold out label"
@@ -8882,7 +8897,7 @@ msgstr ""
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:2612
 msgid "Single Product"
-msgstr ""
+msgstr "Окремий товар"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:2620
 msgid ""
@@ -8909,7 +8924,7 @@ msgstr ""
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:2626
 msgid "Modern"
-msgstr ""
+msgstr "Сучасний"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:2634
 msgid "Show Product Title in"
@@ -8951,7 +8966,7 @@ msgstr ""
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:2711
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:2759
 msgid "Crop"
-msgstr ""
+msgstr "Обітнути"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:2712
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:2760
@@ -9027,7 +9042,7 @@ msgstr ""
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:2840
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:2847
 msgid "Under Construction"
-msgstr ""
+msgstr "Будується"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:2848
 msgid "Under Construction page will be visible for all NOT logged in users."
@@ -9036,7 +9051,7 @@ msgstr ""
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:2863
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:5709
 msgid "Text"
-msgstr ""
+msgstr "Текст"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:2869
 msgid "Launch Date"
@@ -9086,11 +9101,11 @@ msgstr ""
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:3007
 msgid "Call To Action"
-msgstr ""
+msgstr "Заклик до дії"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:3013
 msgid "Copyright"
-msgstr ""
+msgstr "Авторські права"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:3014
 msgid "Leave this field blank to show a default copyright"
@@ -9182,7 +9197,7 @@ msgstr ""
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:3144
 msgid "Hover Effects"
-msgstr ""
+msgstr "Ефект наведення"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:3146
 msgid "Always Enabled"
@@ -9258,7 +9273,7 @@ msgstr ""
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:3266
 msgid "Minimal"
-msgstr ""
+msgstr "Мінімально"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:3267
 msgid "Sticky<span>works only with Sticky Header: ON</span>"
@@ -9275,12 +9290,12 @@ msgstr ""
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:3304
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:3953
 msgid "Top Bar"
-msgstr ""
+msgstr "Верхня панель"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:3311
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:3385
 msgid "Icons"
-msgstr ""
+msgstr "Значки"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:3313
 msgid "<b>Align</b> works only for <b>Default Header</b> for Minimal Header please use Style select above"
@@ -9288,11 +9303,11 @@ msgstr ""
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:3315
 msgid "Align Center"
-msgstr ""
+msgstr "Вирівняти по центру"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:3316
 msgid "Align Left"
-msgstr ""
+msgstr "Вирівняти по лівому краю"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:3318
 msgid "HIDE Icons & Action Button"
@@ -9350,7 +9365,7 @@ msgstr ""
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:3386
 msgid "Social Icons"
-msgstr ""
+msgstr "Іконки соціальних мереж"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:3395
 msgid "Menu | Button"
@@ -9370,7 +9385,7 @@ msgstr ""
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:3433
 msgid "Google"
-msgstr ""
+msgstr "Google"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:3440
 msgid "Google | Analytics"
@@ -9433,7 +9448,7 @@ msgstr ""
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:3512
 msgid "Schema Type"
-msgstr ""
+msgstr "Тип схеми"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:3513
 msgid "Add Schema Type to &lt;html&gt; tag"
@@ -9449,7 +9464,7 @@ msgstr ""
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:3541
 msgid "Skype"
-msgstr ""
+msgstr "Skype"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:3542
 msgid "Skype login. You can use <strong>callto:</strong> or <strong>skype:</strong> prefix"
@@ -9488,35 +9503,35 @@ msgstr ""
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:3576
 msgid "Vimeo"
-msgstr ""
+msgstr "Vimeo"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:3583
 msgid "YouTube"
-msgstr ""
+msgstr "YouTube"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:3590
 msgid "Flickr"
-msgstr ""
+msgstr "Flickr"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:3604
 msgid "Pinterest"
-msgstr ""
+msgstr "Pinterest"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:3611
 msgid "Dribbble"
-msgstr ""
+msgstr "Dribbble"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:3618
 msgid "Instagram"
-msgstr ""
+msgstr "Instagram"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:3625
 msgid "Behance"
-msgstr ""
+msgstr "Behance"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:3632
 msgid "Tumblr"
-msgstr ""
+msgstr "Tumblr"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:3639
 msgid "TripAdvisor"
@@ -9524,7 +9539,7 @@ msgstr ""
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:3646
 msgid "VKontakte"
-msgstr ""
+msgstr "Вконтакте"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:3653
 msgid "Viadeo"
@@ -9548,7 +9563,7 @@ msgstr ""
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:3680
 msgid "RSS"
-msgstr ""
+msgstr "RSS"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:3681
 msgid "Show the RSS icon"
@@ -9557,11 +9572,11 @@ msgstr ""
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:3693
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:3797
 msgid "Addons"
-msgstr ""
+msgstr "Додатки"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:3702
 msgid "Contact Form 7"
-msgstr ""
+msgstr "Контактний формуляр 7"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:3709
 msgid "Contact Form 7 | Form Error"
@@ -9597,7 +9612,7 @@ msgstr ""
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:3742
 msgid "Scroll"
-msgstr ""
+msgstr "Прокручування"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:3749
 msgid "Scroll | Plugin"
@@ -9609,7 +9624,7 @@ msgstr ""
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:3752
 msgid "Smooth Scroll"
-msgstr ""
+msgstr "М`який скрол"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:3753
 msgid "Default Browser Scroll"
@@ -9629,7 +9644,7 @@ msgstr ""
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:3773
 msgid "Lightbox"
-msgstr ""
+msgstr "Лайтбокс"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:3784
 msgid "Lightbox | Options"
@@ -9691,7 +9706,7 @@ msgstr ""
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:3844
 msgid "Revolution Slider"
-msgstr ""
+msgstr "Revolution Slider"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:3846
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:3856
@@ -9707,11 +9722,11 @@ msgstr ""
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:3854
 msgid "Layer Slider"
-msgstr ""
+msgstr "Багаторівневий слайдер"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:3864
 msgid "Visual Composer"
-msgstr ""
+msgstr "WPBakery Візуальний Композитор"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:3893
 msgid "Theme Skin"
@@ -9731,7 +9746,7 @@ msgstr ""
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:3920
 msgid "Body background"
-msgstr ""
+msgstr "Тіло сторінки"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:3921
 msgid "for <strong>Boxed Layout</strong>"
@@ -9767,13 +9782,13 @@ msgstr ""
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:4021
 msgid "Title color"
-msgstr ""
+msgstr "Колір заголовку"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:4046
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:4085
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:4176
 msgid "Link color"
-msgstr ""
+msgstr "Колір посилання"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:4053
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:4184
@@ -9794,7 +9809,7 @@ msgstr ""
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:4071
 msgid "Submenu"
-msgstr ""
+msgstr "Підменю"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:4092
 msgid "Hover Link color"
@@ -9807,12 +9822,12 @@ msgstr ""
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:4108
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:4619
 msgid "Button color"
-msgstr ""
+msgstr "Колір кнопки"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:4115
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:4626
 msgid "Button background"
-msgstr ""
+msgstr "Фоновий колір кнопки"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:4125
 msgid "Styles<span>for specific header styles</span>"
@@ -9855,7 +9870,7 @@ msgstr ""
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:4874
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:4912
 msgid "Text color"
-msgstr ""
+msgstr "Колір Тексту"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:4224
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:4277
@@ -10070,7 +10085,7 @@ msgstr ""
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:4612
 msgid "Back to Top"
-msgstr ""
+msgstr "Нагору."
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:4643
 msgid "Sliding Top Theme color"
@@ -10106,7 +10121,7 @@ msgstr ""
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:4697
 msgid "Headings"
-msgstr ""
+msgstr "Заголовки"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:4704
 msgid "Heading H1 color"
@@ -10134,7 +10149,7 @@ msgstr ""
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:4748
 msgid "Shortcodes"
-msgstr ""
+msgstr "Шорткоди"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:4755
 msgid "Accordion & Tabs Active Title color"
@@ -10142,7 +10157,7 @@ msgstr ""
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:4762
 msgid "Blockquote color"
-msgstr ""
+msgstr "Цитата колір"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:4769
 msgid "Content Link | Icon color"
@@ -10206,7 +10221,7 @@ msgstr ""
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:4858
 msgid "Forms"
-msgstr ""
+msgstr "форми"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:4867
 msgid "Input, Select & Textarea"
@@ -10219,7 +10234,7 @@ msgstr ""
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:4905
 msgid "Focus"
-msgstr ""
+msgstr "Фокус"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:4951
 msgid "default: 1px"
@@ -10235,11 +10250,11 @@ msgstr ""
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:4973
 msgid "Family"
-msgstr ""
+msgstr "Шрифтова сім'я"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:4980
 msgid "Font Family"
-msgstr ""
+msgstr "Сімейство шрифтів"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:4988
 msgid "All theme texts except headings and menu"
@@ -10248,11 +10263,11 @@ msgstr ""
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:4995
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:5139
 msgid "Main Menu"
-msgstr ""
+msgstr "Головне меню"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:4996
 msgid "Header menu"
-msgstr ""
+msgstr "Меню у шапці"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:5010
 msgid "Big Headings"
@@ -10411,27 +10426,27 @@ msgstr ""
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:5174
 msgid "H1"
-msgstr ""
+msgstr "H1"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:5187
 msgid "H2"
-msgstr ""
+msgstr "H2"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:5200
 msgid "H3"
-msgstr ""
+msgstr "H3"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:5213
 msgid "H4"
-msgstr ""
+msgstr "H4"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:5226
 msgid "H5"
-msgstr ""
+msgstr "H5"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:5239
 msgid "H6"
-msgstr ""
+msgstr "H6"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:5260
 msgid "Single Post | Intro"
@@ -10510,7 +10525,7 @@ msgstr ""
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:5382
 msgid "Search Form"
-msgstr ""
+msgstr "Форма пошуку"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:5436
 msgid "WPML Languages Menu"
@@ -10523,12 +10538,12 @@ msgstr ""
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:5461
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/style.php:722
 msgid "Before"
-msgstr ""
+msgstr "До"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:5470
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/style.php:723
 msgid "After"
-msgstr ""
+msgstr "Після"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:5479
 msgid "Days"
@@ -10588,7 +10603,7 @@ msgstr ""
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:5778
 msgid "CSS"
-msgstr ""
+msgstr "CSS"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:5785
 msgid "Paste your custom CSS code here"
@@ -10600,7 +10615,7 @@ msgstr ""
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:5800
 msgid "Custom JS"
-msgstr ""
+msgstr "Користувальницький JS"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/theme-options.php:5801
 msgid "Paste your custom JS code here"
@@ -10612,27 +10627,27 @@ msgstr ""
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/validation/color/validation_color.php:10
 msgid "This field must be a valid color value."
-msgstr ""
+msgstr "Це поле має бути дійсним значенням кольору."
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/validation/email/validation_email.php:15
 msgid "You must provide a valid email for this option."
-msgstr ""
+msgstr "Ви повинні надати дійсний електронний лист для цієї опції."
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/validation/no_html/validation_no_html.php:15
 msgid "You must not enter any HTML in this field, all HTML tags have been removed."
-msgstr ""
+msgstr "У цьому полі ви не повинні вводити жодного HTML-коду, усі теги HTML були вилучені."
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/validation/no_special_chars/validation_no_special_chars.php:15
 msgid "You must not enter any special characters in this field, all special characters have been removed."
-msgstr ""
+msgstr "Ви не повинні вводити спеціальні символи в цьому полі, всі спеціальні символи були вилучені."
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/validation/numeric/validation_numeric.php:15
 msgid "You must provide a numerical value for this option."
-msgstr ""
+msgstr "Ви повинні вказати числові значення для цієї опції."
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/muffin-options/validation/url/validation_url.php:15
 msgid "You must provide a valid URL for this option."
-msgstr ""
+msgstr "Ви повинні вказати дійсну URL для цього параметра."
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/template-archives.php:29
 msgid "Available Pages"
@@ -10652,76 +10667,76 @@ msgstr ""
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/vc_templates/vc_accordion_tab.php:13
 msgid "Empty section. Edit page to add content here."
-msgstr ""
+msgstr "Порожній розділ. Редагуйте сторінку, щоб додати контент тут."
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/vc_templates/vc_toggle.php:4
 msgid "Click to toggle"
-msgstr ""
+msgstr "Натисніть для зміни"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/woocommerce/cart/cart.php:34
 msgid "Product"
-msgstr ""
+msgstr "Товар"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/woocommerce/cart/cart.php:36
 msgid "Quantity"
-msgstr ""
+msgstr "Кількість"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/woocommerce/cart/cart.php:37
 msgid "Total"
-msgstr ""
+msgstr "Загалом"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/woocommerce/cart/cart.php:82
 msgid "Available on backorder"
-msgstr ""
+msgstr "Доступний для повернення"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/woocommerce/cart/cart.php:128
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/woocommerce/cart/mini-cart.php:55
 msgid "Remove this item"
-msgstr ""
+msgstr "Видалити цю позицію"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/woocommerce/cart/cart.php:148
 msgid "Coupon:"
-msgstr ""
+msgstr "Купон:"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/woocommerce/cart/cart.php:153
 msgid "Update cart"
-msgstr ""
+msgstr "Оновити кошик"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/woocommerce/cart/mini-cart.php:97
 msgid "Subtotal"
-msgstr ""
+msgstr "Попередній підсумок"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/woocommerce/cart/mini-cart.php:98
 msgid "View Cart"
-msgstr ""
+msgstr "Показати кошик"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/woocommerce/cart/mini-cart.php:104
 msgid "Checkout"
-msgstr ""
+msgstr "Оформлення замовлення"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/woocommerce/cart/mini-cart.php:109
 msgid "No products in the cart."
-msgstr ""
+msgstr "Немає товарів у кошику."
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/woocommerce/loop/no-products-found.php:26
 msgid "No products were found matching your selection."
-msgstr ""
+msgstr "Товарів, відповідних вашому запиту, не знайдено."
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/woocommerce/single-product/product-image.php:92
 msgid "Placeholder"
-msgstr ""
+msgstr "Заповнювач"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/woocommerce/single-product/product-image.php:115
 msgid "Awaiting product image"
-msgstr ""
+msgstr "Зображення товару очікується"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/woocommerce/single-product/tabs/additional-information.php:25
 msgid "Additional information"
-msgstr ""
+msgstr "Додаткова інформація"
 
 #: /Applications/XAMPP/xamppfiles/htdocs/betheme/woocommerce/single-product/tabs/description.php:25
 msgid "Product Description"
-msgstr ""
+msgstr "Опис продукту"
 
 #~ msgid "Page %s"
 #~ msgstr "Сторінка %s"

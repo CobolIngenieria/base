@@ -4,15 +4,14 @@
  *
  * @package Betheme
  * @author Muffin group
- * @link http://muffingroup.com
+ * @link https://muffingroup.com
  */
-
 
 define( 'THEME_DIR', get_template_directory() );
 define( 'THEME_URI', get_template_directory_uri() );
 
 define( 'THEME_NAME', 'betheme' );
-define( 'THEME_VERSION', '20.9.6.1' );
+define( 'THEME_VERSION', '20.9.9' );
 
 define( 'LIBS_DIR', THEME_DIR. '/functions' );
 define( 'LIBS_URI', THEME_URI. '/functions' );
@@ -192,8 +191,6 @@ if( is_admin() ){
 	require_once LIBS_DIR .'/admin/class-mfn-changelog.php';
 }
 
-
-//* Cambia el logo de la página inicio de sesión de WordPress
 function custom_logo() { ?>
  <style type="text/css">
  body.login div#login h1 a {

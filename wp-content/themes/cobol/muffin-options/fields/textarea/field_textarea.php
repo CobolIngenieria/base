@@ -110,7 +110,7 @@ class MFN_Options_textarea extends MFN_Options{
 				* @since 20.9.5.2
 				*/
 			if( $this->field['id'] == 'mfn-items[feature_list][content][]' ){
-				$this->value = htmlspecialchars( $this->value, ENT_QUOTES );
+				// $this->value = htmlspecialchars( $this->value, ENT_QUOTES );
 			}
 
 			echo '<textarea '. $name .' class="'. $class_field .'" rows="8">'. esc_attr( $this->value ) .'</textarea>';

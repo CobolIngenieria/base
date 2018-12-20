@@ -17,13 +17,15 @@
 
 /* Global */
 
+.edit-post-layout__metaboxes:not(:empty) .edit-post-meta-boxes-area{margin:0}
+
 #mfn-builder{min-width:470px;position:relative;padding-bottom:15px;border-bottom:1px solid #E5E5E5}
 #mfn-desk{display:block;position:relative}
 
 .mfn-placeholder{margin:0 0 25px!important;padding:0!important;left:0!important;height:79px;float:left;background-color:#fff;border:1px solid #e5e5e5;box-sizing:border-box}
 .mfn-helper{position:absolute;z-index:10;width:auto!important;height:auto!important;padding:15px 30px;background:#dce7f7;border:1px solid #e5e5e5}
 
-#mfn-go-to-top{display:block;width:50px;height:50px;position:fixed;bottom:0;right:0;z-index:2;background:#34495e;color:#fff!important}
+#mfn-go-to-top{display:block;width:50px;height:50px;position:fixed;bottom:0;right:0;z-index:999;background:#34495e;color:#fff!important}
 #mfn-go-to-top:before{line-height:50px}
 #mfn-go-to-top:hover{background-color:#2f4052}
 
@@ -47,7 +49,7 @@
 
 body.mfn-popup-open{overflow:hidden}
 
-.mfn-popup{display:none;position:fixed;left:0;top:0;width:100%;height:100%;background:rgba(0,0,0,.7);z-index:9991}
+.mfn-popup{display:none;box-sizing:content-box;position:fixed;left:0;top:0;width:100%;height:100%;background:rgba(0,0,0,.7);z-index:9991}
 .mfn-popup-inside{position:fixed;left:50%;top:50%;width:1205px;height:656px;margin-left:-602px;margin-top:-328px;z-index:9992;background:#fff}
 
 @media only screen and (max-width:1239px) {
@@ -297,7 +299,11 @@ li.mfn-item-content .mfn-item-icon,.mfn-item.mfn-item-content .mfn-item-icon{bac
 
 #mfn-wrapper .mfn-message{border-left:3px solid transparent;margin:20px 0;padding:20px;font-size:15px;line-height:21px;font-weight:300}
 #mfn-wrapper .mfn-message a{box-shadow:0 0 0 0 transparent}
+#mfn-wrapper .mfn-message span{font-weight:500}
+#mfn-wrapper .mfn-message.first{margin-top:0}
 #mfn-wrapper .mfn-message.info{background:#dce7f7;border-left-color:#b9cbe4}
+#mfn-wrapper .mfn-message.plugin{background:#34495e;color:#fff}
+#mfn-wrapper .mfn-message.plugin a{color:#fff}
 #mfn-wrapper .mfn-message.mfn-error{background:#fce6e6;border-left-color:#fb5455!important}
 #mfn-wrapper .mfn-message.mfn-error a{color:#bc2b2c}
 #mfn-wrapper .mfn-message.mfn-success{background:#F9FFF0;border-left-color:#8FC944}

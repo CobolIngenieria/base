@@ -1,14 +1,12 @@
 function MfnUpload(){
 	(function($) {
 
-		jQuery( 'img[src=""]' ).attr( 'src', mfn_upload.url );
-
-		jQuery( '.mfn-opts-upload' ).click( function( event ) {   
+		jQuery( '.mfn-opts-upload' ).click( function( event ) {
         	event.preventDefault();
-        	
+
         	var activeFileUploadContext = jQuery( this ).parent();
         	var type = jQuery( 'input', activeFileUploadContext ).attr( 'class' );
-        	
+
         	custom_file_frame = null;
 
             // Create the media frame.
@@ -41,9 +39,9 @@ function MfnUpload(){
 
 	    jQuery( '.mfn-opts-upload-remove' ).click( function( event ) {
 	    	event.preventDefault();
-	    	
+
 	        var activeFileUploadContext = jQuery( this ).parent();
-	
+
 	        jQuery( 'input', activeFileUploadContext ).val('');
 	        jQuery( this ).prev().fadeIn( 'slow' );
 	        jQuery( '.mfn-opts-screenshot', activeFileUploadContext ).fadeOut( 'slow' );
@@ -52,7 +50,7 @@ function MfnUpload(){
 
 	})(jQuery);
 }
-	
+
 jQuery(document).ready(function($){
 	var mfn_upload = new MfnUpload();
 });

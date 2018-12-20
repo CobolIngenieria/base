@@ -185,6 +185,7 @@ class MFN_Options_icon extends MFN_Options{
 		'icon-help-circled',
 		'icon-home',
 		'icon-hourglass',
+		'icon-houzz',
 		'icon-html5',
 		'icon-ie',
 		'icon-inbox',

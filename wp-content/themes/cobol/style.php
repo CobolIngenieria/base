@@ -61,117 +61,25 @@ blockquote {
 /* ============================================================================================================================ */
 
 <?php
-	$defaults = array(
-		'content' => array(
-			'size' 				=> 14,
-			'line_height' 		=> 25,
-			'weight_style' 		=> '400',
-			'letter_spacing' 	=> 0,
-		),
-		'big' => array(
-			'size' 				=> 16,
-			'line_height' 		=> 28,
-			'weight_style' 		=> '400',
-			'letter_spacing' 	=> 0,
-		),
-		'menu' => array(
-			'size' 				=> 15,
-			'line_height' 		=> 0,
-			'weight_style' 		=> '400',
-			'letter_spacing' 	=> 0,
-		),
-		'title' => array(
-			'size' 				=> 30,
-			'line_height' 		=> 35,
-			'weight_style' 		=> '400italic',
-			'letter_spacing' 	=> 1,
-		),
-		'h1' => array(
-			'size' 				=> 48,
-			'line_height' 		=> 50,
-			'weight_style' 		=> '400',
-			'letter_spacing' 	=> 0,
-		),
-		'h2' => array(
-			'size' 				=> 30,
-			'line_height' 		=> 34,
-			'weight_style' 		=> '300',
-			'letter_spacing' 	=> 0,
-		),
-		'h3' => array(
-			'size' 				=> 25,
-			'line_height' 		=> 29,
-			'weight_style' 		=> '300',
-			'letter_spacing' 	=> 0,
-		),
-		'h4' => array(
-			'size' 				=> 21,
-			'line_height' 		=> 25,
-			'weight_style' 		=> '500',
-			'letter_spacing' 	=> 0,
-		),
-		'h5' => array(
-			'size' 				=> 15,
-			'line_height' 		=> 25,
-			'weight_style' 		=> '700',
-			'letter_spacing' 	=> 0,
-		),
-		'h6' => array(
-			'size' 				=> 14,
-			'line_height' 		=> 25,
-			'weight_style' 		=> '400',
-			'letter_spacing' 	=> 0,
-		),
-		'intro' => array(
-			'size' 				=> 70,
-			'line_height' 		=> 70,
-			'weight_style' 		=> '400',
-			'letter_spacing' 	=> 0,
-		),
+
+	$aFont = array(
+		'content'	=> mfn_opts_get( 'font-size-content' ),
+		'big'			=> mfn_opts_get( 'font-size-big' ),
+		'menu'		=> mfn_opts_get( 'font-size-menu' ),
+		'title'		=> mfn_opts_get( 'font-size-title' ),
+		'h1'			=> mfn_opts_get( 'font-size-h1' ),
+		'h2'			=> mfn_opts_get( 'font-size-h2' ),
+		'h3'			=> mfn_opts_get( 'font-size-h3' ),
+		'h4'			=> mfn_opts_get( 'font-size-h4' ),
+		'h5'			=> mfn_opts_get( 'font-size-h5' ),
+		'h6'			=> mfn_opts_get( 'font-size-h6' ),
+		'intro'		=> mfn_opts_get( 'font-size-single-intro' ),
 	);
 
-
-	if( is_array( mfn_opts_get( 'font-size-content' ) ) ){
-
-		$aFont = array(
-			'content'	=> mfn_opts_get( 'font-size-content' ),
-			'big'		=> mfn_opts_get( 'font-size-big' ),
-			'menu'		=> mfn_opts_get( 'font-size-menu' ),
-			'title'		=> mfn_opts_get( 'font-size-title' ),
-			'h1'		=> mfn_opts_get( 'font-size-h1' ),
-			'h2'		=> mfn_opts_get( 'font-size-h2' ),
-			'h3'		=> mfn_opts_get( 'font-size-h3' ),
-			'h4'		=> mfn_opts_get( 'font-size-h4' ),
-			'h5'		=> mfn_opts_get( 'font-size-h5' ),
-			'h6'		=> mfn_opts_get( 'font-size-h6' ),
-			'intro'		=> mfn_opts_get( 'font-size-single-intro' ),
-		);
-
-		$aFont = array_replace_recursive( $defaults, $aFont);
-
-	} else {
-
-		// compatibility with Betheme < 13.5
-
-		$defaults['content']['size'] = mfn_opts_get( 'font-size-content', 14 );
-		$defaults['big']['size'] = mfn_opts_get( 'font-size-big', 16 );
-		$defaults['menu']['size'] = mfn_opts_get( 'font-size-menu', 15 );
-		$defaults['title']['size'] = mfn_opts_get( 'font-size-title', 30 );
-		$defaults['h1']['size'] = mfn_opts_get( 'font-size-h1', 48 );
-		$defaults['h2']['size'] = mfn_opts_get( 'font-size-h2', 30 );
-		$defaults['h3']['size'] = mfn_opts_get( 'font-size-h3', 25 );
-		$defaults['h4']['size'] = mfn_opts_get( 'font-size-h4', 21 );
-		$defaults['h5']['size'] = mfn_opts_get( 'font-size-h5', 15 );
-		$defaults['h6']['size'] = mfn_opts_get( 'font-size-h6', 14 );
-		$defaults['intro']['size'] = mfn_opts_get( 'font-size-single-intro', 70 );
-
-		$aFont = $defaults;
-
-	}
+	$aFont['menu']['line_height'] = 0;
 
 	$aFontInit = $aFont;
 ?>
-
 
 /* Body */
 
@@ -183,7 +91,7 @@ blockquote {
 		<?php if( strpos( $aFont['content']['weight_style'], 'italic' ) ) echo 'font-style: italic;' ?>
 	}
 
-	big,.big {
+	.big {
 		font-size: <?php echo $aFont['big']['size']; ?>px;
 		line-height: <?php echo $aFont['big']['line_height']; ?>px;
 		font-weight: <?php echo str_replace( 'italic', '', $aFont['big']['weight_style'] ) ?>;
@@ -266,7 +174,6 @@ blockquote {
 	}
 
 
-
 /* ==============================================================================================================================
 /*	Font | Size	Responsive																					Font | Size Responsive
 /* ============================================================================================================================ */
@@ -288,6 +195,8 @@ blockquote {
 			$aFont[$key]['line_height'] = round( $font['line_height'] * $multiplier );
 			if( $aFont[$key]['line_height'] < $min_line ) $aFont[$key]['line_height'] = $min_line;
 
+			$aFont[$key]['letter_spacing'] = round( $font['letter_spacing'] * $multiplier );
+
 		}
 	?>
 
@@ -295,48 +204,60 @@ blockquote {
 		body {
 			font-size: <?php echo $aFont['content']['size']; ?>px;
 			line-height: <?php echo $aFont['content']['line_height']; ?>px;
+			letter-spacing: <?php echo $aFont['content']['letter_spacing']; ?>px;
 		}
-		big,.big {
+		.big {
 			font-size: <?php echo $aFont['big']['size']; ?>px;
 			line-height: <?php echo $aFont['big']['line_height']; ?>px;
+			letter-spacing: <?php echo $aFont['big']['letter_spacing']; ?>px;
 		}
 		#menu > ul > li > a, a.action_button, #overlay-menu ul li a {
 			font-size: <?php echo $aFont['menu']['size']; ?>px;
+			letter-spacing: <?php echo $aFont['menu']['letter_spacing']; ?>px;
 		}
 		#overlay-menu ul li a{
 			line-height: <?php echo ( $aFont['menu']['size'] + $aFont['menu']['size'] * 0.5 ); ?>px;
+			letter-spacing: <?php echo $aFont['menu']['letter_spacing']; ?>px;
 		}
 		#Subheader .title {
 			font-size: <?php echo $aFont['title']['size']; ?>px;
 			line-height: <?php echo $aFont['title']['line_height']; ?>px;
+			letter-spacing: <?php echo $aFont['title']['letter_spacing']; ?>px;
 		}
 		h1, .text-logo #logo {
 			font-size: <?php echo $aFont['h1']['size']; ?>px;
 			line-height: <?php echo $aFont['h1']['line_height']; ?>px;
+			letter-spacing: <?php echo $aFont['h1']['letter_spacing']; ?>px;
 		}
 		h2 {
 			font-size: <?php echo $aFont['h2']['size']; ?>px;
 			line-height: <?php echo $aFont['h2']['line_height']; ?>px;
+			letter-spacing: <?php echo $aFont['h2']['letter_spacing']; ?>px;
 		}
 		h3 {
 			font-size: <?php echo $aFont['h3']['size']; ?>px;
 			line-height: <?php echo $aFont['h3']['line_height']; ?>px;
+			letter-spacing: <?php echo $aFont['h3']['letter_spacing']; ?>px;
 		}
 		h4 {
 			font-size: <?php echo $aFont['h4']['size']; ?>px;
 			line-height: <?php echo $aFont['h4']['line_height']; ?>px;
+			letter-spacing: <?php echo $aFont['h4']['letter_spacing']; ?>px;
 		}
 		h5 {
 			font-size: <?php echo $aFont['h5']['size']; ?>px;
 			line-height: <?php echo $aFont['h5']['line_height']; ?>px;
+			letter-spacing: <?php echo $aFont['h5']['letter_spacing']; ?>px;
 		}
 		h6 {
 			font-size: <?php echo $aFont['h6']['size']; ?>px;
 			line-height: <?php echo $aFont['h6']['line_height']; ?>px;
+			letter-spacing: <?php echo $aFont['h6']['letter_spacing']; ?>px;
 		}
 		#Intro .intro-title {
 			font-size: <?php echo $aFont['intro']['size']; ?>px;
 			line-height: <?php echo $aFont['intro']['line_height']; ?>px;
+			letter-spacing: <?php echo $aFont['intro']['letter_spacing']; ?>px;
 		}
 
 		blockquote { font-size: 15px;}
@@ -379,6 +300,8 @@ blockquote {
 			$aFont[$key]['line_height'] = round( $font['line_height'] * $multiplier );
 			if( $aFont[$key]['line_height'] < $min_line ) $aFont[$key]['line_height'] = $min_line;
 
+			$aFont[$key]['letter_spacing'] = round( $font['letter_spacing'] * $multiplier );
+
 		}
 	?>
 
@@ -386,48 +309,60 @@ blockquote {
 		body {
 			font-size: <?php echo $aFont['content']['size']; ?>px;
 			line-height: <?php echo $aFont['content']['line_height']; ?>px;
+			letter-spacing: <?php echo $aFont['content']['letter_spacing']; ?>px;
 		}
-		big,.big {
+		.big {
 			font-size: <?php echo $aFont['big']['size']; ?>px;
 			line-height: <?php echo $aFont['big']['line_height']; ?>px;
+			letter-spacing: <?php echo $aFont['big']['letter_spacing']; ?>px;
 		}
 		#menu > ul > li > a, a.action_button, #overlay-menu ul li a {
 			font-size: <?php echo $aFont['menu']['size']; ?>px;
+			letter-spacing: <?php echo $aFont['menu']['letter_spacing']; ?>px;
 		}
 		#overlay-menu ul li a{
 			line-height: <?php echo ( $aFont['menu']['size'] + $aFont['menu']['size'] * 0.5 ); ?>px;
+			letter-spacing: <?php echo $aFont['menu']['letter_spacing']; ?>px;
 		}
 		#Subheader .title {
 			font-size: <?php echo $aFont['title']['size']; ?>px;
 			line-height: <?php echo $aFont['title']['line_height']; ?>px;
+			letter-spacing: <?php echo $aFont['title']['letter_spacing']; ?>px;
 		}
 		h1, .text-logo #logo {
 			font-size: <?php echo $aFont['h1']['size']; ?>px;
 			line-height: <?php echo $aFont['h1']['line_height']; ?>px;
+			letter-spacing: <?php echo $aFont['h1']['letter_spacing']; ?>px;
 		}
 		h2 {
 			font-size: <?php echo $aFont['h2']['size']; ?>px;
 			line-height: <?php echo $aFont['h2']['line_height']; ?>px;
+			letter-spacing: <?php echo $aFont['h2']['letter_spacing']; ?>px;
 		}
 		h3 {
 			font-size: <?php echo $aFont['h3']['size']; ?>px;
 			line-height: <?php echo $aFont['h3']['line_height']; ?>px;
+			letter-spacing: <?php echo $aFont['h3']['letter_spacing']; ?>px;
 		}
 		h4 {
 			font-size: <?php echo $aFont['h4']['size']; ?>px;
 			line-height: <?php echo $aFont['h4']['line_height']; ?>px;
+			letter-spacing: <?php echo $aFont['h4']['letter_spacing']; ?>px;
 		}
 		h5 {
 			font-size: <?php echo $aFont['h5']['size']; ?>px;
 			line-height: <?php echo $aFont['h5']['line_height']; ?>px;
+			letter-spacing: <?php echo $aFont['h5']['letter_spacing']; ?>px;
 		}
 		h6 {
 			font-size: <?php echo $aFont['h6']['size']; ?>px;
 			line-height: <?php echo $aFont['h6']['line_height']; ?>px;
+			letter-spacing: <?php echo $aFont['h6']['letter_spacing']; ?>px;
 		}
 		#Intro .intro-title {
 			font-size: <?php echo $aFont['intro']['size']; ?>px;
 			line-height: <?php echo $aFont['intro']['line_height']; ?>px;
+			letter-spacing: <?php echo $aFont['intro']['letter_spacing']; ?>px;
 		}
 
 		blockquote { font-size: 14px;}
@@ -470,6 +405,8 @@ blockquote {
 			$aFont[$key]['line_height'] = round( $font['line_height'] * $multiplier );
 			if( $aFont[$key]['line_height'] < $min_line ) $aFont[$key]['line_height'] = $min_line;
 
+			$aFont[$key]['letter_spacing'] = round( $font['letter_spacing'] * $multiplier );
+
 		}
 	?>
 
@@ -477,48 +414,60 @@ blockquote {
 		body {
 			font-size: <?php echo $aFont['content']['size']; ?>px;
 			line-height: <?php echo $aFont['content']['line_height']; ?>px;
+			letter-spacing: <?php echo $aFont['content']['letter_spacing']; ?>px;
 		}
-		big,.big {
+		.big {
 			font-size: <?php echo $aFont['big']['size']; ?>px;
 			line-height: <?php echo $aFont['big']['line_height']; ?>px;
+			letter-spacing: <?php echo $aFont['big']['letter_spacing']; ?>px;
 		}
 		#menu > ul > li > a, a.action_button, #overlay-menu ul li a {
 			font-size: <?php echo $aFont['menu']['size']; ?>px;
+			letter-spacing: <?php echo $aFont['menu']['letter_spacing']; ?>px;
 		}
 		#overlay-menu ul li a{
 			line-height: <?php echo ( $aFont['menu']['size'] + $aFont['menu']['size'] * 0.5 ); ?>px;
+			letter-spacing: <?php echo $aFont['menu']['letter_spacing']; ?>px;
 		}
 		#Subheader .title {
 			font-size: <?php echo $aFont['title']['size']; ?>px;
 			line-height: <?php echo $aFont['title']['line_height']; ?>px;
+			letter-spacing: <?php echo $aFont['title']['letter_spacing']; ?>px;
 		}
 		h1, .text-logo #logo {
 			font-size: <?php echo $aFont['h1']['size']; ?>px;
 			line-height: <?php echo $aFont['h1']['line_height']; ?>px;
+			letter-spacing: <?php echo $aFont['h1']['letter_spacing']; ?>px;
 		}
 		h2 {
 			font-size: <?php echo $aFont['h2']['size']; ?>px;
 			line-height: <?php echo $aFont['h2']['line_height']; ?>px;
+			letter-spacing: <?php echo $aFont['h2']['letter_spacing']; ?>px;
 		}
 		h3 {
 			font-size: <?php echo $aFont['h3']['size']; ?>px;
 			line-height: <?php echo $aFont['h3']['line_height']; ?>px;
+			letter-spacing: <?php echo $aFont['h3']['letter_spacing']; ?>px;
 		}
 		h4 {
 			font-size: <?php echo $aFont['h4']['size']; ?>px;
 			line-height: <?php echo $aFont['h4']['line_height']; ?>px;
+			letter-spacing: <?php echo $aFont['h4']['letter_spacing']; ?>px;
 		}
 		h5 {
 			font-size: <?php echo $aFont['h5']['size']; ?>px;
 			line-height: <?php echo $aFont['h5']['line_height']; ?>px;
+			letter-spacing: <?php echo $aFont['h5']['letter_spacing']; ?>px;
 		}
 		h6 {
 			font-size: <?php echo $aFont['h6']['size']; ?>px;
 			line-height: <?php echo $aFont['h6']['line_height']; ?>px;
+			letter-spacing: <?php echo $aFont['h6']['letter_spacing']; ?>px;
 		}
 		#Intro .intro-title {
 			font-size: <?php echo $aFont['intro']['size']; ?>px;
 			line-height: <?php echo $aFont['intro']['line_height']; ?>px;
+			letter-spacing: <?php echo $aFont['intro']['letter_spacing']; ?>px;
 		}
 
 		blockquote { font-size: 13px;}

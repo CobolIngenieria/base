@@ -5,6 +5,151 @@ $demos 	= array(
 		'categories'	=> array( 'bus', 'blo', 'por' ),
 		'plugins'			=> array( 'cf7', 'rev' ),
 	),
+	'adagency2' => array(
+		'name'				=> 'AdAgency 2',
+		'categories'	=> array( 'bus', 'por' ),
+		'plugins'			=> array( 'cf7' ),
+	),
+	'print2' => array(
+		'name'				=> 'Print 2',
+		'categories'	=> array( 'bus', 'por' ),
+		'plugins'			=> array( 'cf7', 'rev' ),
+	),
+	'pet' => array(
+		'categories'	=> array( 'one', 'oth' ),
+		'plugins'			=> array( 'cf7', 'rev' ),
+	),
+	'weddingphotos' => array(
+		'name'				=> 'Wedding Photos',
+		'categories'	=> array( 'bus', 'por' ),
+		'plugins'			=> array( 'cf7' ),
+	),
+	'restaurant4' => array(
+		'name'				=> 'Restaurant 4',
+		'categories'	=> array( 'bus', 'blo' ),
+		'plugins'			=> array( 'cf7', 'rev' ),
+	),
+	'catering' => array(
+		'categories'	=> array( 'bus' ),
+		'plugins'			=> array( 'cf7' ),
+	),
+	'aeroclub' => array(
+		'name'				=> 'Aero Club',
+		'categories'	=> array( 'bus', 'blo' ),
+		'plugins'			=> array( 'rev' ),
+	),
+	'logistics2' => array(
+		'name'				=> 'Logistics 2',
+		'categories'	=> array( 'bus' ),
+		'plugins'			=> array( 'cf7' ),
+	),
+	'cosmetics2' => array(
+		'name'				=> 'Cosmetics 2',
+		'categories'	=> array( 'bus' ),
+		'plugins'			=> array( 'rev' ),
+	),
+	'kids' => array(
+		'categories'	=> array( 'bus', 'ent' ),
+		'plugins'			=> array( 'cf7', 'rev' ),
+	),
+	'asg2' => array(
+		'name'				=> 'ASG 2',
+		'categories'	=> array( 'bus', 'ent' ),
+		'plugins'			=> array( 'cf7', 'rev' ),
+	),
+	'beauty4' => array(
+		'name'				=> 'Beauty 4',
+		'categories'	=> array( 'bus' ),
+		'plugins'			=> array( 'cf7', 'rev' ),
+	),
+	'model2' => array(
+		'name'				=> 'Model 2',
+		'categories'	=> array( 'bus', 'por' ),
+		'plugins'			=> array( 'cf7', 'rev' ),
+	),
+	'weddingdresses' => array(
+		'name'				=> 'Wedding Dresses',
+		'categories'	=> array( 'bus', 'oth' ),
+		'plugins'			=> array( 'cf7', 'rev' ),
+	),
+	'spa3' => array(
+		'name'				=> 'Spa 3',
+		'categories'	=> array( 'bus', 'ent' ),
+		'plugins'			=> array( 'cf7', 'rev' ),
+	),
+	'band3' => array(
+		'name'				=> 'Band 3',
+		'categories'	=> array( 'ent' ),
+		'plugins'			=> array( 'cf7' ),
+	),
+	'gunrange' => array(
+		'categories'	=> array( 'bus', 'one' ),
+		'plugins'			=> array( 'cf7', 'rev' ),
+	),
+	'renovate3' => array(
+		'name'				=> 'Renovate 3',
+		'categories'	=> array( 'bus', 'por' ),
+		'plugins'			=> array( 'cf7', 'rev' ),
+	),
+	'tailor2' => array(
+		'name'				=> 'Tailor 2',
+		'categories'	=> array( 'bus', 'cre' ),
+		'plugins'			=> array( 'rev' ),
+	),
+	'cakes' => array(
+		'name'				=> 'Cakes',
+		'categories'	=> array( 'bus', 'one' ),
+		'plugins'			=> array( 'cf7', 'rev' ),
+	),
+	'car2' => array(
+		'name'				=> 'Car 2',
+		'categories'	=> array( 'bus', 'por' ),
+		'plugins'			=> array( 'rev' ),
+	),
+	'agency3' => array(
+		'name'				=> 'Agency 3',
+		'categories'	=> array( 'bus' ),
+		'plugins'			=> array( 'cf7' ),
+	),
+	'coffee3' => array(
+		'name'				=> 'Coffee 3',
+		'categories'	=> array( 'bus' ),
+		'plugins'			=> array( 'rev' ),
+	),
+	'school2' => array(
+		'name'				=> 'School 2',
+		'categories'	=> array( 'bus' ),
+		'plugins'			=> array( 'cf7', 'rev' ),
+	),
+	'burger2' => array(
+		'name'				=> 'Burger 2',
+		'categories'	=> array( 'bus' ),
+		'plugins'			=> array( 'cf7', 'rev' ),
+	),
+	'internet2' => array(
+		'name'				=> 'Internet 2',
+		'categories'	=> array( 'bus' ),
+		'plugins'			=> array( 'cf7', 'rev' ),
+	),
+	'restaurant3' => array(
+		'name'				=> 'Restaurant 3',
+		'categories'	=> array( 'bus' ),
+		'plugins'			=> array( 'cf7' ),
+	),
+	'clinic3' => array(
+		'name'				=> 'Clinic 3',
+		'categories'	=> array( 'bus' ),
+		'plugins'			=> array( 'cf7', 'rev' ),
+	),
+	'drone' => array(
+		'categories'	=> array( 'bus', 'one' ),
+		'plugins'			=> array( 'rev' ),
+	),
+	'estate2' => array(
+		'name'				=> 'Estate 2',
+		'categories'	=> array( 'bus', 'por' ),
+		'plugins'			=> array( 'cf7', 'rev' ),
+	),
 	'builder2' => array(
 		'name'				=> 'Builder 2',
 		'categories'	=> array( 'bus', 'por' ),
@@ -679,7 +824,7 @@ $demos 	= array(
 	),
 	'moto' => array(
 		'categories'	=> array( 'ent', 'blo' ),
-		'plugins'		=> array( 'cf7' ),
+		'plugins'		=> array( 'cf7', 'rev' ),
 	),
 	'logistics' => array(
 		'categories'	=> array( 'bus' ),
